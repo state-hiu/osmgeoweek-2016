@@ -6,7 +6,7 @@ var map = L.mapbox.map('map',  null, { infoControl: false, attributionControl: t
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
 }).addTo(map);
-var featureLayer = L.mapbox.featureLayer().loadURL('/events.geojson',{ style: L.mapbox.simplestyle.style }).addTo(map);
+var featureLayer = L.mapbox.featureLayer().loadURL('{{ site.baseurl }}/events.geojson',{ style: L.mapbox.simplestyle.style }).addTo(map);
 //var featureLayer = L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
 
  featureLayer.on('ready', function() {

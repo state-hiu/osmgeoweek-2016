@@ -19,7 +19,7 @@ National Geographic will host the flagship OpenStreetMap mapping party on Friday
 <p/>-->
 On the local level, grassroots organizers around the world are holding <a href="/events/">over 25 events</a> (and counting) at local schools and community centers during OSMGeoWeek. If you are organizing an event, or even thinking about it, get in touch at osmgeoweek@gmail.com.
 <p/>
-The <a href="/plan/">Guides</a> are a collection of resources for planning and hosting a local event, and for participants at the event to learn and contribute to OSM. We are also supporting<a href="http://teachosm.org/">TeachOSM</a>, a resource for educators to bring OSM into the classroom.
+The <a href="/plan/">Guides</a> are a collection of resources for planning and hosting a local event, and for participants at the event to learn and contribute to OSM. We are also supporting <a href="http://teachosm.org/">TeachOSM</a>, a resource for educators to bring OSM into the classroom.
 <p/>
 The <a href="/projects/">Projects</a> are a collection of remote and local tasks to work on during the week. Organizers and participants can choose projects that strike their interest, most all on the theme ,"Explore! The Power of Maps". As the week progresses, we'll add animations and stats to visualize progress.
 <p/>
