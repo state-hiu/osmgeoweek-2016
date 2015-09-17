@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name='robots' content='index'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <meta name='twitter:site' content='@osmgeoweek' />
+  <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
+  <meta name='twitter:url' content='/plan/tags/' />
+  <meta name='twitter:domain' content='http://osmgeoweek.org' />
+  <meta property='og:url' content='/plan/tags/' />
+  <meta name='twitter:title' content='Tagging Guide' />
+  <meta property='og:title' content='Tagging Guide' />
+  <meta name='twitter:description' content='While you’re editing, it is important to tag each feature so that they are readily identifiable within OSM. This guide explains tags for food related features. ‘Tagging’ refers to the...' />
+  <meta property='og:description' content='While you’re editing, it is important to tag each feature so that they are readily identifiable within OSM. This guide explains tags for food related features. ‘Tagging’ refers to the...' />
+  
+    <meta name='twitter:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
+    <meta name='st:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
+    <meta property='og:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
+  
+  <meta property='og:type' content='website' />
+  <meta name='twitter:card' content='summary_large_image' />
+
+  <title>Tagging Guide | OpenStreetMap Geography Awareness Week</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
+  <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
+	<link href='/base/base.css' rel='stylesheet' />
+  <link href='/site.css' rel='stylesheet' />
+  <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+  <script src='/site.js'></script>
+</head>
+<body class=''>
+
+<nav class='pad2 fill-blue site-navigation center space'>
+  <a class='strong ' href='/'>Home</a>
+  <a class='strong ' href='/about/'>About</a>
+  <a class='strong ' href='/events/'>Join an Event</a>
+  <a class='strong active' href='/plan/'>Event Guides</a>
+  <a class='strong ' href='/projects/'>Mapping Projects</a>
+  <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd' class='hide-mobile icon twitter inline small strong dark'>#osmgeoweek</a>
+</nav>
+
+<!--
+<div class='fill-red'>
+  <div class='liner clearfix center fill-darken3 dark col12'>
+    <h3 class='pad2'><a href="/result/">Check out the results from OSMGeoWeek. Stats, photos, visualizations</a></h3>
+  </div>
+</div>
+-->
+
+<header class='clearfix splash center pad4y'>
+  <a href='' class='block'>
+    <img src='/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />
+  </a>
+</header>
+
+<div class='fill-blue dark center'>
+  <div class='fill-darken3 pad2y'>
+    <div class='limiter'>
+      <h1>Tagging Guide</h1>
+    </div>
+  </div>
+</div>
+
+<div class='limiter prose pad4y clearfix'>
+  <div class='col8 margin2'>
+    <p>While you’re editing, it is important to tag each feature so that they are readily identifiable within OSM. This guide explains tags for food related features.</p>
+
+<p>‘Tagging’ refers to the practice of assigning attributes to the map features you just digitized. Tags consist of two parts: key and value. The key is a general level classifier, such as ‘highway’. The value is a more specific classification, such as ‘secondary’. E.g. ‘highway’ = ‘secondary’.</p>
+
+<p>In the iD editor, feature tagging is done through the pane on the left side of your screen. These general tags might apply to almost any item:</p>
+
+<ul>
+<li>name = (the feature's name)</li>
+<li>addr = (the feature's address, if known)</li>
+<li>website = (the URL of the feature's website, if applicable)</li>
+<li>opening_hours = (the hours the feature is open to the public, if applicable)</li>
+<li>description = (any descriptive information about the feature)</li>
+<li>note = (anything that provides more context about the feature and perhaps, data quality)</li>
+</ul>
+
+
+<h2>Food Tagging</h2>
+
+<table>
+<tr><th>Type</th><th>Key</th><th>Value</tr></th>
+
+<tr><td><em>Groceries, retail food outlets</em></td><td>shop</td><td><ul><li>supermarket</li><li>bodega</li><li>market</li><li>other_market</li></ul></td></tr>
+
+<tr><td><em>Food Bank/Pantry/Soup Kitchen</em></td><td>amenity</td><td><ul><li>social_facility</li></ul></td></tr>
+
+<tr><td><em></em></td><td>social_facility</td><td><ul><li>food_bank</li><li>food_pantry</li><li>soup_kitchen</li></ul></td></tr>
+
+<tr><td><em>Farm Market-Roadside Stand</em></td><td>shop</td><td><ul><li>farm</li></ul></td></tr>
+
+<tr><td><em>(for farmers mkts only)</em></td><td>amenity</td><td><ul><li>market</li></ul></td></tr>
+
+<tr><td><em>Community Gardens</em></td><td>leisure</td><td><ul><li>garden</li></ul></td></tr>
+
+<tr><td><em></em></td><td>garden</td><td><ul><li>community</li></ul></td></tr>
+
+<tr><td><em>Community Supported Agriculture (CSA)</em></td><td>farm_box</td><td><ul><li></li></ul></td></tr>
+
+<tr><td><em>Urban Farms</em></td><td>landuse</td><td><ul><li>farm</li></ul></td></tr>
+
+<tr><td><em>(if onsite sales)</em></td><td>shop</td><td><ul><li>farm</li></ul></td></tr>
+
+<tr><td><em>Farm or Garden Stores</em></td><td>shop</td><td><ul><li>garden_centre</li><li>doityourself</li><li>farm_supply</li></ul></td></tr>
+
+<tr><td><em>Compost and Mulch</em></td><td>shop</td><td><ul><li>compost</li><li>mulch</li><li>fertilizer</li></ul></td></tr>
+
+<tr><td><em>Farmland</em></td><td>landuse</td><td><ul><li>farmland</li><li>row_crops</li><li>orchard_plantation</li><li>dairy_grazing</li></ul></td></tr>
+
+<tr><td><em>Wine, Beer, Liquor Production</em></td><td>building</td><td><ul><li>brewery</li><li>winery</li><li>distillery</li></ul></td></tr>
+
+<tr><td><em>Coffee Shop</em></td><td>amenity</td><td><ul><li>shop</li></ul></td></tr>
+
+<tr><td><em></em></td><td>cuisine</td><td><ul><li>coffee</li></ul></td></tr>
+
+<tr><td><em>Restaurant</em></td><td>amenity</td><td><ul><li>restaurant</li></ul></td></tr>
+
+</table>
+
+
+<p>Also check <a href="https://wiki.openstreetmap.org/wiki/Food_security">Tags for Food Resources on the OSM Wiki</a>, and the <a href="https://hackpad.com/Proposed-Tagging-Food-Resources-FNh5fil74wm">Food Resources Tagging Hackpad</a>.</p>
+
+  </div>
+</div>
+
+
+<div class='pad2x show-mobile'>
+  <a href='#sponsors' class='button block'>Supporters</a>
+</div>
+
+
+<section id='sponsors' class='hide-mobile col12 center fill-light pad2y'>
+  <div class='limiter clearfix'>
+    <div class='col10 margin1'>
+      <h2 class='space-bottom1'>Participating Groups</h2>
+
+      <nav class='space-bottom2'>
+        <a href='http://www.nationalgeographic.com/' class='sponsor natgeo'>National Geographic</a>
+      </nav>
+
+      <nav class='space-bottom2'>
+        <a href='http://openstreetmap.us/' class='sponsor osmus'>OpenStreetMap US</a>
+        <a href='http://mapgive.state.gov/' class='sponsor mapgive'>MapGive</a>
+        <a href='http://hot.openstreetmap.org/' class='sponsor hot'>HOT</a>
+        <a href='http://www.missingmaps.org/' class='sponsor missingmaps'>Missing Maps</a>
+        <a href='http://usaid.gov/' class='sponsor usaid'>USAID GeoCenter</a>
+        <a href='http://kathmandulivinglabs.org/' class='sponsor kll'>Kathmandu Living Labs</a>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<section class='fill-white pad2y center'>
+  <div class='limiter'>
+    <p><strong>Interested in participating?</strong> Email <a href='mailto:osmgeoweek@gmail.com'>osmgeoweek@gmail.com</a> to learn more.</p>
+  </div>
+</section>
+<footer class='col12 center fill-blue dark'>
+  <div class='fill-darken3 pad2y col12'>
+    <div class='limiter'>
+      <p class='small hide-mobile'>
+        <a href='http://osmgeoweek.org'>Geography Awareness Week - OpenStreetMap</a> | <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd'>#osmgeoweek</a> | Photo credits: USAID, 596 acres, UCSB, Kerri Lee Smith | Logo credits: Andrew Rasner
+<!-- https://www.flickr.com/photos/usaid_images/11712673254/ -->
+<!-- http://596acres.org/en/ -->
+<!-- http://helios.geog.ucsb.edu/events/department-news/963/ucsb-geography-promotes-the-adventure-in-your-community-for-geography-awareness-week/ -->
+<!-- https://www.flickr.com/photos/77654185@N07/8082899697 -->
+      </p>
+      <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd' class='show-mobile small dark'>#osmgeoweek</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56666869-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>

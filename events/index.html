@@ -1,0 +1,73 @@
+---
+layout: default
+title: Events
+dates:
+  - id: presaturday
+    name: Saturday, November 15th (starting the week early!)
+  - id: sunday
+    name: Sunday, November 16th
+  - id: monday
+    name: Monday, November 17th
+  - id: tuesday
+    name: Tuesday, November 18th
+  - id: wednesday
+    name: Wednesday, November 19th
+  - id: thursday
+    name: Thursday, November 20th
+  - id: friday
+    name: Friday, November 21st
+  - id: saturday
+    name: Saturday, November 22nd
+---
+
+<div class='fill-blue dark center'>
+  <div class='fill-darken3 pad2y'>
+    <div class='limiter'>
+      <h1>Events</h1>
+    </div>
+  </div>
+</div>
+
+{% include map.html %}
+
+<div class='pad4y'>
+  <div class='prose limiter pad2'>
+    <h2>
+      Find an event near you. Or, let us know if you are <a href="{{site.baseurl}}/plan/">planning an event</a>, <a href="https://docs.google.com/forms/d/1fngTc_5AuVhIXE96pR8LiWV1Q4_BgEYZ2Zt7dE55KOU/viewform">submit the details</a> or </a><a href="mailto:osmgeoweek@gmail.com">get in touch</a>!
+    </h2>
+  </div>
+
+
+
+  {% for date in page.dates %}
+  {% if site.tags[date.id].size > 0 %}
+  <div class='pad2y {% unless forloop.index == 1 %}keyline-top{% endunless %}'>
+    <div class='limiter'>
+      <div class='col12 quiet space-bottom1'>
+        <h3 class='col11 pad2x'>
+          {{date.name}}
+        </h3>
+      </div>
+      <div class='col12 pad1y'>
+        {% for item in site.tags[date.id] order:ascending %}
+          <div class='col12 clearfix {% if item.highlight == true %}highlight{% endif %}'>
+            <div class='col12 pad2x'>
+              <div class='headline clearfix space-bottom1'>
+                <h2 class='col8'><a href='{{item.permalink}}'>{{item.title}}</a></h2>
+                <span class='col4 text-right quiet'>{{item.location}}</span>
+                <span class='space-bottom1 inline'>
+                {{item.time}}
+              </span>
+              </div>
+              <div class='prose schedule space-bottom2'>
+                {{item.excerpt}}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
