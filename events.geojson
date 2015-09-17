@@ -13,7 +13,7 @@
         "marker-color": "fce200",
         "marker-size": "large"
         {% else %}
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         {% endif %}
       },
       "geometry": {

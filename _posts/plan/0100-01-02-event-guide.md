@@ -2,7 +2,7 @@
 layout: page
 category: plan
 title: Event Guide
-permalink: '/plan/event-planning/'
+permalink: 'http://mapgive.state.gov/box/en/process/event-planning/'
 tags:
   - planner
 ---

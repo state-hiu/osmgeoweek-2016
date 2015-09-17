@@ -1,8 +1,13 @@
 <div id="map" style="min-height: 300px;"></div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JvdW5kdHJ1dGgiLCJhIjoiS21jd2M3NCJ9.Oh7jfB2FCjkVHszCFLS-pg';
-var map = L.mapbox.map('map',  null, { infoControl: false, attributionControl: true });
+var map = L.mapbox.map('map',  null, { infoControl: false, attributionControl: true, minZoom: 2,
+      maxZoom: 16, scrollWheelZoom: false });
 // map.attributionControl.setPrefix('');
+
+//http://gis.stackexchange.com/questions/111887/leaflet-mouse-wheel-zoom-only-after-click-on-map
+map.once('focus', function() { map.scrollWheelZoom.enable(); });
+
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
 }).addTo(map);

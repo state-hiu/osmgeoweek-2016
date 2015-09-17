@@ -7,7 +7,7 @@ var venues = {
     "properties": {
       "description": "<span class=\"small quiet\">Conference Venue | April 12th + 13th</span><br /><span class=\"quiet\">801 Mt Vernon Pl NW</span>",
       "id": "marker-hrb4hnb11",
-      "marker-color": "#31b2d0",
+      "marker-color": "#4747A3",
       "marker-size": "medium",
       "marker-symbol": "star",
       "title": "Washington Convention Center"
@@ -21,7 +21,7 @@ var venues = {
     "properties": {
       "description": "<span class=\"small quiet\">OSM Sprint | April 14th</span><br />Join us from 9am - 5pm on Monday, April 14th for an OSM sprint ",
       "id": "marker-hrb9j6ci0",
-      "marker-color": "#31b2d0",
+      "marker-color": "#4747A3",
       "marker-size": "medium",
       "marker-symbol": "star",
       "title": "Red Cross - Historic National HQ"

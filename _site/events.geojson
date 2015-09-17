@@ -8,7 +8,7 @@
         "title": "George Washington University",
         "url": "/event/gwu/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -24,7 +24,7 @@
         "title": "Yale",
         "url": "/event/yale/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -40,7 +40,7 @@
         "title": "University of Miami",
         "url": "/event/university-of-miami/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -56,7 +56,7 @@
         "title": "Toronto, Learning QGIS and OpenStreetMap",
         "url": "/event/toronto/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -72,7 +72,7 @@
         "title": "OpenStreetMap Taiwan Community",
         "url": "/event/taiwan/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -88,7 +88,7 @@
         "title": "Stamen Design, San Francisco",
         "url": "/event/stamen-design/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -104,7 +104,7 @@
         "title": "St. Louis",
         "url": "/event/st-louis/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -120,7 +120,7 @@
         "title": "Mappy Hour at Peace Corps",
         "url": "/event/peace-corps/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -136,7 +136,7 @@
         "title": "GMU/NOVA ASPRS Chapter Map-a-Thon",
         "url": "/event/nova/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -152,7 +152,7 @@
         "title": "Hampton Roads Mapathon",
         "url": "/event/downtown-norfolk/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -168,7 +168,7 @@
         "title": "The New School",
         "url": "/event/new-school/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -201,7 +201,7 @@
         "title": "University of Missouri",
         "url": "/event/mu/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -217,7 +217,7 @@
         "title": "MapTime PDX and PDXOSGEO",
         "url": "/event/maptime-pdx/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -233,7 +233,7 @@
         "title": "MaptimeNYC",
         "url": "/event/maptimenyc/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -249,7 +249,7 @@
         "title": "MaptimeMSP",
         "url": "/event/maptime-msp/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -265,7 +265,7 @@
         "title": "GIS Day: Mapping Food Security in Boulder County with OpenStreetMap",
         "url": "/event/Maptime-Boulder/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -282,7 +282,7 @@
         "title": "Macalester College",
         "url": "/event/macalester/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -298,7 +298,7 @@
         "title": "Lexington, Ky",
         "url": "/event/lexington/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -314,7 +314,7 @@
         "title": "George Mason University",
         "url": "/event/george-mason/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -330,7 +330,7 @@
         "title": "Mapping Food in Fort Fun",
         "url": "/event/food-fort-fun/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -346,7 +346,7 @@
         "title": "Colorado State University",
         "url": "/event/fort-collins/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -362,7 +362,7 @@
         "title": "Colegio Salesiano de Duitama",
         "url": "/event/colegio-salesiano-de-duitama/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -378,7 +378,7 @@
         "title": "California University of Pennsylvania Mapping Party",
         "url": "/event/california-university-of-pennsylvania-mapping-party/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -394,7 +394,7 @@
         "title": "Boston",
         "url": "/event/boston/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -410,7 +410,7 @@
         "title": "Department of Geography of the University of San Andres - Bolivia; GEOBOLIVIA",
         "url": "/event/geobolivia/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -426,7 +426,7 @@
         "title": "UC Berkeley",
         "url": "/event/ucberkeley/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -442,7 +442,7 @@
         "title": "GeoBLR - Bangalore",
         "url": "/event/geoblr/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -458,7 +458,7 @@
         "title": "Aspiration Tech Dev Summit",
         "url": "/event/aspiration/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -474,7 +474,7 @@
         "title": "Maker-Works and Humanitarian OpenStreetMap Team",
         "url": "/event/annarbor/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
@@ -490,7 +490,7 @@
         "title": "Aberdeen MapHack",
         "url": "/event/aberdeen/",
         
-         "marker-color": "#8cc250"
+         "marker-color": "#4747A3"
         
       },
       "geometry": {
