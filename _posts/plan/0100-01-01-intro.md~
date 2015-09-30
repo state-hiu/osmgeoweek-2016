@@ -1,7 +1,7 @@
 ---
 layout: page
 category: plan
-permalink: /plan/intro
+permalink: '{{ site.baseurl }}/plan/intro/'
 title: Getting Started with the Geography Awareness Week OpenStreetMap Mapathon!
 tags:
   - mapper

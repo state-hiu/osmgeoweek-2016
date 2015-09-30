@@ -6,13 +6,13 @@
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <meta name='twitter:site' content='@osmgeoweek' />
   <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
-  <meta name='twitter:url' content='{{ site.baseurl }}/plan/tags/' />
+  <meta name='twitter:url' content='/plan/id-editor' />
   <meta name='twitter:domain' content='http://osmgeoweek.org' />
-  <meta property='og:url' content='{{ site.baseurl }}/plan/tags/' />
-  <meta name='twitter:title' content='Tagging Guide' />
-  <meta property='og:title' content='Tagging Guide' />
-  <meta name='twitter:description' content='While you’re editing, it is important to tag each feature so that they are readily identifiable within OSM. This guide explains tags for food related features. ‘Tagging’ refers to the...' />
-  <meta property='og:description' content='While you’re editing, it is important to tag each feature so that they are readily identifiable within OSM. This guide explains tags for food related features. ‘Tagging’ refers to the...' />
+  <meta property='og:url' content='/plan/id-editor' />
+  <meta name='twitter:title' content='Making the most of OpenStreetMap with the iD editor' />
+  <meta property='og:title' content='Making the most of OpenStreetMap with the iD editor' />
+  <meta name='twitter:description' content='Tips for getting started with the iD editor. Some general notes about data entry in OpenStreetMap We make use of the ID Editor in this Guide (although tagging concepts apply...' />
+  <meta property='og:description' content='Tips for getting started with the iD editor. Some general notes about data entry in OpenStreetMap We make use of the ID Editor in this Guide (although tagging concepts apply...' />
   
     <meta name='twitter:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
     <meta name='st:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
@@ -21,7 +21,7 @@
   <meta property='og:type' content='website' />
   <meta name='twitter:card' content='summary_large_image' />
 
-  <title>Tagging Guide | OpenStreetMap Geography Awareness Week</title>
+  <title>Making the most of OpenStreetMap with the iD editor | OpenStreetMap Geography Awareness Week</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
   <link rel='shortcut icon' href='/osmgeoweek-2015/img/favicon.ico' type='image/x-icon' />
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
@@ -51,7 +51,7 @@
 -->
 
 <header class='clearfix splash center pad4y'>
-  <a href='/osmgeoweek-2015' class='block'>
+  <a href='/osmgeoweek-2015/' class='block'>
     <img src='/osmgeoweek-2015/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />
   </a>
 </header>
@@ -59,72 +59,104 @@
 <div class='fill-blue dark center'>
   <div class='fill-darken3 pad2y'>
     <div class='limiter'>
-      <h1>Tagging Guide</h1>
+      <h1>Making the most of OpenStreetMap with the iD editor</h1>
     </div>
   </div>
 </div>
 
 <div class='limiter prose pad4y clearfix'>
   <div class='col8 margin2'>
-    <p>While you’re editing, it is important to tag each feature so that they are readily identifiable within OSM. This guide explains tags for food related features.</p>
+    <p>Tips for getting started with the iD editor.</p>
 
-<p>‘Tagging’ refers to the practice of assigning attributes to the map features you just digitized. Tags consist of two parts: key and value. The key is a general level classifier, such as ‘highway’. The value is a more specific classification, such as ‘secondary’. E.g. ‘highway’ = ‘secondary’.</p>
-
-<p>In the iD editor, feature tagging is done through the pane on the left side of your screen. These general tags might apply to almost any item:</p>
+<h2>Some general notes about data entry in OpenStreetMap</h2>
 
 <ul>
-<li>name = (the feature's name)</li>
-<li>addr = (the feature's address, if known)</li>
-<li>website = (the URL of the feature's website, if applicable)</li>
-<li>opening_hours = (the hours the feature is open to the public, if applicable)</li>
-<li>description = (any descriptive information about the feature)</li>
-<li>note = (anything that provides more context about the feature and perhaps, data quality)</li>
+<li>We make use of the ID Editor in this Guide (although tagging concepts apply to the JOSM editor, as well). More advanced users may want to migrate to the JOSM editor at some point for improved editing efficiency or specialized needs (https://wiki.openstreetmap.org/wiki/JOSM).</li>
+<li>If you’re familiar with Basic panning and editing functionality is similar to other GIS software.</li>
+<li>It is important to become familiar with the shortcuts associated with some of the more heavily used editing tools to expedite the process.</li>
+<li>In ID Editor, shortcuts are accessed by first clicking on the feature (which will be either a line or a point). This brings up several options to edit the feature. Available shortcuts are specified below each editing option on the editing wheel</li>
+<li>Digitize markets as points (nodes) or areas (polygons) and tag with:
+
+<ul>
+<li>Operating_season – e.g. May - Nov</li>
+<li>Operating_days – e.g. Saturdays and Wednesdays</li>
+<li>Operating_hours – e.g 8am – 12pm</li>
+</ul>
+</li>
 </ul>
 
 
-<h2>Food Tagging</h2>
+<h2>Adjust Imagery Brightness</h2>
 
-<table>
-<tr><th>Type</th><th>Key</th><th>Value</tr></th>
+<p>The imagery may appear dim in your browser. You can adjust the brightness by adjusting the background brightness in the Background settings.</p>
 
-<tr><td><em>Groceries, retail food outlets</em></td><td>shop</td><td><ul><li>supermarket</li><li>bodega</li><li>market</li><li>other_market</li></ul></td></tr>
+<p><img src="/img/post-images/id-brightness.png" /></p>
 
-<tr><td><em>Food Bank/Pantry/Soup Kitchen</em></td><td>amenity</td><td><ul><li>social_facility</li></ul></td></tr>
+<h2>Using Shortcuts:</h2>
 
-<tr><td><em></em></td><td>social_facility</td><td><ul><li>food_bank</li><li>food_pantry</li><li>soup_kitchen</li></ul></td></tr>
+<p>Note: You can access more editing options/shortcuts by holding the shift key and clicking more than one feature. For instance, to merge two lines, hold shift, select the two lines to be merged and then click the + sign.</p>
 
-<tr><td><em>Farm Market-Roadside Stand</em></td><td>shop</td><td><ul><li>farm</li></ul></td></tr>
+<h3>To pan across ID Editor:</h3>
 
-<tr><td><em>(for farmers mkts only)</em></td><td>amenity</td><td><ul><li>market</li></ul></td></tr>
-
-<tr><td><em>Community Gardens</em></td><td>leisure</td><td><ul><li>garden</li></ul></td></tr>
-
-<tr><td><em></em></td><td>garden</td><td><ul><li>community</li></ul></td></tr>
-
-<tr><td><em>Community Supported Agriculture (CSA)</em></td><td>farm_box</td><td><ul><li></li></ul></td></tr>
-
-<tr><td><em>Urban Farms</em></td><td>landuse</td><td><ul><li>farm</li></ul></td></tr>
-
-<tr><td><em>(if onsite sales)</em></td><td>shop</td><td><ul><li>farm</li></ul></td></tr>
-
-<tr><td><em>Farm or Garden Stores</em></td><td>shop</td><td><ul><li>garden_centre</li><li>doityourself</li><li>farm_supply</li></ul></td></tr>
-
-<tr><td><em>Compost and Mulch</em></td><td>shop</td><td><ul><li>compost</li><li>mulch</li><li>fertilizer</li></ul></td></tr>
-
-<tr><td><em>Farmland</em></td><td>landuse</td><td><ul><li>farmland</li><li>row_crops</li><li>orchard_plantation</li><li>dairy_grazing</li></ul></td></tr>
-
-<tr><td><em>Wine, Beer, Liquor Production</em></td><td>building</td><td><ul><li>brewery</li><li>winery</li><li>distillery</li></ul></td></tr>
-
-<tr><td><em>Coffee Shop</em></td><td>amenity</td><td><ul><li>shop</li></ul></td></tr>
-
-<tr><td><em></em></td><td>cuisine</td><td><ul><li>coffee</li></ul></td></tr>
-
-<tr><td><em>Restaurant</em></td><td>amenity</td><td><ul><li>restaurant</li></ul></td></tr>
-
-</table>
+<ul>
+<li>+&nbsp;(on numpad) – zoom in</li>
+<li>-&nbsp;(on numpad) – zoom out</li>
+<li>↓, ↑, ←, → (cursor keys) – pan map</li>
+</ul>
 
 
-<p>Also check <a href="https://wiki.openstreetmap.org/wiki/Food_security">Tags for Food Resources on the OSM Wiki</a>, and the <a href="https://hackpad.com/Proposed-Tagging-Food-Resources-FNh5fil74wm">Food Resources Tagging Hackpad</a>.</p>
+<h3>To add/edit features:</h3>
+
+<p><img src="/img/post-images/add-edit.jpg" /></p>
+
+<ul>
+<li>1 – switch to "add point" mode</li>
+<li>2 – switch to "add line" (aka “way”) mode</li>
+<li>3 – switch to "add area" mode</li>
+<li>A – continue drawing a line at the selected node</li>
+<li>B – display background layer switcher</li>
+<li>C – combine two lines (need to be connected by a shared node and be both selected before)</li>
+<li>D – if shared node of multiple lines is selected: unjoins the associated lines (that duplicate the shared node)</li>
+<li>H – show in-editor help/documentation</li>
+</ul>
+
+
+<h3>Editor Wheel shortcuts (accessing the editor wheel is done by simply clicking on any feature):</h3>
+
+<p><img src="/img/post-images/editor-wheel.jpg" /></p>
+
+<ul>
+<li>M – move object (if object is selected)</li>
+<li>O – arrange nodes as circle (only closed lines, that is: areas)</li>
+<li>R – rotate object</li>
+<li>S – straighten the selected line, or square the corners of the selected area or closed line</li>
+<li>Ctrl+S – save</li>
+</ul>
+
+
+<h3>Editing multiple features at the same time (ex. Splitting and joining lines):</h3>
+
+<p><img src="/img/post-images/id-multiple.jpg" /></p>
+
+<ul>
+<li>⇧ Shift + mouse click – selection of multiple objects</li>
+<li>V – reverse line direction (if line selected)</li>
+<li>X – split line (if node in line selected)</li>
+<li>Ctrl+Z – undo last action</li>
+<li>Ctrl+⇧ Shift+Z / Ctrl+Y (on Windows) – redo last undid action</li>
+<li>Ctrl+Del / Ctrl+← Backspace – delete currently selected object</li>
+<li>↵ Enter / Esc – stop drawing of a line or area</li>
+<li>F11 (Linux, Windows) / Ctrl+⌘ Cmd+F (Mac) – set your browser to full screen mode for more space (generic browser shortcut and varies by browser)</li>
+</ul>
+
+
+<h3>Saving Your Work</h3>
+
+<p>When you save your work, you’ll be prompted to enter a Commit Message, as shown in Figure 4 . Please enter a brief, but descriptive sentence on what features you entered. And make sure to add the #osmgeoweek hashtag, to show your support for Geography Awareness Week.</p>
+
+<p><img src="/img/post-images/save.png" /></p>
+
+<p>Save edits often. Sometimes, when more than one person was editing the same feature, iD Editor will throw an error.</p>
 
   </div>
 </div>
