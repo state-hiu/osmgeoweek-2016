@@ -53,7 +53,7 @@ title: Projects
   {% endfor %}
   {% if display == true %}
     <div class='keyline-all pad4 space-bottom4 project-tile {% if ready %}ready{% endif %}'>
-      <h2><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h2>
+      <h2><a href="{{post.permalink}}">{{ post.title }}</a></h2>
       <h3>{{ post.subtitle }}</h3>
       <p>{{ post.excerpt }}</p>
     </div>

@@ -6,7 +6,7 @@ layout: project
 tags: 
   - remote
   - ready
-permalink: project/nyamira
+permalink: '/project/nyamira/'
 aoi:
   - south: -0.90333
     east: 35.0938

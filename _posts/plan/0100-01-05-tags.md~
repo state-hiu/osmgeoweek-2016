@@ -2,7 +2,7 @@
 layout: page
 category: plan
 title: Tagging Guide
-permalink: '{{ site.baseurl }}/plan/tags/'
+permalink: /plan/tags/
 tags:
   - mapper
 features:

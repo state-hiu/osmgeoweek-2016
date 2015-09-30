@@ -2,22 +2,20 @@
 layout: default
 title: Events
 dates:
-  - id: presaturday
-    name: Saturday, November 15th (starting the week early!)
   - id: sunday
-    name: Sunday, November 16th
+    name: Sunday, November 15th
   - id: monday
-    name: Monday, November 17th
+    name: Monday, November 16th
   - id: tuesday
-    name: Tuesday, November 18th
+    name: Tuesday, November 17th
   - id: wednesday
-    name: Wednesday, November 19th
+    name: Wednesday, November 18th
   - id: thursday
-    name: Thursday, November 20th
+    name: Thursday, November 19th
   - id: friday
-    name: Friday, November 21st
+    name: Friday, November 20th
   - id: saturday
-    name: Saturday, November 22nd
+    name: Saturday, November 21st
 ---
 
 <div class='fill-blue dark center'>

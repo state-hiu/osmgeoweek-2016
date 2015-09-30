@@ -6,7 +6,7 @@ layout: project
 tags:
   - survey
   - ready
-permalink: project/nepal/
+permalink: '/project/nepal/'
 aoi:
   - north: 27.651753201767235
     south: 27.60810470430411
