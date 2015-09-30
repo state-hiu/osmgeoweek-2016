@@ -1,21 +1,21 @@
 ---
 layout: event
 title: George Mason University
-day: Friday
-time: "3:30pm - 7:00pm"
-speaker: 
+day: Wednesday
+time: "11:00am - 4:00pm"
+speaker: Tom Gertin
 twitter: mapgive
 organization: George Mason University
 permalink: "/event/george-mason/"
 tags: 
-  - friday
+  - wednesday
 category: event
 published: true
 lat: 38.829678
 lon: -77.309373
 ---
 
-Mapathon event at George Mason University. The event will take place in the multiple labs of the Geography and Geoinformation Science Department. Food and drinks will be provided.
+GIS Day event at George Mason University. MapGive will have a booth there from 10am to 3:30pm, with laptops set up for people to stop by and map. Tom Gertin will be speaking at the event.
 
 Promo poster: 
 
