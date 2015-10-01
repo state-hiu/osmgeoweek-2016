@@ -44,8 +44,9 @@
   <a class='strong {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
   <a class='strong {% if page.url contains "about" %}active{% endif %}' href='{{site.baseurl}}/about/'>About</a>
   <a class='strong {% if page.url contains "events" or page.category == "event" %}active{% endif %}' href='{{site.baseurl}}/events/'>Join an Event</a>
-  <a class='strong {% if page.url contains "plan" %}active{% endif %}' href='{{site.baseurl}}/plan/'>Event Guides</a>
   <a class='strong {% if page.url contains "projects" or page.category == "project" %}active{% endif %}' href='{{site.baseurl}}/projects/'>Mapping Projects</a>
+  <a class='strong {% if page.url contains "plan" %}active{% endif %}' href='{{site.baseurl}}/plan/'>Event Guides</a>
+  
   <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd' class='hide-mobile icon twitter inline small strong dark'>#osmgeoweek</a>
 </nav>
 
@@ -58,7 +59,7 @@
 -->
 
 <header class='clearfix splash center pad4y'>
-  <a href='{{site.baseurl}}' class='block'>
+  <a href='{{site.baseurl}}/' class='block'>
     <img src='{{site.baseurl}}/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />
   </a>
 </header>
