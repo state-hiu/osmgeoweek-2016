@@ -17,10 +17,10 @@ category: schedule
 
 <div class='speaker-byline'>
   {% if page.twitter %}<a href='http://twitter.com/{{page.twitter}}'>{% endif %}
-  {% if page.speaker != null %}
-    {{page.organization}}, {{page.speaker}}
+  {% if page.organization != null %}
+    {{page.speaker}}, {{page.organization}}
   {% else %}
-    {{page.organization}}
+    {{page.speaker}}
   {% endif %}
   {% if page.twitter %}</a>{% endif %}
 </div>
