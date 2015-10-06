@@ -116,7 +116,7 @@ header .logo {
   }
 /* http://www.cartooncliparts.com/picture/farm-theme-drawing-1-farm-pixmac-clipart-86871348/000086871348, http://www.birkey.com/tag/line-art/ */
 
-.splash { background:#fff url(img/2015-splash.png) no-repeat center bottom; }
+.splash { background:#fff url(img/2014-splash-food-2.png) no-repeat center bottom; }
 .front .splash { background-image:none; }
 
 .strong,
