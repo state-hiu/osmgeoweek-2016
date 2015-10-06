@@ -13,7 +13,7 @@ title: ''
     <li><img src='img/splash/gaw-usaid.jpg' title='Teach and learn OpenStreetMap with your students, classmates and friends' /></li>
     <li><img src='img/splash/2015-cusco.png' title='Contribute to local mapping projects on the ground' /></li>
     <li><img src='img/splash/GAW2.jpg' title='Have Fun Learning Geography' /></li>
-    <li><img src='img/splash/market.jpg' title='Contribute to real agricultural data needs with OpenStreetMap' /></li>
+    <li><img src='img/splash/peace-corps-splash.jpg' title='Building geographic datasets with OpenStreetMap and Field Papers' /></li>
   </ul>
 </section>
 
@@ -24,7 +24,7 @@ title: ''
 
 <section class='hide-mobile clearfix limiter col12'>
   <div class='pad4y'>
-    <h2>Teachers, students, community groups, map lovers, in the US and around the world, join together to celebrate geography and make maps with OpenStreetMap, the free and openly editable map of the world.</h2><p/><h2> Sign up for an <a href="{{site.baseurl}}/events/">event near you</a> or <a href="{{site.baseurl}}/plan/">plan your own mapathon</a>. You can contribute to <a href="{{site.baseurl}}/projects/">mapping projects</a> around the world and explore the power of maps! Get in touch, we're happy to help!</h2>
+    <h2>Teachers, students, community groups, map lovers, in the US and around the world, join together to celebrate geography and make maps with OpenStreetMap, the free and openly editable map of the world.</h2><p/><h2> Sign up for an <a href="{{site.baseurl}}/events/">event near you</a> or <a href="{{site.baseurl}}/plan/#planners">plan your own mapathon</a>. You can contribute to <a href="{{site.baseurl}}/projects/">mapping projects</a> around the world and explore the power of maps! Get in touch, we're happy to help!</h2>
   </div>
 
   <div class='col6 margin3 space-bottom4'>
