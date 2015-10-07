@@ -12,7 +12,7 @@ published: true
 
 
 <div class='limiter pad4y clearfix'>
-<h3>National Geographic, the U.S. Department of State (MapGive), the Humanitarian OpenStreetMap Team, Missing Maps and OpenStreetMap US are hosting mapping events at colleges, universities and clubs to map food resources around the globe, following this year’s Geography Awareness Week theme, “Explore! The Power of Maps”</h3>
+<h3>National Geographic, the U.S. Department of State (MapGive), the Humanitarian OpenStreetMap Team, Missing Maps and OpenStreetMap US are hosting mapping events at colleges, universities and clubs to map places around the globe, following this year’s Geography Awareness Week theme, “Explore! The Power of Maps”</h3>
 <p/><br/>
 <!--
 National Geographic will host the flagship OpenStreetMap mapping party on Friday, Nov. 21, from 11 a.m. to 3 p.m. EST at National Geographic headquarters in Washington, D.C., with the goal of putting food resources on the map. Admission is free, but interested individuals should <a href="https://www.eventbrite.com/e/national-geographic-geography-awareness-week-mapping-party-tickets-13995325395">RSVP online</a>.
