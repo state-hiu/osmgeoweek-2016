@@ -6,14 +6,14 @@ title: ''
 <section class='hide-mobile contain'>
   <div class='liner clearfix center fill-darken2 dark pin-top col12'>
     <h2 class='pad2'>
-      Teach, Learn and Discover Geography With <a href='http://openstreetmap.org'>OpenStreetMap</a> and <a href="http://www.nationalgeographic.com/">National Geographic</a> during <a>Geography Awareness Week</a>, Nov 15-21.
+      Teach, Learn and Discover Geography With <a href='http://openstreetmap.org'>OpenStreetMap</a> during <a>Geography Awareness Week</a>, Nov 15-21.
     </h2>
   </div>
   <ul class='slider clearfix pin-top col12'>
     <li><img src='img/splash/gaw-usaid.jpg' title='Teach and learn OpenStreetMap with your students, classmates and friends' /></li>
     <li><img src='img/splash/2015-cusco.png' title='Contribute to local mapping projects on the ground' /></li>
     <li><img src='img/splash/GAW2.jpg' title='Have Fun Learning Geography' /></li>
-    <li><img src='img/splash/peace-corps-splash.jpg' title='Building geographic datasets with OpenStreetMap and Field Papers' /></li>
+    <li><img src='img/splash/peace-corps-splash.png' title='Building geographic datasets with OpenStreetMap and Field Papers' /></li>
   </ul>
 </section>
 

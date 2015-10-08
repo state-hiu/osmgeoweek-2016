@@ -164,10 +164,10 @@ input[type='submit'],
   background-repeat: no-repeat;
   }
 
-  .sponsor.natgeo        { background-image: url(img/logos/natgeo.jpg); width: 311px; height: 126px;}
-  .sponsor.hot           { background-image: url(img/logos/HOT.png); width: 259px; height: 60px;}
-  .sponsor.mapgive       { background-image: url(img/logos/mapgive.png); width: 218px; height: 56px;}
-  .sponsor.osmus         { background-image: url(img/logos/osmus.png); width: 275px; height: 127px; }
+  .sponsor.natgeo        { background-image: url(img/logos/natgeo.jpg); width: 311px; height: 95px;}
+  .sponsor.hot           { background-image: url(img/logos/HOT.png); width: 265px; height: 60px;}
+  .sponsor.mapgive       { background-image: url(img/logos/mapgive.png); width: 256px; height: 58px;}
+  .sponsor.osmus         { background-image: url(img/logos/osmus.png); width: 300px; height: 127px; }
   .sponsor.missingmaps   { background-image: url(img/logos/missingmaps.png); width: 218px; height: 86px; }
   .sponsor.usaid         { background-image: url(img/logos/usaid.png); width: 218px;}
   .sponsor.kll           { background-image: url(img/logos/kll.jpg); width: 147px; height: 100px; }

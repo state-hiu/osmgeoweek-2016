@@ -1498,7 +1498,7 @@ a > .rcon:after,
 
 .pad1y { padding-top: 10px; padding-bottom: 10px;}
 .pad2y { padding-top: 20px; padding-bottom: 20px;}
-.pad4y { padding-top: 40px; padding-bottom: 40px;}
+.pad4y { padding-top: 43px; padding-bottom: 67px;}
 
 /* Keylines
 ------------------------------------------------------- */

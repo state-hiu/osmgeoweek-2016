@@ -5,22 +5,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "GWU Mapathon",
-        "url": "/event/gwu/",
-        
-         "marker-color": "#4747A3"
-        
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.04448, 38.89692]
-      }
-    },
-    
-    
-    {
-      "type": "Feature",
-      "properties": {
         "title": "George Mason University",
         "url": "/event/george-mason/",
         
