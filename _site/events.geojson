@@ -5,6 +5,70 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Communauté OpenStreeMap Benin",
+        "url": "/event/cotonou/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.422, 6.37]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Dar es Salaam, Tanzania",
+        "url": "/event/dar-es-salaam/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.284, -6.82]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Colegio Salesiano de Duitama",
+        "url": "/event/duitama/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.03, 5.82]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Missing Maps and MSF UK",
+        "url": "/event/missingmaps-london/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.104, 51.508]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
         "title": "George Mason University",
         "url": "/event/george-mason/",
         

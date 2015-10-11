@@ -6,14 +6,14 @@
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <meta name='twitter:site' content='@osmgeoweek' />
   <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
-  <meta name='twitter:url' content='/swipe/khulna/' />
+  <meta name='twitter:url' content='event/cotonou/' />
   <meta name='twitter:domain' content='http://osmgeoweek.org' />
-  <meta property='og:url' content='/swipe/khulna/' />
-  <meta name='twitter:title' content='Khulna Agricultural Area, Bangladesh' />
-  <meta property='og:title' content='Khulna Agricultural Area, Bangladesh' />
-  <meta name='twitter:description' content='
+  <meta property='og:url' content='event/cotonou/' />
+  <meta name='twitter:title' content='Communauté OpenStreeMap Benin' />
+  <meta property='og:title' content='Communauté OpenStreeMap Benin' />
+  <meta name='twitter:description' content='OSM Benin is one of the active communities in the West African region that creates humanitarian data.
 ' />
-  <meta property='og:description' content='
+  <meta property='og:description' content='OSM Benin is one of the active communities in the West African region that creates humanitarian data.
 ' />
   
     <meta name='twitter:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
@@ -23,7 +23,7 @@
   <meta property='og:type' content='website' />
   <meta name='twitter:card' content='summary_large_image' />
 
-  <title>Khulna Agricultural Area, Bangladesh | OpenStreetMap Geography Awareness Week</title>
+  <title>Communauté OpenStreeMap Benin | OpenStreetMap Geography Awareness Week</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
   <link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
@@ -59,60 +59,41 @@
   </a>
 </header>
 
-<style>
-  #map { height: 600px; width:100%; }
-.range {
-  position:absolute;
-  width:100%;
-  z-index: 1000;
-  }
-.leaflet-top .leaflet-control-zoom {
-  top:20px;
-  }
-</style>
-
-<div class='fill-green'>
-  <div class='liner clearfix center col12'>
-    <h2 class='pad2'>Khulna Agricultural Area, Bangladesh</h2>
+<div class='fill-blue dark center'>
+  <div class='fill-darken3 pad2y'>
+    <div class='limiter'>
+      <h1>Communauté OpenStreeMap Benin</h1>
+    </div>
   </div>
 </div>
 
+<div class='limiter prose pad4y clearfix'>
+  <div class='col8 margin2'>
+    <div class='fr fill-light round pad2 space-bottom2 margin0'>
+  <div>
+    Day: <strong>Saturday</strong>
+  </div>
+  <div>
+    Time: <strong></strong>
+  </div>
+  <!--<div>
+    Location: <strong></strong>
+  </div>-->
+</div>
 
-<input id='range' class='range' type='range' min='0' max='1.0' step='any' />
-<div id='map'></div>
+<div class='speaker-byline'>
+  
+  
+    
+  
+  
+</div>
+
+<p>OSM Benin is one of the active communities in the West African region that creates humanitarian data.</p>
 
 
-
-
-<iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_khulna_basic_osm_buildings.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Buildings%22%7D%5D%7D" width="50%" height="600" style="float:left"></iframe>
-<iframe src="http://www.charted.co/?%7B%22dataUrl%22%3A%22http%3A%2F%2Fosmgeoweek.org%2Ffiles%2Fstats%2Fspaced%2Fosmgeoweek_khulna_basic_osm_roads.csv%22%2C%22charts%22%3A%5B%7B%22type%22%3A%22line%22%2C%22rounding%22%3A%22off%22%2C%22title%22%3A%22Roads%20(km)%22%7D%5D%7D" width="50%" height="600" style="float:right"></iframe>
-
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoiZ3JvdW5kdHJ1dGgiLCJhIjoiS21jd2M3NCJ9.Oh7jfB2FCjkVHszCFLS-pg';
-var map = L.map('map');
-L.mapbox.tileLayer('hiu.k9b8g4nc').addTo(map);
-
-var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-	var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-	var osm = new L.TileLayer(osmUrl, {minZoom: 7, maxZoom: 18, attribution: osmAttrib});	
-var overlay = osm.addTo(map);
-var range = document.getElementById('range');
-
-function clip() {
-  var nw = map.containerPointToLayerPoint([0, 0]),
-      se = map.containerPointToLayerPoint(map.getSize()),
-      clipX = nw.x + (se.x - nw.x) * range.value;
-
-  overlay.getContainer().style.clip = 'rect(' + [nw.y, clipX, se.y, nw.x].join('px,') + 'px)';
-}
-
-range['oninput' in range ? 'oninput' : 'onchange'] = clip;
-map.on('move', clip);
-map.setView([22.6783,89.5599], 11);
-
-clip();
-</script>
-
+  </div>
+</div>
 
 
 <div class='pad2x show-mobile'>

@@ -1,4 +1,0 @@
-baseurl: /osmgeoweek-2015
-permalink: pretty
-exclude: [src, CNAME, "2012", "2013"]
-markdown: rdiscount

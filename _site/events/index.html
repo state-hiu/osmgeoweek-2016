@@ -23,22 +23,22 @@
 
   <title>Events | OpenStreetMap Geography Awareness Week</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-  <link rel='shortcut icon' href='/osmgeoweek-2015/img/favicon.ico' type='image/x-icon' />
+  <link rel='shortcut icon' href='/img/favicon.ico' type='image/x-icon' />
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
-	<link href='/osmgeoweek-2015/base/base.css' rel='stylesheet' />
-  <link href='/osmgeoweek-2015/site.css' rel='stylesheet' />
+	<link href='/base/base.css' rel='stylesheet' />
+  <link href='/site.css' rel='stylesheet' />
   <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
   <script src='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
-  <script src='/osmgeoweek-2015/site.js'></script>
+  <script src='/site.js'></script>
 </head>
 <body class=''>
 
 <nav class='pad2 fill-blue site-navigation center space'>
-  <a class='strong ' href='/osmgeoweek-2015/'>Home</a>
-  <a class='strong ' href='/osmgeoweek-2015/about/'>About</a>
-  <a class='strong active' href='/osmgeoweek-2015/events/'>Join an Event</a>
-  <a class='strong ' href='/osmgeoweek-2015/projects/'>Mapping Projects</a>
-  <a class='strong ' href='/osmgeoweek-2015/plan/'>Event Guides</a>
+  <a class='strong ' href='/'>Home</a>
+  <a class='strong ' href='/about/'>About</a>
+  <a class='strong active' href='/events/'>Join an Event</a>
+  <a class='strong ' href='/projects/'>Mapping Projects</a>
+  <a class='strong ' href='/plan/'>Event Guides</a>
   
   <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd' class='hide-mobile icon twitter inline small strong dark'>#osmgeoweek</a>
 </nav>
@@ -52,8 +52,8 @@
 -->
 
 <header class='clearfix splash center pad4y'>
-  <a href='/osmgeoweek-2015/' class='block'>
-    <img src='/osmgeoweek-2015/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />
+  <a href='/' class='block'>
+    <img src='/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />
   </a>
 </header>
 
@@ -78,7 +78,7 @@ map.once('focus', function() { map.scrollWheelZoom.enable(); });
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
 }).addTo(map);
-var featureLayer = L.mapbox.featureLayer().loadURL('/osmgeoweek-2015/events.geojson',{ style: L.mapbox.simplestyle.style }).addTo(map);
+var featureLayer = L.mapbox.featureLayer().loadURL('/events.geojson',{ style: L.mapbox.simplestyle.style }).addTo(map);
 //var featureLayer = L.geoJson(geojson, { style: L.mapbox.simplestyle.style }).addTo(map);
 
  featureLayer.on('ready', function() {
@@ -102,7 +102,7 @@ featureLayer.on('layeradd', function(e) {
 <div class='pad4y'>
   <div class='prose limiter pad2'>
     <h2>
-      Find an event near you. Or, let us know if you are <a href="/osmgeoweek-2015/plan/">planning an event</a>, <a href="http://goo.gl/forms/bBI3pQ1IE6">submit the details</a> or </a><a href="mailto:osmgeoweek@gmail.com">get in touch</a>!
+      Find an event near you. Or, let us know if you are <a href="/plan/">planning an event</a>, <a href="http://goo.gl/forms/bBI3pQ1IE6">submit the details</a> or </a><a href="mailto:osmgeoweek@gmail.com">get in touch</a>!
     </h2>
   </div>
 
@@ -118,6 +118,51 @@ featureLayer.on('layeradd', function(e) {
   
   
   
+  <div class='pad2y keyline-top'>
+    <div class='limiter'>
+      <div class='col12 quiet space-bottom1'>
+        <h3 class='col11 pad2x'>
+          Thursday, November 19th
+        </h3>
+      </div>
+      <div class='col12 pad1y'>
+        
+          <div class='col12 clearfix '>
+            <div class='col12 pad2x'>
+              <div class='headline clearfix space-bottom1'>
+                <h2 class='col8'><a href='/event/duitama/'>Colegio Salesiano de Duitama</a></h2>
+                <span class='col4 text-right quiet'></span>
+                <span class='space-bottom1 inline'>
+                
+              </span>
+              </div>
+              <div class='prose schedule space-bottom2'>
+                <p>More information to come.</p>
+
+              </div>
+            </div>
+          </div>
+        
+          <div class='col12 clearfix '>
+            <div class='col12 pad2x'>
+              <div class='headline clearfix space-bottom1'>
+                <h2 class='col8'><a href='/event/missingmaps-london/'>Missing Maps and MSF UK</a></h2>
+                <span class='col4 text-right quiet'></span>
+                <span class='space-bottom1 inline'>
+                
+              </span>
+              </div>
+              <div class='prose schedule space-bottom2'>
+                <p>More information to come.</p>
+
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+  
   
   
   <div class='pad2y keyline-top'>
@@ -132,7 +177,7 @@ featureLayer.on('layeradd', function(e) {
           <div class='col12 clearfix '>
             <div class='col12 pad2x'>
               <div class='headline clearfix space-bottom1'>
-                <h2 class='col8'><a href='/osmgeoweek-2015/event/george-mason/'>George Mason University</a></h2>
+                <h2 class='col8'><a href='/event/george-mason/'>George Mason University</a></h2>
                 <span class='col4 text-right quiet'></span>
                 <span class='space-bottom1 inline'>
                 3:30pm - 7:00pm
@@ -150,6 +195,51 @@ featureLayer.on('layeradd', function(e) {
   </div>
   
   
+  
+  <div class='pad2y keyline-top'>
+    <div class='limiter'>
+      <div class='col12 quiet space-bottom1'>
+        <h3 class='col11 pad2x'>
+          Saturday, November 21st
+        </h3>
+      </div>
+      <div class='col12 pad1y'>
+        
+          <div class='col12 clearfix '>
+            <div class='col12 pad2x'>
+              <div class='headline clearfix space-bottom1'>
+                <h2 class='col8'><a href='/event/cotonou/'>Communauté OpenStreeMap Benin</a></h2>
+                <span class='col4 text-right quiet'></span>
+                <span class='space-bottom1 inline'>
+                
+              </span>
+              </div>
+              <div class='prose schedule space-bottom2'>
+                <p>OSM Benin is one of the active communities in the West African region that creates humanitarian data.</p>
+
+              </div>
+            </div>
+          </div>
+        
+          <div class='col12 clearfix '>
+            <div class='col12 pad2x'>
+              <div class='headline clearfix space-bottom1'>
+                <h2 class='col8'><a href='/event/dar-es-salaam/'>Dar es Salaam, Tanzania</a></h2>
+                <span class='col4 text-right quiet'></span>
+                <span class='space-bottom1 inline'>
+                
+              </span>
+              </div>
+              <div class='prose schedule space-bottom2'>
+                <p>The OSM community in Dar es Salaam Tanzania would like to be part of all the mapathons that will be happening all over the world by organising an event in Dar es Salaam.</p>
+
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
   
   
 </div>
@@ -177,7 +267,7 @@ featureLayer.on('layeradd', function(e) {
         <a href='http://www.missingmaps.org/' class='sponsor missingmaps'>Missing Maps</a>
         <!--<a href='https://www.usaid.gov/GlobalDevLab' class='sponsor usaid'>USAID GeoCenter</a>-->
 	    <a href='https://www.usaid.gov/GlobalDevLab' >
-	    <img src="/osmgeoweek-2015/img/logos/usaid.png" style="height:105px;">
+	    <img src="/img/logos/usaid.png" style="height:105px;">
 	    </a>
         <a href='http://www.nationalgeographic.com/' class='sponsor natgeo'>National Geographic</a>
         <a href='http://kathmandulivinglabs.org/' class='sponsor kll'>Kathmandu Living Labs</a>

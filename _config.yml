@@ -1,4 +1,4 @@
-baseurl: http://osmgeoweek.org
+baseurl: ""
 permalink: pretty
 exclude: [src, CNAME, "2012", "2013"]
 markdown: rdiscount
