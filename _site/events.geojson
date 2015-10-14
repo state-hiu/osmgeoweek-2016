@@ -5,6 +5,38 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "GIS Day Map-A-Thon at Colorado State University",
+        "url": "/event/kampala/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.085, 40.57]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Kampala, Uganda",
+        "url": "/event/kampala/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5909, 0.317]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Communauté OpenStreeMap Benin",
         "url": "/event/cotonou/",
         

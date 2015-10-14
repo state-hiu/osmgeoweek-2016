@@ -91,6 +91,12 @@
 	    <img src="{{site.baseurl}}/img/logos/usaid.png" style="height:105px;">
 	    </a>
         <a href='http://www.nationalgeographic.com/' class='sponsor natgeo'>National Geographic</a>
+        <a href='https://www.usaid.gov/GlobalDevLab' >
+	        <img src="{{site.baseurl}}/img/logos/usaid.png" style="height:105px;">
+	    </a>
+        <a href='https://www.gfdrr.org/' >
+	        <img src="{{site.baseurl}}/img/logos/gfdrr.png" style="height:105px;">
+	    </a>
         <a href='http://kathmandulivinglabs.org/' class='sponsor kll'>Kathmandu Living Labs</a>
       </nav>
     </div>
@@ -99,7 +105,7 @@
 
 <section class='fill-white pad2y center'>
   <div class='limiter'>
-    <p><strong>Interested in participating?</strong> Email <a href='mailto:osmgeoweek@gmail.com'>osmgeoweek@gmail.com</a> to learn more.</p>
+    <p><strong>Interested in participating?</strong> Email <a href='mailto:mapgive@state.gov'>mapgive@state.gov</a> to learn more.</p>
   </div>
 </section>
 <footer class='col12 center fill-blue dark'>
