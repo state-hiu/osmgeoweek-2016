@@ -5,6 +5,70 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "Mapping day Uganda - Wairaka",
+        "url": "/event/uganda-wairaka/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.274, 0.47]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mapping day Uganda - BIT MAK Jinja",
+        "url": "/event/uganda-jinja/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.214, 0.44]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "TeachOSM Mapathon",
+        "url": "/event/teachOSM/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.928, 38.84]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "University of São Paulo Mapathon",
+        "url": "/event/sao-paulo/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.881, -21.99]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
         "title": "GIS Day Map-A-Thon at Colorado State University",
         "url": "/event/kampala/",
         

@@ -91,10 +91,13 @@
 	    <img src="{{site.baseurl}}/img/logos/usaid.png" style="height:105px;">
 	    </a>
         <a href='http://www.nationalgeographic.com/' class='sponsor natgeo'>National Geographic</a>
-        <a href='https://www.usaid.gov/GlobalDevLab' >
-	        <img src="{{site.baseurl}}/img/logos/usaid.png" style="height:105px;">
+        <a href='http://www.peacecorps.gov/' >
+	        <img src="{{site.baseurl}}/img/logos/peace-corps.png" style="height:105px;">
 	    </a>
         <a href='https://www.gfdrr.org/' >
+	        <img src="{{site.baseurl}}/img/logos/gfdrr.png" style="height:105px;">
+	    </a>
+        <a href='http://www.aag.org/' >
 	        <img src="{{site.baseurl}}/img/logos/gfdrr.png" style="height:105px;">
 	    </a>
         <a href='http://kathmandulivinglabs.org/' class='sponsor kll'>Kathmandu Living Labs</a>
