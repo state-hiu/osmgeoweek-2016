@@ -5,6 +5,38 @@
     {
       "type": "Feature",
       "properties": {
+        "title": "University of Maryland Mapathon",
+        "url": "/event/umd/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.945, 38.98]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Peace Corps Community Mapping Party",
+        "url": "/event/peace-corps-dc/",
+        
+         "marker-color": "#4747A3"
+        
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.051, 38.9]
+      }
+    },
+    
+    
+    {
+      "type": "Feature",
+      "properties": {
         "title": "Mapping day Uganda - Wairaka",
         "url": "/event/uganda-wairaka/",
         
