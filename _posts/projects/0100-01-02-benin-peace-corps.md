@@ -6,7 +6,7 @@ layout: project
 tags:
   - remote
   - ready
-permalink: '/project/benin/'
+permalink: project/benin/
 ---
 According to the World Health Organization, children under 5 are one of the most vulnerable groups affected by malaria. Of the estimated 584,000 malaria deaths in 2013, approximately 78% were children under 5 years of age. Children who contract malaria progress more rapidly towards death than adults and are more susceptible to severe anaemia, hypoglycemia and cerebral malaria.
 

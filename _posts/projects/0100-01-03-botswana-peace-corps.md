@@ -6,7 +6,7 @@ layout: project
 tags:
   - remote
   - ready
-permalink: '/project/botswana/'
+permalink: project/botswana/
 ---
 UNAIDS estimates that 25% of Botswanian adults age 15-49 are living with HIV. Francistown is the second largest city in Botswana and suffers one of the highest rates of HIV in Botswana due to the fact that it is a stopover for many travelers, both domestic and foreign. It can be difficult to reach the entirety of Francistown's population -- over 100,000 -- with HIV/AIDS treatment and prevention programs. 
 
