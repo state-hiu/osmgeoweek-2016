@@ -2,7 +2,7 @@
 layout: event
 title: Colorado State University Humanitarian Mapathon
 day: Wednesday
-time: "9:00 am - 5:00 pm"
+time: "9:00am - 5:00pm"
 speaker: Mike Thompson for Map-A-Thon (subject to change); Rob Roth, University of Wisconsin Madison (Keynote Speaker for GIS Day)
 twitter: 
 organization: Geospatial Centroid at CSU
