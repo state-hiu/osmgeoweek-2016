@@ -6,7 +6,7 @@ time: "2:00 pm - 5:00 pm"
 speaker: Mike Thompson for Map-A-Thon (subject to change); Rob Roth, University of Wisconsin Madison (Keynote Speaker for GIS Day)
 twitter: 
 organization: Geospatial Centroid at CSU
-permalink: event/kampala/
+permalink: event/colorado-state/
 tags: 
   - wednesday
 category: event
