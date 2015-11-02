@@ -2,7 +2,7 @@
 layout: event
 title: Dibrugarh University Mapathon
 day: Tuesday
-time: "9:30am"
+time: "9:30am - 4:30pm"
 speaker: 
 twitter: 
 organization: Dibrugarh University 
