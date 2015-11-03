@@ -1,6 +1,6 @@
 ---
 title: Secondary Cities
-subtitle: Pokhara, Nepal: Mapping for Resiliency and Emergency Planning
+subtitle: "Pokhara, Nepal: Mapping for Resiliency and Emergency Planning"
 category: project
 layout: project
 tags:
@@ -22,7 +22,7 @@ rapidly growing cities to build capacity for data generation for resiliency, hum
 
 emergency preparedness. 
 
-[Earthquake damage in Nepal](https://cloud.githubusercontent.com/assets/2665840/10895387/eeb6d964-8181-11e5-9ea8-458d6e9ae2eb.jpg)
+![Earthquake damage in Nepal](https://cloud.githubusercontent.com/assets/2665840/10895387/eeb6d964-8181-11e5-9ea8-458d6e9ae2eb.jpg)
 
 Pokhara is Nepal’s second largest city after Kathmandu - the 2011 national census recorded a population 
 
@@ -42,4 +42,4 @@ digitize and store data for usage by first responders, planners and geospatial e
 ##Project will be posted soon
 
 
-[Steep terrain around Pokhara](https://cloud.githubusercontent.com/assets/2665840/10895392/f3c15506-8181-11e5-9916-1d9e054ea9f7.png)
+![Steep terrain around Pokhara](https://cloud.githubusercontent.com/assets/2665840/10895392/f3c15506-8181-11e5-9916-1d9e054ea9f7.png)
