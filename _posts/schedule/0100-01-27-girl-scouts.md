@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Girls Scouts Gold Awardees Mapathon
+title: Girls Scouts and Peace Corps Mapathon
 day: Saturday
 time: "11:00am - 1:00pm"
 speaker: 
