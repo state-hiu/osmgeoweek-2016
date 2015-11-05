@@ -6,7 +6,7 @@ layout: project
 tags:
   - remote
   - ready
-permalink: project/msf-drc
+permalink: project/lubumbashi
 aoi:
   - north: 128.264484
     south: 128.057910
