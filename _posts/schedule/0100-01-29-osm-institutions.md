@@ -11,8 +11,8 @@ tags:
   - thursday
 category: event
 published: true
-lat: 38.9047
-lon: -77.0164
+lat: 38.904108
+lon: -77.044466
 ---
 
 Please join us for a mapping party to celebrate OpenStreetMap(OSM) Geography Awareness Week 2015! OSM GeoWeek is a global series of events to highlight OSM and the importance of geographic education, and we want to celebrate with you. The purpose of this event is to actively contribute to OpenStreetMap (we'll have a training for beginners), but we'll also hear keynote addresses on the importance of open geographic data from top government and institutional leaders and lightning talks on how OSM data is used in humanitarian situations from a variety of OSM community members. 
