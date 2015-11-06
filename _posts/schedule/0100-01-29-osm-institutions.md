@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Access for All: OSM GeoWeek 2015
+title: "Access for All: OSM GeoWeek 2015"
 day: Thursday
 time: "6:30pm - 9:00pm"
 speaker: 
