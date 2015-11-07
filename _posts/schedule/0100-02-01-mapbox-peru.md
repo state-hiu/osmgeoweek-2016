@@ -1,14 +1,14 @@
 ---
 layout: event
 title: Mapbox Mapathon - Ayacucho, Peru
-day: Sunday
+day: Saturday, November 14
 time: "3:00pm"
 speaker: 
 twitter: 
 organization: Dept of Geographical Sciences, University of Maryland
 permalink: event/mapbox-peru/
 tags: 
-  - sunday
+  - presaturday
 category: event
 published: true
 lat: -13.155301
