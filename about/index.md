@@ -28,10 +28,8 @@ published: true
 <h3>A global coalition of partners are hosting mapping events at colleges, community centers and other institutions to map places around the globe, following this year’s Geography Awareness Week theme, “Explore! The Power of Maps”</h3>
 <p/><br/>
 
-<!--
-National Geographic will host the flagship OpenStreetMap mapping party on Friday, Nov. 21, from 11 a.m. to 3 p.m. EST at National Geographic headquarters in Washington, D.C., with the goal of putting food resources on the map. Admission is free, but interested individuals should <a href="https://www.eventbrite.com/e/national-geographic-geography-awareness-week-mapping-party-tickets-13995325395">RSVP online</a>.
+OSM Institutions will host the flagship OpenStreetMap mapping party on Thursday, Nov. 19, from 6:30 p.m. to 9 p.m. EST at Peace Corps headquarters in Washington, D.C., with the goal of actively contributing to OpenStreetMap. Admission is free, but interested individuals should <a href="https://www.eventbrite.com/e/access-for-all-osm-geoweek-2015-tickets-19153645068">RSVP online</a>.
 <p/>
--->
 
 On the local level, grassroots organizers around the world are holding <a href="{{site.baseurl}}/events/">over {{event_counter}} events</a> at local schools and community centers during OSMGeoWeek. If you are organizing an event, or even thinking about it, get in touch at <a href='mailto:mapgive@state.gov'>mapgive@state.gov</a>.
 <p/>
