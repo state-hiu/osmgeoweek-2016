@@ -1,4 +1,5 @@
 ---
+twitter-description: Sign up for an event near you or plan your own mapathon. You can contribute to mapping projects around the world and explore the power of maps! Get in touch, we're happy to help!
 ---
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,8 @@
   <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
   <meta property='og:url' content='{{page.permalink}}' />  
   <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <!--<meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />-->
+  <meta property='og:description' content="{{page.twitter-description}}" />
   {% if page.image %}
     <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
     <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
@@ -27,7 +29,7 @@
   <meta name='twitter:card' content='summary_large_image' />
   <meta name='twitter:site' content='@osmgeoweek' />
   <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+  <meta name='twitter:description' content="{{page.twitter-description}}" />
 
   <!--<meta name='twitter:domain' content='http://osmgeoweek.org' />
   <meta name='twitter:url' content='{{page.permalink}}' />-->
@@ -96,26 +98,29 @@
         <a href='http://hot.openstreetmap.org/' class='sponsor hot'>HOT</a>
         <a href='http://www.missingmaps.org/' class='sponsor missingmaps'>Missing Maps</a>
         <!--<a href='https://www.usaid.gov/GlobalDevLab' class='sponsor usaid'>USAID GeoCenter</a>-->
-	    <a href='https://www.usaid.gov/GlobalDevLab' >
-	    <img src="{{site.baseurl}}/img/logos/usaid.png" style="height:105px;">
-	    </a>
+	      <a href='https://www.usaid.gov/GlobalDevLab' >
+	         <img src="{{site.baseurl}}/img/logos/usaid.png" style="height:105px;">
+	      </a>
         <a href='http://www.nationalgeographic.com/' class='sponsor natgeo'>National Geographic</a>
         <a href='http://www.peacecorps.gov/' >
 	        <img src="{{site.baseurl}}/img/logos/peace-corps.png" style="height:105px;">
-	    </a>
+	      </a>
         <a href='https://www.gfdrr.org/' >
 	        <img src="{{site.baseurl}}/img/logos/gfdrr.png" style="height:105px;">
-	    </a>
+	      </a>
         <a href='http://www.aag.org/' >
 	        <img src="{{site.baseurl}}/img/logos/aag.png" style="height:105px;">
-	    </a>
+	      </a>
         <a href='http://eca.state.gov/programs-initiatives/international-education-week' >
 	        <img src="{{site.baseurl}}/img/logos/iew_blue_logo_0.jpg" style="height:105px;">
-	    </a>
+	      </a>
         <a href='http://www.ncge.org/' >
 	        <img src="{{site.baseurl}}/img/logos/ncge.png" style="height:105px;">
-	    </a>
+	      </a>
         <a href='http://kathmandulivinglabs.org/' class='sponsor kll'>Kathmandu Living Labs</a>
+        <a href='http://americangeo.org/' >
+          <img src="{{site.baseurl}}/img/logos/ags.jpg" style="height:105px;">
+        </a>
       </nav>
     </div>
   </div>

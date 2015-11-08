@@ -2,6 +2,7 @@
 layout: default
 title: About
 published: true
+twitter-description: Sign up for an event near you or plan your own mapathon. You can contribute to mapping projects around the world and explore the power of maps! Get in touch, we're happy to help!
 ---
 
 <!--counts of events and projects-->
