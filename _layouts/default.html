@@ -6,14 +6,10 @@
   <meta charset=utf-8 />
   <meta name='robots' content='{% if page.hidden %}noindex{% else %}index{% endif %}'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <meta name='twitter:site' content='@osmgeoweek' />
+  
   <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
-  <meta name='twitter:url' content='{{page.permalink}}' />
-  <meta name='twitter:domain' content='http://osmgeoweek.org' />
-  <meta property='og:url' content='{{page.permalink}}' />
-  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta property='og:url' content='{{page.permalink}}' />  
   <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
   <meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
   {% if page.image %}
     <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
@@ -25,7 +21,16 @@
     <meta property='og:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
   {% endif %}
   <meta property='og:type' content='website' />
+
+  <!-- Twitter Cards -->
+ 
   <meta name='twitter:card' content='summary_large_image' />
+  <meta name='twitter:site' content='@osmgeoweek' />
+  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta name='twitter:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />
+
+  <!--<meta name='twitter:domain' content='http://osmgeoweek.org' />
+  <meta name='twitter:url' content='{{page.permalink}}' />-->
 
   <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}OpenStreetMap Geography Awareness Week</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
