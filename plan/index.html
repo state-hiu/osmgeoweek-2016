@@ -5,25 +5,27 @@ published: true
 twitter-description: Sign up for an event near you or plan your own mapathon. You can contribute to mapping projects around the world and explore the power of maps! Get in touch, we're happy to help!
 ---
 
-<div class='fill-blue'>
-  <div class='liner clearfix center fill-darken3 dark col12'>
-    <h2 class='pad2'>Guides for Mappers and Event Planners</h2>
+
+<div class='fill-green dark'>
+  <div class='limiter'>
+    <div class='pad2y'>
+      <h1 class='space-bottom1 space-top4'>Guides for Mappers and Event Planners</h1>
+      <p class='prose-big'> Choose from remote and local mapping tasks below. Ready tasks in <span class="ready">yellow</span>.</p>
+    </div>
   </div>
 </div>
-
 <!--
 <div class='limiter pad4y clearfix'>
 <h1>Choose from guides for mappers and planners below.</h1>
 </div>
 -->
 
-<div class='fill-blue'>
-  <div class='liner clearfix center col12'>
-    <h2 class='pad2'>Mapper Resources</h2>
-  </div>
-</div>
 
-<div class='limiter pad4y clearfix'>
+  <div class='limiter clearfix'>
+    <h3 class='space-top4 pad2y quiet'>Mapper Resources</h3>
+  </div>
+
+<div class='limiter clearfix'>
 {% assign sorted_pages = (site.categories.plan | sort: 'date') %}
 {% for post in sorted_pages %}
   {% assign display = null %}
@@ -36,24 +38,22 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
     {% endif %}
   {% endfor %}
   {% if display == true %}
-    <div class='keyline-all pad4 space-bottom4 project-tile'>
+    <div class='pad1y'>
       <h2><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h2>
-      <h3>{{ post.subtitle }}</h3>
-      <p>{{ post.excerpt }}</p>
+      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
     </div>
   {% endif %}
 {% endfor %}
 </div>
 
 
-<div class='fill-blue'>
-  <div class='liner clearfix center col12'>
-    <h2 class='pad2' id="planners">Event Planner Resources</h2>
-  </div>
+<div class='limiter space-top4'>
+    <h3 class='quiet' id="planners">Event Planner Resources</h3>
+
 </div>
 
 
-<div class='limiter pad4y clearfix'>
+<div class='limiter pad2y clearfix'>
 {% assign sorted_pages = (site.categories.plan | sort: 'date') %}
 {% for post in sorted_pages %}
   {% assign display = null %}
@@ -66,10 +66,10 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
     {% endif %}
   {% endfor %}
   {% if display == true %}
-    <div class='keyline-all pad4 space-bottom4 project-tile'>
+    <div class='pad1y'>
       <h2><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h2>
       <h3>{{ post.subtitle }}</h3>
-      <p>{{ post.excerpt }}</p>
+      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>'  }}</p>
     </div>
   {% endif %}
 {% endfor %}
@@ -105,7 +105,7 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
 How can you help map it?
 On Friday 7 November, Guardian Cities readers like yourself will set out to map Baraka. You can join in from your bedroom – all you need is a laptop. But you won’t be alone: about 80 people will be mapping in person at Guardian HQ in London, and there are eight other simultaneous events around the world, from San Francisco to Jakarta.
 
-But how do you actually map? 
+But how do you actually map?
 
 1. Set up an account at OpenStreetMap.
 

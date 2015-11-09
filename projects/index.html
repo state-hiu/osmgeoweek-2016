@@ -4,23 +4,24 @@ title: Projects
 twitter-description: Sign up for an event near you or plan your own mapathon. You can contribute to mapping projects around the world and explore the power of maps! Get in touch, we're happy to help!
 ---
 
-<div class='fill-blue'>
-  <div class='liner clearfix center fill-darken3 dark col12'>
-    <h2 class='pad2'>Projects</h2>
+
+<div class='fill-green dark'>
+  <div class='limiter'>
+    <div class='pad2y'>
+      <h1 class='space-bottom1 space-top4'>Projects</h1>
+      <p class='prose-big'> Choose from remote and local mapping tasks below. Ready tasks in <span class="ready">yellow</span>.</p>
+    </div>
   </div>
 </div>
 
-<div class='limiter pad4y clearfix'>
-<h1>Choose from remote and local mapping tasks below. Ready tasks in <span class="ready">yellow</span>.</h1>
+
+<div class='limiter'>
+
+    <h3 class='space-top4 quiet'>Remote Projects</h3>
+
 </div>
 
-<div class='fill-blue'>
-  <div class='liner clearfix center col12'>
-    <h2 class='pad2'>Remote Projects</h2>
-  </div>
-</div>
-
-<div class='limiter pad4y clearfix'>
+<div class='limiter clearfix'>
 
 {% for post in site.categories.project %}
   {% assign display = null %}
@@ -35,10 +36,10 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
     {% endif %}
   {% endfor %}
   {% if display == true %}
-    <div class='keyline-all pad4 space-bottom4 project-tile {% if ready %}ready{% endif %}'>
+    <div class='col12 pad1y {% if ready %}ready{% endif %}'>
       <h2><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h2>
-      <h3>{{ post.subtitle }}</h3>
-      <p>{{ post.excerpt }}</p>
+      <h3 class='quiet'>{{ post.subtitle }}</h3>
+      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>'  }}</p>
     </div>
   {% endif %}
 {% endfor %}
@@ -62,7 +63,7 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
     <div class='keyline-all pad4 space-bottom4 project-tile {% if ready %}ready{% endif %}'>
       <h2><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h2>
       <h3>{{ post.subtitle }}</h3>
-      <p>{{ post.excerpt }}</p>
+      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>'  }}</p>
     </div>
   {% endif %}
 {% endfor %}

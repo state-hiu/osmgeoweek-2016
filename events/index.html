@@ -23,20 +23,11 @@ dates:
 
 <div class='fill-green dark'>
   <div class='limiter'>
-    <div class='pad4y'>
-      <h1 class='space-bottom1'>Events</h1>
+    <div class='pad2y'>
+      <h1 class='space-bottom1 space-top4'>Events</h1>
       <p class='prose-big'> Find an event near you. Or, let us know if you are <a href="{{site.baseurl}}/plan/">planning an event</a>, <a href="http://goo.gl/forms/bBI3pQ1IE6">submit the details</a> or </a><a href="mailto:mapgive@state.gov">get in touch</a>!</p>
     </div>
   </div>
-</div>
-
-
-
-<div class='pad4y'>
-  <div class='prose limiter'>
-    <h2>
-
-    </h2>
 </div>
 
 
@@ -52,12 +43,12 @@ dates:
       </div>
       <div class='col12 pad1y'>
         {% for item in site.tags[date.id] order:ascending %}
-          <div class='col12 space-bottom4 clearfix {% if item.highlight == true %}highlight{% endif %}'>
+          <div class='col12 pad1y clearfix {% if item.highlight == true %}highlight{% endif %}'>
             <div>
               <div class='headline clearfix space-bottom1'>
                 <h2><a href='{{site.baseurl}}/{{item.permalink}}'>{{item.title}}</a></h2>
                 <span class='text-right quiet'>{{item.location}}</span>
-                <span class='inline'>
+                <span class='strong'>
                 {{item.time}} | {{item.day}}
               </span>
               </div>
