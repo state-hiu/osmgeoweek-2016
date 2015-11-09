@@ -6,31 +6,44 @@
 .fill-dark { background-color:#202020; }
 .fill-brown { background-color:#d7a64a; }
 .fill-green { background-color:#8cc250; }
-.fill-blue { background-color:#4747A3; }
 
+.button.fill-green:hover {
+  background-color: #8cc250;
+}
+.text-blue { color:#31b2d0; }
+.text-lightblue { color:#d7f0f6; }
+.text-dark { color:#202020; }
+.text-brown { color:#d7a64a; }
+.text-green { color:#8cc250; }
+.text-white { color:#fff;}
 
 .fill-darken2 {
     background: rgba(0,0,0,0.8);
 }
 
-
+a {
+  color: #8cc250;
+}
+body {
+  font-family: 'Asap', serif;
+  font-size: 16px;
+}
+.site-navigation,
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Kreon', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   }
-h1, h2 {
-  font-size:30px;
-  line-height:40px;
-  letter-spacing:0;
-  }
-h3 {
-  font-size:22px;
-  line-height:36px;
-  }
-h4 {
-  font-size:18px;
-  line-height:24px;
-  }
-
+.prose-big {
+  font-family: 'Alegreya Sans', serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-style: italic;
+}
+.site-header {
+  background-image: url('img/peace-corps-splash.jpg');
+  background-size: cover;
+  min-height: 400px;
+}
 /* Paragraphs should always have prose */
 p {
   line-height:25px;
@@ -40,14 +53,7 @@ p {
   }
   footer p { margin-bottom:5px; }
 
-a,
-.dark a,
-a.dark  { color:#4747A3; font-weight:700; }
 
-.dark a:hover,
-a.dark:hover,
-a.active,
-a:hover { color:#68c7dd; }
 
 .schedule table {
   border-width:0;
@@ -112,17 +118,6 @@ input[type='submit'],
 .bx-caption span {
 	font-weight:700;
   }
-  .button,
-  .strong,
-  .bx-caption span {
-    font-size:20px;
-    line-height:20px;
-    text-transform:uppercase;
-    }
-  .button       { background-color:#4747A3; }
-
-  .dark .button,
-  .button:hover { background-color:#6f9b40; }
 
 .highlight {
   border:3px solid #fff;
@@ -132,11 +127,15 @@ input[type='submit'],
     background-color:#68c7dd;
     }
 
-.fill-blue .dark a,
-.fill-blue.dark a {
-  color:#fff;
-  font-weight:700;
+.dark a {
+  color:rgba(255,255,255,0.7);
   }
+.dark a:hover,
+.dark a.active {
+  color:#fff;
+}
+
+
 
 .speaker-byline {
   font-weight: bold;
@@ -381,17 +380,6 @@ section:target { display:block!important; }
   fieldset.with-icon { margin:0 0 -1px; }
   .round-right { border-radius:0 0 3px 3px; }
   .space > * { margin:0; }
-  .site-navigation a.strong,
-  .site-navigation a.strong.active,
-  .site-navigation a.strong:hover {
-    display:block;
-    border:none;
-    border-bottom:none;
-    }
-  .site-navigation a.strong.active,
-  .site-navigation a.strong:hover {
-    background-color:#68c7dd;
-    }
   .schedule table tr td {
     padding:10px 5px;
     }

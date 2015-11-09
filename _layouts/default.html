@@ -4,9 +4,9 @@
   <meta charset=utf-8 />
   <meta name='robots' content='{% if page.hidden %}noindex{% else %}index{% endif %}'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  
+
   <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
-  <meta property='og:url' content='{{page.permalink}}' />  
+  <meta property='og:url' content='{{page.permalink}}' />
   <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
   <!--<meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />-->
   <meta property='og:description' content="{{page.twitter-description}}" />
@@ -22,17 +22,18 @@
   <meta property='og:type' content='website' />
 
   <!-- Twitter Cards -->
- 
+
   <meta name='twitter:card' content='summary_large_image' />
   <meta name='twitter:site' content='@osmgeoweek' />
-  <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta name='twitter:description' content="{{page.twitter-description}}" />
+<!--   <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <meta name='twitter:description' content={{page.twitter-description}} /> -->
 
   <!--<meta name='twitter:domain' content='http://osmgeoweek.org' />
   <meta name='twitter:url' content='{{page.permalink}}' />-->
 
   <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}OpenStreetMap Geography Awareness Week</title>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300italic,300,500,500italic,700,400italic|Bevan|Arvo:400,700,700italic|Montserrat:400,700|Lato:400,900,300italic,400italic,300' rel='stylesheet' type='text/css'>
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
   <link href='{{site.baseurl}}/base/base.css' rel='stylesheet' />
@@ -47,16 +48,17 @@
 </head>
 <body class='{% if page.url == "/index.html" %}front{% endif %}'>
 
-<nav class='pad2 fill-blue site-navigation center space'>
-  <a class='strong {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
-  <a class='strong {% if page.url contains "about" %}active{% endif %}' href='{{site.baseurl}}/about/'>About</a>
-  <a class='strong {% if page.url contains "events" or page.category == "event" %}active{% endif %}' href='{{site.baseurl}}/events/'>Join an Event</a>
-  <a class='strong {% if page.url contains "projects" or page.category == "project" %}active{% endif %}' href='{{site.baseurl}}/projects/'>Mapping Projects</a>
-  <a class='strong {% if page.url contains "plan" %}active{% endif %}' href='{{site.baseurl}}/plan/'>Guides</a>
-  <a class='strong' href='http://osmstories.org/' target="_blank">OSM Stories</a>
-
-  <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd' class='hide-mobile icon twitter inline small strong dark' target="_blank">#osmgeoweek</a>
-</nav>
+<div class='fill-dark dark'>
+<div class='site-navigation text-right space col12 pad2'>
+  <a href='{% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' class='fl'><span class='text-green'>#</span><span class='text-white'>osm</span><span class='text-green'>geo</span><span class='text-white'>week</span></a>
+  <a class='small {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+  <!-- <a class='strong {% if page.url contains "about" %}active{% endif %}' href='{{site.baseurl}}/about/'>About</a> -->
+  <a class='small {% if page.url contains "events" or page.category == "event" %}active{% endif %}' href='{{site.baseurl}}/events/'>Events</a>
+  <a class='small {% if page.url contains "projects" or page.category == "project" %}active{% endif %}' href='{{site.baseurl}}/projects/'>Projects</a>
+  <a class='small {% if page.url contains "plan" %}active{% endif %}' href='{{site.baseurl}}/plan/'>Guides</a>
+  <a class='small' href='http://osmstories.org/' target="_blank">OSM Stories</a>
+  </div>
+</div>
 
 <!--
 <div class='fill-red'>
@@ -65,12 +67,6 @@
   </div>
 </div>
 -->
-
-<header class='clearfix splash center pad4y'>
-  <a href='{{site.baseurl}}/' class='block'>
-    <img src='{{site.baseurl}}/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />
-  </a>
-</header>
 
 {{content}}
 

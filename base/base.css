@@ -482,9 +482,9 @@ img {
   vertical-align:top;
   }
   .center img,
-  img.center { 
+  img.center {
 	margin-left:auto; margin-right:auto;
-	padding-right: 17px; 
+	padding-right: 17px;
 	}
 
 /* images defined with background size -
@@ -1499,7 +1499,7 @@ a > .rcon:after,
 .pad1y { padding-top: 10px; padding-bottom: 10px;}
 .pad2y { padding-top: 20px; padding-bottom: 20px;}
 .pad4y { padding-top: 43px; padding-bottom: 67px;}
-
+.pad8y { padding-top: 80px; padding-bottom: 80px;}
 /* Keylines
 ------------------------------------------------------- */
 .keyline-all    { border:1px solid rgba(0,0,0,0.10); }
@@ -1900,9 +1900,13 @@ Details: http://www.positioniseverything.net/easyclearing.html
 .text-left                    { text-align:left; }
 .text-right                   { text-align:right; }
 .space > *                    { margin-right:5px; }
+.space-top1                   { margin-top:10px; }
+.space-top2                   { margin-top:20px; }
+.space-top4                   { margin-top:40px; }
 .space-bottom1                { margin-bottom:10px; }
 .space-bottom2, .space-bottom { margin-bottom:20px; }
 .space-bottom4                { margin-bottom:40px; }
+.space-bottom8                { margin-bottom:80px; }
 .hide-tablet, .hide-mobile    { display:block; }
 .show-tablet, .show-mobile    { display:none; }
 .show-mobile                  { display:none; }
