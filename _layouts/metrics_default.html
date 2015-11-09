@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name='robots' content='{% if page.hidden %}noindex{% else %}index{% endif %}'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  
+  <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
+  <meta property='og:url' content='{{page.permalink}}' />  
+  <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
+  <!--<meta property='og:description' content='{{page.content | markdownify | strip_html | trim_spaces | truncatewords: 30 | escape | replace:"'","&lsquo;" }}' />-->
+  <meta property='og:description' content="{{page.twitter-description}}" />
+  {% if page.image %}
+    <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
+    <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
+  {% else %}
+    <meta name='twitter:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
+    <meta name='st:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
+    <meta property='og:image' content='http://osmgeoweek.org/img/default-twitter-card.png' />
+  {% endif %}
+  <meta property='og:type' content='website' />
+
+  <!-- Twitter Cards -->
+ 
+  <meta name='twitter:card' content='summary_large_image' />
+  <meta name='twitter:site' content='@osmgeoweek' />
+  <meta name='twitter:title' content='Metrics' />
+
+
+  <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}OpenStreetMap Geography Awareness Week</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
+  <link href='{{site.baseurl}}/base/base.css' rel='stylesheet' />
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <link href='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
+  <script src='{{site.baseurl}}/site.js'></script>
+  <!-- Google Analytics -->
+  {% if site.ga.enabled == true %}
+    {% include analytics_ga_snippet.html %}
+  {% endif %}
+
+  <!--new additions-->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{site.baseurl}}/metrics/leaflet.css" type="text/css"/>
+  <link rel="stylesheet" href="{{site.baseurl}}/metrics/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+  <link rel="shortcut icon" href="https://developmentseed.org/assets/graphics/meta/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+
+<body class='{% if page.url == "/index.html" %}front{% endif %}'>
+
+<nav class='pad2 fill-blue site-navigation center space'>
+  <a class='strong {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+  <a class='strong {% if page.url contains "about" %}active{% endif %}' href='{{site.baseurl}}/about/'>About</a>
+  <a class='strong {% if page.url contains "events" or page.category == "event" %}active{% endif %}' href='{{site.baseurl}}/events/'>Join an Event</a>
+  <a class='strong {% if page.url contains "projects" or page.category == "project" %}active{% endif %}' href='{{site.baseurl}}/projects/'>Mapping Projects</a>
+  <a class='strong {% if page.url contains "plan" %}active{% endif %}' href='{{site.baseurl}}/plan/'>Guides</a>
+  <a class='strong' href='http://osmstories.org/' target="_blank">OSM Stories</a>
+
+  <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd' class='hide-mobile icon twitter inline small strong dark' target="_blank">#osmgeoweek</a>
+</nav>
+
+
+
+<header class='clearfix splash-metrics center pad4y'>
+  <a href='{{site.baseurl}}/' class='block'>
+    <!--<img src='{{site.baseurl}}/img/logo.png' alt='Geography Awareness Week - OpenStreetMap' />-->
+  </a>
+</header>
+
+{{content}}
+
+
+
+<script src="{{site.baseurl}}/metrics/leaflet.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{site.baseurl}}/metrics/process_timeline.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{site.baseurl}}/metrics/main.js" type="text/javascript" charset="utf-8"></script>
+
+
+</body>
+</html>
