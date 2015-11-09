@@ -89,21 +89,6 @@ a:hover { color:#68c7dd; }
 .liner {
   z-index:10000;
   }
-.site-navigation a {
-  margin-right: 25px
-  }
-.site-navigation a,
-.site-navigation a:hover {
-  color:#fff;
-  }
-.site-navigation a.strong:hover {
-  border-bottom:3px solid #fff;
-  }
-.site-navigation a.active,
-.site-navigation a.active:hover {
-  color:#000;
-  border-bottom:3px solid #000;
-  }
 
 header .logo {
   background:transparent url(img/sprite@2x.png) no-repeat 0 0;
@@ -396,11 +381,6 @@ section:target { display:block!important; }
   fieldset.with-icon { margin:0 0 -1px; }
   .round-right { border-radius:0 0 3px 3px; }
   .space > * { margin:0; }
-  .site-navigation { padding:0; }
-  .site-navigation a {
-    padding:5px 0;
-    margin:0 0 1px;
-    }
   .site-navigation a.strong,
   .site-navigation a.strong.active,
   .site-navigation a.strong:hover {
@@ -439,7 +419,7 @@ h1.ready {
     -webkit-column-gap: 10px;
     column-count: 5;
     column-gap: 10px;
-    width: 100%; 
+    width: 100%;
 
     div a{
         display: inline-block; /* Display inline-block, and absolutely NO FLOATS! */
