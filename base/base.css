@@ -1017,7 +1017,7 @@ h2 a[href^='#']:before,
 .doc h2[id]:before,
 .doc h3[id]:before,
 .doc h4[id]:before {
-  background:transparent url(icon-000000.png?1) -1280px 0px no-repeat;
+  background:transparent url(icon-ffffff.png) -1280px 0px no-repeat;
   color:rgba(0, 0, 0, 0.75);
   content:'Permalink';
   display:inline-block;
@@ -1054,7 +1054,7 @@ h2 .dark > a[href^='#'] {
 ------------------------------------------------------- */
 .rcon:after,
 .icon:before {
-  background-image:url(icon-000000.png?1);
+  background-image:url(icon-ffffff.png);
   background-color:transparent;
   background-repeat:no-repeat;
   background-position:40px 40px;
@@ -1134,7 +1134,7 @@ a > .rcon:after,
 .button .icon:before,
 .button.rcon:after,
 .button.icon:before {
-  background-image:url(icon-ffffff.png?1);
+  background-image:url(icon-ffffff.png);
   opacity:1;
   -webkit-background-size:4080px 60px;
           background-size:4080px 60px;
@@ -1146,7 +1146,7 @@ a > .rcon:after,
 .quiet.icon:before,
 .quiet .rcon:after,
 .quiet .icon:before {
-  background-image:url(icon-000000.png?1);
+  background-image:url(icon-ffffff.png);
   opacity:0.5;
   -webkit-background-size:4080px 60px;
           background-size:4080px 60px;
@@ -1904,9 +1904,17 @@ Details: http://www.positioniseverything.net/easyclearing.html
 .space-top2                   { margin-top:20px; }
 .space-top4                   { margin-top:40px; }
 .space-bottom1                { margin-bottom:10px; }
-.space-bottom2, .space-bottom { margin-bottom:20px; }
+.space-bottom2, { margin-bottom:20px; }
 .space-bottom4                { margin-bottom:40px; }
 .space-bottom8                { margin-bottom:80px; }
+.space-left1                { margin-left:10px; }
+.space-left2, { margin-left:20px; }
+.space-left4                { margin-left:40px; }
+.space-left8                { margin-left:80px; }
+.space-right1                { margin-right:10px; }
+.space-right2  { margin-right:20px; }
+.space-right4                { margin-right:40px; }
+.space-right8                { margin-right:80px; }
 .hide-tablet, .hide-mobile    { display:block; }
 .show-tablet, .show-mobile    { display:none; }
 .show-mobile                  { display:none; }
@@ -2096,10 +2104,7 @@ img.inline, .inline           { display:inline-block; }
   .doc h4[id]:before,
   .rcon:after,
   .icon:before {
-    background-image:url(icon-000000@2x.png?1);
-    }
-  .credit-card {
-    background-image:url(credit-cards@2x.png?1);
+    background-image:url(icon-ffffff.png);
     }
   a.icon:before,
   a.rcon:after,
@@ -2107,7 +2112,7 @@ img.inline, .inline           { display:inline-block; }
   a > .rcon:after,
   .quiet a.rcon:after,
   .quiet a.icon:before {
-    background-image:url(icon-3887be@2x.png?1);
+    background-image:url(icon-3887be@2x.png);
     }
   .dark.tabs .rcon:after,
   .dark.tabs .icon:before,
@@ -2125,7 +2130,7 @@ img.inline, .inline           { display:inline-block; }
   .button .icon:before,
   .button.rcon:after,
   .button.icon:before {
-    background-image:url(icon-ffffff@2x.png?1);
+    background-image:url(icon-ffffff.png);
     }
   .tabs .rcon:after,
   .tabs .icon:before,
@@ -2133,7 +2138,7 @@ img.inline, .inline           { display:inline-block; }
   .quiet.icon:before,
   .quiet .rcon:after,
   .quiet .icon:before {
-    background-image:url(icon-000000@2x.png?1);
+    background-image:url(icon-ffffff.png);
     }
 }
 

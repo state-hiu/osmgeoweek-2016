@@ -50,8 +50,7 @@
 
 <div class='fill-dark dark'>
 <div class='site-navigation text-right space col12 pad2'>
-  <a href='{% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' class='fl'><span class='text-green'>#</span><span class='text-white'>osm</span><span class='text-green'>geo</span><span class='text-white'>week</span></a>
-  <a class='small {% if page.url == "{{site.baseurl}}/index.html" or page.url == "{{site.baseurl}}/" %}active{% endif %}' href='{{site.baseurl}}/'>Home</a>
+  <a href='{{site.baseurl}}/index.html' class='fl'><span class='text-green'>#</span><span class='text-white'>osm</span><span class='text-green'>geo</span><span class='text-white'>week</span></a>
   <!-- <a class='strong {% if page.url contains "about" %}active{% endif %}' href='{{site.baseurl}}/about/'>About</a> -->
   <a class='small {% if page.url contains "events" or page.category == "event" %}active{% endif %}' href='{{site.baseurl}}/events/'>Events</a>
   <a class='small {% if page.url contains "projects" or page.category == "project" %}active{% endif %}' href='{{site.baseurl}}/projects/'>Projects</a>
@@ -124,8 +123,8 @@
     <p><strong>Interested in participating?</strong> Email <a href='mailto:mapgive@state.gov'>mapgive@state.gov</a> to learn more.</p>
   </div>
 </section>
-<footer class='col12 center fill-blue dark'>
-  <div class='fill-darken3 pad2y col12'>
+<footer class='col12 center fill-dark dark'>
+  <div class='pad2y col12'>
     <div class='limiter'>
       <p class='small hide-mobile'>
         <a href='http://osmgeoweek.org'>Geography Awareness Week - OpenStreetMap</a> | <a href='https://twitter.com/search?q=%23osmgeoweek&src=typd'>#osmgeoweek</a> | Photo credits: USAID, 596 acres, UCSB, Kerri Lee Smith, Peace Corps The Gambia, Becky Carnes | Logo credits: Andrew Rasner, Taylor Hixson
