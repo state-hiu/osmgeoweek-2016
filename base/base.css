@@ -1436,7 +1436,8 @@ a > .rcon:after,
 .col8    { float:left; width:66.6666%; }
 .col9    { float:left; width:75.0000%; }
 .col10   { float:left; width:83.3333%; }
-.col11   { float:left; width:91.6666%; }
+.col11   { float:left; width:91.6666%; }  
+.col11-5 { float:left; width:94.6666%; }
 .col12   { width:100%; display:block; }
 
 .margin0  { margin-left:04.1666%; }
