@@ -84,10 +84,25 @@ The <a href="{{site.baseurl}}/plan/">Guides</a> are a collection of resources fo
         <p>Find an event near you. Or, let us know if you are planning an event, submit the details or get in touch!</p>
         </div>
         <div class='col6 fill-light round pad2'>
-        {% for post in site.categories.plan limit:3 %}
-      <h3><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h3>
-      <p class='small'>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-      {% endfor %}
+        {% for post in site.categories.plan limit:4 %}
+
+          {% assign display = null %}
+          {% assign ready = null %}
+          {% for tag in post.tags %}
+            {% if tag == "planner" or tag == "mapper" %}
+              {% assign display = true %}
+            {% elsif tag == "notfeatured" %}
+              {% assign display = false %}
+            {% endif %}
+          {% endfor %}
+          {% if display == true %}
+
+
+            <h3><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h3>
+            <p class='small'>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+
+        {% endfor %}
       </div>
     </div>
 
