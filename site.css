@@ -132,7 +132,7 @@ input[type='submit'],
     }
 
 .dark a {
-  color:rgba(255,255,255,0.7);
+  color:rgba(255,255,255,0.9);
   }
 .dark a:hover,
 .dark a.active {
@@ -417,4 +417,8 @@ h1.ready {
         display: inline-block; /* Display inline-block, and absolutely NO FLOATS! */
         margin-bottom: 20px;
         width: 100%; }
+}
+
+.logo-text {
+  font-size: 20px;
 }
