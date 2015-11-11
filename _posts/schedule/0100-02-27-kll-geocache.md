@@ -4,7 +4,7 @@ title: Kathmandu Living Labs OSM Geo-Chaching
 day: Friday
 time: "9:00am - 1:00pm"
 speaker: 
-twitter: "#shapesouthasia" "#KLL"
+twitter: "#shapesouthasia, #KLL"
 organization: Kathmandu Living Labs
 permalink: event/kll-geocache/
 tags: 
