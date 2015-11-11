@@ -24,3 +24,5 @@ Through the MapGive project, the Humanitarian Information Unit (HIU) of the U.S.
 
 How to contribute
 Please join us by finding tasks relating to this project by searching Missing Maps on the [HOT Tasking Manager](http://tasks.hotosm.org/?sort_by=priority&direction=asc&search=Missing+Maps). You can also host your own Missing Maps mapathon for friends and colleagues. Here's a [step-by-step](http://www.missingmaps.org/mapathons/) guide and [training materials](http://www.missingmaps.org/contribute/) to walk you through the process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cjHYqY7OdXQ" frameborder="0" allowfullscreen></iframe>
