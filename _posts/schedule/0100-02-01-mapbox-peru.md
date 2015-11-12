@@ -5,7 +5,7 @@ day: Saturday, November 14
 time: "9:00am - 5:00pm"
 speaker: 
 twitter: 
-organization: Dept of Geographical Sciences, University of Maryland
+organization: Mapbox Peru
 permalink: event/mapbox-peru/
 tags: 
   - presaturday
