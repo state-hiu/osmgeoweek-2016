@@ -15,4 +15,4 @@ lat: -15.756
 lon: -47.89
 ---
 
-OpenStreetMap Brasilia will be hosting a Mapathon at Calango Hacker Club on Novemember 21, 2015 at 4:00PM. 
+OpenStreetMap Brasilia will be hosting a Mapathon at Calango Hacker Club on Novemember 21, 2015 at 4:00PM. For more information look [here](http://www.openstreetmap.org/user/wille/diary/36274)
