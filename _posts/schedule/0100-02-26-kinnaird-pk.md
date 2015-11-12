@@ -4,7 +4,7 @@ title:  Kinnaird College for Women University (KCWU) Mapathon
 day: Monday
 time: "2:30pm - 5:00pm"
 speaker: 
-twitter: "@MapGivePakistan, @HumanitariansPK"
+twitter: "@MapGivePakistan"
 organization: MapGive Pakistan 
 permalink: event/kinnaird-pk/
 tags: 
