@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Dar es Salaam, Tanzania
+title: HOT Mapathon - Dar es Salaam, Tanzania
 day: Saturday
 time: ""
 speaker: 
