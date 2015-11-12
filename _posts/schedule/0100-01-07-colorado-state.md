@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Colorado State University Humanitarian Mapathon
+title: Colorado State University Humanitarian Mapathon - Fort Collins, CO
 day: Wednesday
 time: "9:00am - 5:00pm"
 speaker:
