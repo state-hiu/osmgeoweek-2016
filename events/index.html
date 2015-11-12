@@ -52,6 +52,13 @@ dates:
                 {{item.time}} | {{item.day}}
               </span>
               </div>
+
+              <p><p>
+                {% if item.thumbnail %}
+                  <img src="{{ item.thumbnail }}" style="height: 280px" align="center" />
+                {% endif %}
+              <p>
+
               <div class='prose schedule'>
                 {{item.excerpt}}
               </div>

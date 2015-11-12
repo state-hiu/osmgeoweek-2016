@@ -39,7 +39,15 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
     <div class='col12 pad1y {% if ready %}ready{% endif %}'>
       <h2><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h2>
       <h3 class='quiet'>{{ post.subtitle }}</h3>
-      <p>{{ post.excerpt | remove: '<p>' | remove: '</p>'  }}</p>
+
+      <p><p>
+      {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" style="height: 280px" align="center" />
+      {% endif %}
+      <p>
+
+      <!--<p>{{ post.excerpt | remove: '<p>' | remove: '</p>'  }}</p>-->
+      {{ post.excerpt | strip_html }}
     </div>
   {% endif %}
 {% endfor %}
