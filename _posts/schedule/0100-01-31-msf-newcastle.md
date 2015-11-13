@@ -4,7 +4,7 @@ title: Missing Maps and Friends of MSF Newcastle Mapathon - Newcastle, England
 day: Tuesday
 time: "6:00pm - 9:30pm"
 speaker: 
-twitter: 
+twitter: "#FoMSFNewcastle"
 organization: Friends of MSF Newcastle, Missing Maps
 permalink: event/msf-newcastle/
 tags: 
