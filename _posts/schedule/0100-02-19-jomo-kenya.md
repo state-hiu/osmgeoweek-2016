@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Jomo Kenyatta University of Agriculture and Technology Mapathon
+title: Jomo Kenyatta University of Agriculture and Technology Mapathon - Juja, Kenya
 day: Saturday
 time: "TBD"
 speaker: 
