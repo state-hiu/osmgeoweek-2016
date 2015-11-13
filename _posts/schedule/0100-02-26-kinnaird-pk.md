@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  Kinnaird College for Women University (KCWU) Mapathon
+title:  Kinnaird College for Women University (KCWU) Mapathon - Lahore, Pakistan
 day: Monday
 time: "2:30pm - 5:00pm"
 speaker: 
