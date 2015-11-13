@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Dibrugarh University Mapathon
+title: Dibrugarh University Mapathon - Dibrugarh, India
 day: Tuesday
 time: "9:30am - 4:30pm"
 speaker: 
