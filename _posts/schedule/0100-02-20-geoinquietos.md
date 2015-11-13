@@ -1,10 +1,10 @@
 ---
 layout: event
-title: Geoinquietos Madrid Mapathon 
+title: Geoinquietos Madrid Mapathon - Madrid, Spain
 day: Saturday
 time: "11:00am"
 speaker: 
-twitter: 
+twitter: "@GeoinquietosMad"
 organization: Geoinquietos Madrid
 permalink: event/geoinquietos/
 tags: 
