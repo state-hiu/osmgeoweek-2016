@@ -1,10 +1,10 @@
 ---
 layout: event
-title: Missing Maps Anniversary Mapathon - Seattle 
+title: Missing Maps Anniversary Mapathon - Seattle, WA
 day: Sunday
 time: "12:00pm - 5:00pm"
 speaker: 
-twitter: 
+twitter: "#msftgiving"
 organization: American Red Cross
 permalink: event/mm-seattle/
 tags: 
