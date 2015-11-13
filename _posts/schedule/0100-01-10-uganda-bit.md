@@ -1,11 +1,11 @@
 ---
 layout: event
-title: Mapping day Uganda - BIT MAK Jinja
+title: Mapping Day Uganda - BIT MAK Jinja, Uganda
 day: Saturday
 time: "9:00am - 5:00pm"
 speaker: 
 twitter: "#mapuganda"
-organization: Mapping day Uganda
+organization: Mapping Day Uganda
 permalink: event/uganda-jinja/
 tags: 
   - saturday
