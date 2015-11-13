@@ -4,7 +4,7 @@ title: Mapping day Uganda - Wairaka
 day: Friday
 time: "12:00pm - 5:00pm"
 speaker: 
-twitter: "@mapuganda"
+twitter: "#mapuganda"
 organization: Mapping day Uganda
 permalink: event/uganda-wairaka/
 tags: 
