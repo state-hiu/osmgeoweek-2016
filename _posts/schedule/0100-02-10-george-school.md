@@ -4,7 +4,7 @@ title: George Heriot School Mapathon
 day: Wednesday
 time: "TBD"
 speaker: 
-twitter: 
+twitter: "@GeographyGHS" 
 organization: George Heriot School 
 permalink: event/george-school/
 tags: 
