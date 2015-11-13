@@ -1,10 +1,10 @@
 ---
 layout: event
-title: OSM Brasilia Mapathon
+title: OSM Brasilia Mapathon - Brasilia, Brazil
 day: Saturday
 time: "4:00pm"
 speaker: 
-twitter: 
+twitter: "@openstreetmapbr"
 organization: OpenStreetMap Brasilia 
 permalink: event/osm-brasilia/
 tags: 
