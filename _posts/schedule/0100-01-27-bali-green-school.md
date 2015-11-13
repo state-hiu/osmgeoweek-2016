@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Green School Bali Mapathon with HOT - Ubd, Indonesia
+title: Green School Bali Mapathon with HOT - Ubud, Indonesia
 day: Wednesday
 time: "9:00am - 12:00pm"
 speaker: 
