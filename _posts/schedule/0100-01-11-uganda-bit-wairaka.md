@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Mapping day Uganda - Wairaka
+title: Mapping day Uganda - Wairaka, Uganda
 day: Friday
 time: "12:00pm - 5:00pm"
 speaker: 
