@@ -1,10 +1,10 @@
 ---
 layout: event
-title: "GEOTEC - UJI Mapathon: Castellon, Spain"
+title: GEOTEC - UJI Mapathon - Castellon, Spain
 day: Thursday
 time: "10:00am - 1:00pm"
 speaker: 
-twitter: 
+twitter: "#GeoSelfieUJI"
 organization: GEOTEC - UJI
 permalink: event/geotec-uji/
 tags: 
