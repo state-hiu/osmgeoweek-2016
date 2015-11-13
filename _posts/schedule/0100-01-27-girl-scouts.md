@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Girls Scouts and Peace Corps Mapathon
+title: Girls Scouts and Peace Corps Mapathon - Washington, DC
 day: Saturday
 time: "11:00am - 1:00pm"
 speaker: 
