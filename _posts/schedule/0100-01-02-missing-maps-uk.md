@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Missing Maps and MSF UK - London, UK
+title: Missing Maps and MSF UK - London, England
 day: Tuesday
 time: "18:00"
 speaker: 
