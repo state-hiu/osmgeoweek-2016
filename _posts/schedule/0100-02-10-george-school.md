@@ -1,6 +1,6 @@
 ---
 layout: event
-title: George Heriot School Mapathon
+title: George Heriot School Mapathon - Edinburgh, Scotland
 day: Wednesday
 time: "TBD"
 speaker: 
