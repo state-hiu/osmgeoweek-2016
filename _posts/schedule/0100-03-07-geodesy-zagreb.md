@@ -4,7 +4,7 @@ title: Field Paper Pub Crawl - Zagreb, Croatia
 day: Friday
 time: "8:00pm"
 speaker: 
-twitter: 
+twitter: "#mapathlonzagreb2015"
 organization: Faculty of Geodesy, University of Zagreb
 permalink: event/goedesy-zagreb/
 tags: 
