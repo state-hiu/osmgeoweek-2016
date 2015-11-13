@@ -1,10 +1,10 @@
 ---
 layout: event
-title: Kathmandu Living Labs OSM Geo-Chaching
+title: Kathmandu Living Labs OSM Geo-Chaching - Kathmandu, Nepal
 day: Friday
 time: "9:00am - 1:00pm"
 speaker: 
-twitter: "#shapesouthasia, #KLL"
+twitter: "#shapesouthasia"
 organization: Kathmandu Living Labs
 permalink: event/kll-geocache/
 tags: 
