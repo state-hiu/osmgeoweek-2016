@@ -1,6 +1,6 @@
 ---
 layout: event
-title: University of Groningen Mapathon
+title: University of Groningen Mapathon - Groningen, Netherlands
 day: Tuesday
 time: "5:00pm"
 speaker: 
