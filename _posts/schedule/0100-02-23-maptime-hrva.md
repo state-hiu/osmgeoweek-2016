@@ -1,10 +1,10 @@
 ---
 layout: event
-title: Maptime HRVA Mapathon 
+title: Maptime HRVA Mapathon - Williamsburg, VA
 day: Wednesday
 time: "6:00pm"
 speaker: 
-twitter: 
+twitter: "@maptimehrva"
 organization: Willam & Mary Center for Geospatial Analysis
 permalink: event/maptime-hrva/
 tags: 
