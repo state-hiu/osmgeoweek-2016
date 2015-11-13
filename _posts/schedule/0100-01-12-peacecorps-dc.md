@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Peace Corps Community Mapping Party
+title: Peace Corps Community Mapping Party - Washington, DC
 day: Monday
 time: "6:30pm - 8:30pm"
 speaker: 
