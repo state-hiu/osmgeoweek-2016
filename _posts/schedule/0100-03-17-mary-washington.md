@@ -1,14 +1,14 @@
 ---
 layout: event
 title: Map-A-Palooza II
-day: Tuesday
+day: Friday
 time: "4:00pm - 8:00pm"
 speaker: 
 twitter: 
 organization: 
 permalink: event/mary-washington/
 tags: 
-  - tuesday
+  - friday
 category: event
 published: true
 lat: 38.30
