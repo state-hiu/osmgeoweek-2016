@@ -30,14 +30,14 @@ dates:
   </div>
 </div>
 
-
+{% include map.html %}
 
   {% for date in page.dates %}
   {% if site.tags[date.id].size > 0 %}
   <div class='pad2y'>
     <div class='limiter'>
       <div class='col12 quiet space-bottom1  {% unless forloop.index == 1 %}keyline-top{% endunless %}'>
-        <h3 class='col11-5 pad2y'>
+        <h3 class='col12 pad2y'>
           {{date.name}}
         </h3>
       </div>
@@ -73,5 +73,5 @@ dates:
 
 </div>
 
-  {% include map.html %}
+  
 
