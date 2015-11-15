@@ -154,11 +154,13 @@ body {
   background: #fff;
 /*  border-right: 2px;
   border-color: black;*/
-  box-shadow: 0 2px 0 0 #202020, 4px 0px 0 0px #202020;
   width: 20%;
   height: 82%;
   color: white;
   overflow: hidden;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #202020;
 }
 
 #sidebox-right{
@@ -168,11 +170,13 @@ body {
   background: #fff;
 /*  border-right: 2px;
   border-color: black;*/
-  box-shadow: 0 2px 0 0 #202020, 4px 0px 0 0px #202020;
   width: 20%;
   height: 82%;
   color: white;
   overflow: hidden;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #202020;
 }
 
 #sidebox-multiple{
@@ -182,7 +186,6 @@ body {
   background: #fff;
 /*  border-right: 2px;
   border-color: black;*/
-  box-shadow: 0 2px 0 0 #202020, 4px 0px 0 0px #202020;
   width: 20%;
   height: 82%;
   color: white;
