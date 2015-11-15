@@ -5,6 +5,7 @@ var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/devseed.07f51987/{z}/{x
     minZoom: 2
 });
 
+//initiate map and set initial
 var map = L.map('map', { zoomControl: false })
     .addLayer(mapboxTiles)
     .setView([18.025966, -5], 2)

@@ -152,9 +152,8 @@ body {
   position: relative;
   float: left;
   background: #fff;
-/*  border-right: 2px;
-  border-color: black;*/
   width: 20%;
+  min-width: 240px;
   height: 82%;
   color: white;
   overflow: hidden;
@@ -168,9 +167,8 @@ body {
   position: relative;
   float: right;
   background: #fff;
-/*  border-right: 2px;
-  border-color: black;*/
   width: 20%;
+  min-width: 240px;
   height: 82%;
   color: white;
   overflow: hidden;
@@ -184,9 +182,8 @@ body {
   position: relative;
   float: left;
   background: #fff;
-/*  border-right: 2px;
-  border-color: black;*/
   width: 20%;
+  min-width: 240px;
   height: 82%;
   color: white;
   overflow: hidden;
@@ -486,4 +483,5 @@ body{
 
 #Total {
   padding-bottom: 5px;
+  padding-left: 5px;
 }
