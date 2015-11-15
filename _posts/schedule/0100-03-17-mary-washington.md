@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Map-A-Palooza II
+title: Map-A-Palooza II -  Fredericksburg, VA 
 day: Friday
 time: "4:00pm - 8:00pm"
 speaker: 
