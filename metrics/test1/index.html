@@ -1,0 +1,91 @@
+---
+layout: metrics_default2
+title: Metrics
+twitter-description: Sign up for an event near you or plan your own mapathon. You can contribute to mapping projects around the world and explore the power of maps! Get in touch, we're happy to help!
+---
+
+<html>
+  <head>
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="leaflet.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+    <link rel="shortcut icon" href="https://developmentseed.org/assets/graphics/meta/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700" type="text/css">
+  </head> 
+  <body>
+    <div id="header">
+      <div class= "logo-box">
+        <img src="./images/grecas.png" width="78" height="125"></img>
+        <h2>
+          <p><span class="bold">OPEN</span>
+          <p><span class="bold">GOVERNMENT</span>
+          <p><span class="bold">PARTNERSHIP</span>
+          <p><span class="light">GLOBAL SUMMIT</span>
+          <p><span class="light">MEXICO | 2015</span>
+        </h2>
+      </div>
+    </div>
+    <div id="shadowline"></div>
+    <div class = "Title-box">
+      <h2>#OGPmapping</h2>
+      <p><span class="light">http://OGPmapping.org</span>
+    </div>
+    <div class = "osm-icon-box">
+      <img src="./images/OSM_Heart.svg" width="100px" height="100px"></img>
+    </div>
+    <!--   <img src="./images/OSM_Heart.png"></img>-->
+    <div id="mapbox">
+      <div id="map">
+        <div id="editor_name"></div>
+        <div id='map-footer'><p>Made with &#9829 by <a href='http://developmentseed.org' target="_blank">Development Seed</a>. Icons from <a href="https://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> & <a href="https://thenounproject.com/" target="_blank">The Noun Project.</a> © <a href='https://www.mapbox.com/map-feedback/' target="_blank">Mapbox</a> © <a href='http://www.openstreetmap.org/copyright' target="_blank">OpenStreetMap contributors</a></div>
+      </div>
+      <!--     <div id = "logo">
+        <a href="https://developmentseed.org/" target="_blank"><img src="./images/logo_horizontal_white.svg"></img></a>
+        </div>
+      -->  </div>
+    <div id="sidebox">
+      <div id="leadertitle">
+        <h1><div id="leadertitletext">LEADERBOARDS</div></h1>
+        <p>
+        <div id = "Leaderboard-All" class = "switchicon">
+          <img src="./images/globe.svg" width="36px" height="36px"></img>
+        </div>
+        <div id = "Leaderboard-Building" class = "switchicon">
+          <img src="./images/building.svg" width="36px" height="36px"></img>
+        </div>
+        <div id = "Leaderboard-Roads" class = "switchicon">
+          <img src="./images/road.svg" width="36px" height="36px"></img>
+        </div>
+        <div id = "Leaderboard-Rivers" class = "switchicon">
+          <img src="./images/river.svg" width="36px" height="36px"></img>
+        </div>
+      </div>
+      <div id="leaderboards">
+        <div class="spinner" id='spinner'>
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+        <ul id="leaderboard"></ul>
+      <div class="linebreak"></div>
+        <div id = "Total"></div>
+      </div>
+      <div class="linebreak"></div>
+      <div id="logroll-box">
+        <div id="logroll"></div>
+      </div>
+      <div id="progress-bar-container" >
+        <div id="progress-bar"></div>
+      </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="leaflet.js" type="text/javascript" charset="utf-8"></script>
+    <script src="process_timeline.js" type="text/javascript" charset="utf-8"></script>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+
+
+  </body>
+</html>
