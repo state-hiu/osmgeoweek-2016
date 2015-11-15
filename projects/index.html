@@ -53,13 +53,13 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
 {% endfor %}
 </div>
 
-<!--deactivate until we get a local project
+<!--deactivate until we get a local project-->
 <div class='fill-blue'>
   <div class='liner clearfix center col12'>
     <h2 class='pad2'>Local Projects</h2>
   </div>
 </div>
--->
+
 
 <div class='limiter pad4y clearfix'>
 
@@ -67,7 +67,7 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
   {% assign display = null %}
   {% assign ready = null %}
   {% for tag in post.tags %}
-    {% if tag == "survey" %}{% assign display = true %}{% elsif tag == "ready" %}{% assign ready = true %}{% endif %}
+    {% if tag == "local" %}{% assign display = true %}{% elsif tag == "ready" %}{% assign ready = true %}{% endif %}
   {% endfor %}
   {% if display == true %}
     <div class='keyline-all pad4 space-bottom4 project-tile {% if ready %}ready{% endif %}'>
