@@ -1,6 +1,6 @@
 /*global L, $, preprocessTimeline*/
-//var root = 'http://184.169.128.35:8080';
-var root = 'http://localhost:8080';
+var root = 'http://184.169.128.35:8080';
+//var root = 'http://localhost:8080';
 var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/devseed.07f51987/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q', {
 //    maxZoom: 2,
     minZoom: 2
@@ -30,15 +30,22 @@ function reset () {
 }
 
 $.get(root + '/timeline', function (timeline) {
-  nextTimeline = preprocessTimeline(timeline);
-  fillLeaderboard('changes');
-  reset();
-  $('#spinner').hide();
-  setInterval(function () {
-    if (!paused) {
-      render(currentTimeline.pop());
-    }
-  }, 3000);
+    //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
+    nextTimeline = preprocessTimeline(timeline);
+
+    //fills the Leaderboard with top 10 mappers by changes created
+    fillLeaderboard('changes');
+
+    reset();
+
+    $('#spinner').hide();
+
+    //renders every 3 seconds on the web map
+    setInterval(function () {
+      if (!paused) {
+        render(currentTimeline.pop());
+      }
+    }, 3000);
 });
 
 function render (element) {

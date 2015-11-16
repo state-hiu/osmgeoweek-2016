@@ -112,7 +112,12 @@ function render (element) {
 
 //after 5 minutes updates leaderboard with changes, this is a global variable
 var fillEvery5 = setInterval(function () {
-  fillLeaderboard('changes');
+  fillLeaderboard('changes/MapGive');
+}, 5 * 60 * 1000);
+
+//after 5 minutes updates leaderboard with changes, this is a global variable
+var fillEvery5 = setInterval(function () {
+  fillLeaderboard('changes/MissingMaps');
 }, 5 * 60 * 1000);
 
 function fillLeaderboard (hash) {
@@ -155,28 +160,55 @@ function fillLeaderboard (hash) {
 }
 
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
-$('#Leaderboard-All').click(function () {
-  fillLeaderboard('changes');
+$('#Leaderboard-All-teamA').click(function () {
+  fillLeaderboard('changes/MapGive');
   return $('#leadertitletext').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
-$('#Leaderboard-Building').click(function () {
-  fillLeaderboard('buildings');
+$('#Leaderboard-Building-teamA').click(function () {
+  fillLeaderboard('buildings/MapGive');
   return $('#leadertitletext').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
-$('#Leaderboard-Roads').click(function () {
-  fillLeaderboard('highways');
+$('#Leaderboard-Roads-teamA').click(function () {
+  fillLeaderboard('highways/MapGive');
   return $('#leadertitletext').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
-$('#Leaderboard-Rivers').click(function () {
-  fillLeaderboard('waterways');
+$('#Leaderboard-Rivers-teamA').click(function () {
+  fillLeaderboard('waterways/MapGive');
   return $('#leadertitletext').text('RIVERS');
 });
+
+
+
+//fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
+$('#Leaderboard-All-teamB').click(function () {
+  fillLeaderboard('changes/MissingMaps');
+  return $('#leadertitletext').text('LEADERBOARDS');
+});
+
+//fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
+$('#Leaderboard-Building-teamB').click(function () {
+  fillLeaderboard('buildings/MissingMaps');
+  return $('#leadertitletext').text('BUILDINGS');
+});
+
+//fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
+$('#Leaderboard-Roads-teamB').click(function () {
+  fillLeaderboard('highways/MissingMaps');
+  return $('#leadertitletext').text('ROADS');
+});
+
+//fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
+$('#Leaderboard-Rivers-teamB').click(function () {
+  fillLeaderboard('waterways/MissingMaps');
+  return $('#leadertitletext').text('RIVERS');
+});
+
 
 //http://stackoverflow.com/questions/8677805/formatting-numbers-decimal-places-thousands-separators-etc-with-css
 function numberFormat(_number, _sep) {
