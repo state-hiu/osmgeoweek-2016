@@ -8,7 +8,7 @@ tags:
   - notfeatured
 ---
 
-last updated: November 7th, 2014
+last updated: November 16th, 2014
 
 #OSM GeoWeek 2015 social-media-toolkit
 
@@ -16,6 +16,7 @@ last updated: November 7th, 2014
 
 \#osmgeoweek
 \#GAW2015
+\##IEW2015
 \#powerofmaps
 
 ##Accounts to follow/re-tweet:
@@ -53,6 +54,7 @@ last updated: November 7th, 2014
 @LoveGeography
 @AmericanGeo
 @geography2050
+@USAIDOTI
 
 Add more!
 
@@ -70,7 +72,8 @@ Join one of the #100mapathons around the world and help spread geographic awaren
 
 Celebrate #osmgeoweek and International Education Week at the Access for All Mapathon! DC-based and virtual. RSVP: http://bit.ly/1LExJXl
 
-Insert here...
+Learn to map the world with #OpenStreetMap during #osmgeoweek http://bit.ly/20du2PZ
+
 
 ##Useful Links:
 
@@ -78,12 +81,17 @@ osmgeoweek.org features projects, events, and guides.
 
 learnosm.org provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data.
 
-Keep an eye on the HOT YouTube channel for new educational videos that Andrew Wiseman is making -- https://www.youtube.com/user/hotosm/videos
+Keep an eye on the HOT YouTube channel for new educational videos -- https://www.youtube.com/user/hotosm/videos
 
 #Shareables: Photos and Video:
 
 Flickr account (invitation only group): https://www.flickr.com/groups/osminstitutions/
+
 MapGive “Why Map?” and online mapping tutorials
+
+Shareable graphic:
+
+![Shareable graphic](https://cloud.githubusercontent.com/assets/2665840/11175830/a2200c78-8c04-11e5-960f-42906eea7ea9.png)
 
 
 
