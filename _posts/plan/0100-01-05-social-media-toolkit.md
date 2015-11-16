@@ -87,7 +87,7 @@ Keep an eye on the HOT YouTube channel for new educational videos -- https://www
 
 Flickr account (invitation only group): https://www.flickr.com/groups/osminstitutions/
 
-MapGive “Why Map?” and online mapping tutorials
+[MapGive “Why Map?”](http://mapgive.state.gov/why-map/) and online mapping tutorials
 
 Shareable graphic:
 
