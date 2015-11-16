@@ -1,11 +1,10 @@
-/*global L, $, preprocessTimeline*/
-var root = 'http://184.169.128.35:8080';
+//var root = 'http://184.169.128.35:8080';
+var root = 'http://localhost:8080';
 var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/devseed.07f51987/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q', {
-//    maxZoom: 2,
     minZoom: 2
 });
 
-//initiate map and set initial
+//initiate map and set initial extent
 var map = L.map('map', { zoomControl: false })
     .addLayer(mapboxTiles)
     .setView([18.025966, -5], 2)
@@ -19,6 +18,7 @@ var paused = false;
 var progressBarWidth = 0;
 var currentProgress = 0;
 
+//clears out sidebar
 function reset () {
   $('#logroll').empty();
   $('#progress-bar').css('width', '0%');
@@ -30,75 +30,87 @@ function reset () {
 }
 
 $.get(root + '/timeline', function (timeline) {
-  nextTimeline = preprocessTimeline(timeline);
-  fillLeaderboard('changes');
-  reset();
-  $('#spinner').hide();
-  setInterval(function () {
-    if (!paused) {
-      render(currentTimeline.pop());
-    }
-  }, 3000);
+    //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
+    nextTimeline = preprocessTimeline(timeline);
+
+    //fills the Leaderboard with top 10 mappers by changes created
+    fillLeaderboard('changes');
+
+    reset();
+
+    $('#spinner').hide();
+
+    //renders every 3 seconds on the web map
+    setInterval(function () {
+      if (!paused) {
+        render(currentTimeline.pop());
+      }
+    }, 3000);
 });
 
 function render (element) {
-  if (element === 'LAST') {
-    paused = true;
-    setTimeout(function () {
-      paused = false;
-      $.get(root + '/timeline', function (timeline) {
-        nextTimeline = preprocessTimeline(timeline);
-        reset();
+    //when you get to the last entry in the timeline, pause for 3 sec and get the next timeline
+    if (element === 'LAST') {
+      paused = true;
+      setTimeout(function () {
+        paused = false;
+        $.get(root + '/timeline', function (timeline) {
+          nextTimeline = preprocessTimeline(timeline);
+          reset();
+        });
+      }, 3000);
+      return;
+    }
+
+    var logroll = $('#logroll');
+
+    var timecode = new Date(Date.parse(element.properties.created_at));
+    var minutefix = timecode.getMinutes();
+
+    if(minutefix < 10){
+      minutefix = "0" + minutefix;
+    };
+
+    var date = timecode.getHours() + ':' + minutefix;  geojsonLayer.clearLayers();
+
+    console.log(element);
+
+    if (element.features.length) {
+      geojsonLayer.addData(element);
+    } else {
+      var meta = element.properties;
+      geojsonLayer.addData({
+        'type': 'Feature',
+        'geometry': {
+          'type': 'Polygon',
+          'coordinates': [[
+            [meta.min_lon, meta.min_lat],
+            [meta.max_lon, meta.min_lat],
+            [meta.max_lon, meta.max_lat],
+            [meta.min_lon, meta.max_lat],
+            [meta.min_lon, meta.min_lat]
+          ]]
+        }
       });
-    }, 3000);
-    return;
-  }
+    }
 
-  var logroll = $('#logroll');
+    map.fitBounds(geojsonLayer.getBounds(), {maxZoom: 16});
+    $('#editor_name').empty();
+    $('#editor_name').append('Contributions from <h1>' + element.properties.user + '</h1>');
 
-  var timecode = new Date(Date.parse(element.properties.created_at));
-  var minutefix = timecode.getMinutes();
+    currentProgress += 1;
+    $('#progress-bar').css('width', (100 * currentProgress / progressBarWidth) + '%');
 
-  if(minutefix < 10){
-    minutefix = "0" + minutefix;
-  };
+    logroll.prepend('<div class="logroll-item"><i>' +
+                    date + '</i> - ' +
+                    element.properties.user + '</div>');
 
-  var date = timecode.getHours() + ':' + minutefix;  geojsonLayer.clearLayers();
-  console.log(element);
-  if (element.features.length) {
-    geojsonLayer.addData(element);
-  } else {
-    var meta = element.properties;
-    geojsonLayer.addData({
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Polygon',
-        'coordinates': [[
-          [meta.min_lon, meta.min_lat],
-          [meta.max_lon, meta.min_lat],
-          [meta.max_lon, meta.max_lat],
-          [meta.min_lon, meta.max_lat],
-          [meta.min_lon, meta.min_lat]
-        ]]
-      }
-    });
-  }
-  map.fitBounds(geojsonLayer.getBounds(), {maxZoom: 16});
-  $('#editor_name').empty();
-  $('#editor_name').append('Contributions from <h1>' + element.properties.user + '</h1>');
-
-  currentProgress += 1;
-  $('#progress-bar').css('width', (100 * currentProgress / progressBarWidth) + '%');
-
-  logroll.prepend('<div class="logroll-item"><i>' +
-                  date + '</i> - ' +
-                  element.properties.user + '</div>');
-
-  if (logroll.children().length > 100) {
-    $('#logroll div:last-child').remove();
-  }
+    if (logroll.children().length > 100) {
+      $('#logroll div:last-child').remove();
+    }
 }
 
+//after 5 minutes updates leaderboard with changes, this is a global variable
 var fillEvery5 = setInterval(function () {
   fillLeaderboard('changes');
 }, 5 * 60 * 1000);
@@ -106,6 +118,7 @@ var fillEvery5 = setInterval(function () {
 function fillLeaderboard (hash) {
   $('#leaderboard').empty();
   $('#Total').empty();
+
   $.get(root + '/' + hash, function (data) {
     for (var i = 2; i < data.length; i += 2) {
       var rank = (i / 2);
@@ -119,6 +132,7 @@ function fillLeaderboard (hash) {
         '<li>' + rank + '.  ' + username + ' <i>' + data[i + 1] + '</i></li>'
       );
     }
+
     var total = 0;
     if (data.length) {
       total = data[1];
@@ -129,27 +143,35 @@ function fillLeaderboard (hash) {
     );
   });
 
+  //stops the timer
   clearInterval(fillEvery5);
+
+  //after 5 minutes updates leaderboard with changes
+  //will clicking the buttons for other types reset the 5 min timer for changes?
   fillEvery5 = setInterval(function () {
     fillLeaderboard(hash);
   }, 5 * 60 * 1000);
 }
 
+//fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All').click(function () {
   fillLeaderboard('changes');
   return $('#leadertitletext').text('LEADERBOARDS');
 });
 
+//fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building').click(function () {
   fillLeaderboard('buildings');
   return $('#leadertitletext').text('BUILDINGS');
 });
 
+//fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads').click(function () {
   fillLeaderboard('highways');
   return $('#leadertitletext').text('ROADS');
 });
 
+//fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers').click(function () {
   fillLeaderboard('waterways');
   return $('#leadertitletext').text('RIVERS');

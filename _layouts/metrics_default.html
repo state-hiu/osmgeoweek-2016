@@ -32,7 +32,7 @@
   <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}OpenStreetMap Geography Awareness Week</title>
 
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300italic,400italic|Montserrat:700|Asap:400,700' rel='stylesheet' type='text/css'>
-  
+
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
   <link href='{{site.baseurl}}/base/base.css' rel='stylesheet' />
@@ -86,8 +86,10 @@
 
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="{{site.baseurl}}/metrics/leaflet.js" type="text/javascript" charset="utf-8"></script>
-<script src="{{site.baseurl}}/metrics/process_timeline.js" type="text/javascript" charset="utf-8"></script>
-<script src="{{site.baseurl}}/metrics/main.js" type="text/javascript" charset="utf-8"></script>
+
+//It will read the main.js file and process_timeline.js file from the same folder it is in
+<script src="process_timeline.js" type="text/javascript" charset="utf-8"></script>
+<script src="main.js" type="text/javascript" charset="utf-8"></script>
 
 
 </body>

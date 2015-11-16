@@ -1,5 +1,5 @@
 ---
-title: Secondary Cities
+title: Kathmandu Living Labs
 subtitle: "Pokhara, Nepal: Mapping for Resiliency and Emergency Planning"
 category: project
 layout: project
