@@ -8,7 +8,7 @@ twitter:
 organization: Wikimedia Italia 
 permalink: event/wikimedia/
 tags: 
-  - tuesday
+  - saturday
 category: event
 published: true
 lat: 44.5151312
