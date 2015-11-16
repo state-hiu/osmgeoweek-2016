@@ -23,5 +23,5 @@ Data created from this mapping effort will help indoor residual spraying program
 
 <a href="http://tasks.hotosm.org/project/1333">OSMTM Project</a>
 
-<a href="/swipe/khulna/">Before / After Swipe</a>
+
 
