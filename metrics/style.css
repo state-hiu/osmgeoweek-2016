@@ -132,7 +132,7 @@ body {
 
 #map {
   height:82%;
-  width:80%;
+  width:75%;
   padding:0px;
   margin:0px;
   position: relative;
@@ -152,8 +152,7 @@ body {
   position: relative;
   float: left;
   background: #fff;
-  width: 20%;
-  min-width: 240px;
+  width: 25%;
   height: 82%;
   color: white;
   overflow: hidden;
@@ -167,8 +166,7 @@ body {
   position: relative;
   float: right;
   background: #fff;
-  width: 20%;
-  min-width: 240px;
+  width: 25%;
   height: 82%;
   color: white;
   overflow: hidden;
@@ -182,8 +180,7 @@ body {
   position: relative;
   float: left;
   background: #fff;
-  width: 20%;
-  min-width: 240px;
+  width: 25%;
   height: 82%;
   color: white;
   overflow: hidden;
@@ -484,4 +481,5 @@ body{
 #Total {
   padding-bottom: 5px;
   padding-left: 5px;
+  overflow: auto;
 }

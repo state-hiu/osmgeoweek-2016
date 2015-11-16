@@ -1,5 +1,6 @@
 /*global L, $, preprocessTimeline*/
-var root = 'http://184.169.128.35:8080';
+//var root = 'http://184.169.128.35:8080';
+var root = 'http://localhost:8080';
 var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/devseed.07f51987/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q', {
 //    maxZoom: 2,
     minZoom: 2
@@ -105,6 +106,7 @@ var fillEvery5 = setInterval(function () {
 function fillLeaderboard (hash) {
   $('#leaderboard').empty();
   $('#Total').empty();
+
   $.get(root + '/' + hash, function (data) {
     for (var i = 2; i < data.length; i += 2) {
       var rank = (i / 2);
@@ -115,12 +117,13 @@ function fillLeaderboard (hash) {
       }
 
       $('#leaderboard').append(
-        '<li>' + rank + '.  ' + username + ' <i>' + data[i + 1] + '</i></li>'
+        '<li>' + rank + '.  ' + username + ' <i>' + numberFormat(data[i + 1],",") + '</i></li>'
       );
     }
     var total = 0;
     if (data.length) {
       total = data[1];
+      total = numberFormat(total,",")
     }
 
     $('#Total').append(
@@ -153,3 +156,13 @@ $('#Leaderboard-Rivers').click(function () {
   fillLeaderboard('waterways');
   return $('#leadertitletext').text('RIVERS');
 });
+
+//http://stackoverflow.com/questions/8677805/formatting-numbers-decimal-places-thousands-separators-etc-with-css
+function numberFormat(_number, _sep) {
+    _number = typeof _number != "undefined" && _number > 0 ? _number : "";
+    _number = _number.replace(new RegExp("^(\\d{" + (_number.length%3? _number.length%3:0) + "})(\\d{3})", "g"), "$1 $2").replace(/(\d{3})+?/gi, "$1 ").trim();
+    if(typeof _sep != "undefined" && _sep != " ") {
+        _number = _number.replace(/\s/g, _sep);
+    }
+    return _number;
+}
