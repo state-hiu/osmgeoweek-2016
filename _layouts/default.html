@@ -8,18 +8,7 @@
   <meta property='og:site_name' content='OpenStreetMap - Geography Awareness Week' />
   <meta property='og:url' content='{{page.permalink}}' />
   <meta property='og:title' content='{{page.title | replace:"'","&lsquo;"}}' />
-  <meta property='og:description' content="{{page.twitter-description}}" />
-  {% if page.image %}
-    <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
-    <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
-    <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
-  {% else %}
-    <meta name='twitter:image' content='{{site.baseurl}}/img/twittercard.png' />
-    <meta name='st:image' content='{{site.baseurl}}/img/twittercard.png' />
-    <meta property='og:image' content='{{site.baseurl}}/img/twittercard.png' />
-
-
-  {% endif %}
+  <meta property='og:description' content='{{page.twitter-description}}' />
   <meta property='og:type' content='website' />
 
   <!-- Twitter Cards -->
@@ -28,6 +17,17 @@
   <meta name='twitter:site' content='@osmgeoweek' />
   <meta name='twitter:title' content='{{page.title | replace:"'","&lsquo;"}}' />
   <meta name='twitter:description' content="{{page.twitter-description}}" />
+
+  {% if page.image %}
+  <meta name='twitter:image' content='{{page.image | replace:"https:","http:"}}' />
+  <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
+  <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
+  {% else %}
+  <meta name='twitter:image' content='{{site.baseurl}}/img/twittercard.png' />
+  <meta name='st:image' content='{{site.baseurl}}/img/twittercard.png' />
+  <meta property='og:image' content='{{site.baseurl}}/img/twittercard.png' />
+  {% endif %}
+
   <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}OpenStreetMap Geography Awareness Week</title>
 
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300italic,400italic|Montserrat:700|Asap:400,700' rel='stylesheet' type='text/css'>
