@@ -23,9 +23,9 @@
   <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
   <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
   {% else %}
-  <meta name='twitter:image' content='{{site.baseurl}}/img/twittercard.png' />
-  <meta name='st:image' content='{{site.baseurl}}/img/twittercard.png' />
-  <meta property='og:image' content='{{site.baseurl}}/img/twittercard.png' />
+  <meta name='twitter:image' content='http://osmgeoweek.org/img/twittercard.png' />
+  <meta name='st:image' content='http://osmgeoweek.org/img/twittercard.png' />
+  <meta property='og:image' content='http://osmgeoweek.org/img/twittercard.png' />
   {% endif %}
 
   <title>{% if page.url == "/"  %}{% else %}{{page.title}} | {% endif %}OpenStreetMap Geography Awareness Week</title>
@@ -33,6 +33,7 @@
   <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300italic,400italic|Montserrat:700|Asap:400,700' rel='stylesheet' type='text/css'>
   
   <link rel='shortcut icon' href='{{site.baseurl}}img/favicon.ico' type='image/x-icon' />
+
   <link href='http://fonts.googleapis.com/css?family=Kreon:400,700' rel='stylesheet' type='text/css'>
   <link href='{{site.baseurl}}/base/base.css' rel='stylesheet' />
   <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
