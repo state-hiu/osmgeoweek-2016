@@ -15,9 +15,9 @@
     <meta name='st:image' content='{{page.image | replace:"https:","http:"}}' />
     <meta property='og:image' content='{{page.image | replace:"https:","http:"}}' />
   {% else %}
-    <meta name='twitter:image' content='{{ site.url }}/img/twittercard.png' />
-    <meta name='st:image' content='{{ site.url }}/img/twittercard.png' />
-    <meta property='og:image' content='{{ site.url }}/img/twittercard.png' />
+    <meta name='twitter:image' content='{{site.baseurl}}/img/twittercard.png' />
+    <meta name='st:image' content='{{site.baseurl}}/img/twittercard.png' />
+    <meta property='og:image' content='{{site.baseurl}}/img/twittercard.png' />
   {% endif %}
   <meta property='og:type' content='website' />
 
