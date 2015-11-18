@@ -7,6 +7,7 @@ thumbnail:
 tags:
   - local
   - remote
+  - ready
 permalink: project/Atanagalu
 aoi:
   - north: 36.942695
