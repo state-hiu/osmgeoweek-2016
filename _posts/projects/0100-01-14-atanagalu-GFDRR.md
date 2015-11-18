@@ -5,7 +5,6 @@ category: project
 layout: project
 thumbnail: 
 tags:
-  - local
   - remote
   - ready
 permalink: project/Atanagalu
