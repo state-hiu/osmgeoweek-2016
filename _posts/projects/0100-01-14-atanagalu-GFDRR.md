@@ -20,4 +20,4 @@ aoi:
 
 The project is the second phase in the development of a model for using open data that can be applied elsewhere in Sri Lanka (the first being in Batticaloa, Sri Lanka). The project is a collaborative effort between Sri Lanka's Disaster Management Center and the World Bank's Global Facility for Disaster Reduction and Recovery (GFDRR). 
 
-Contributors will focus on the Atanagalu [Oya river basin project](tasks.hotosm.org/project/1280)
+Contributors will focus on the Atanagalu [Oya river basin project](https://tasks.hotosm.org/project/1280)
