@@ -29,7 +29,7 @@ function reset () {
   currentProgress = 0;
 }
 
-$.get(root + '/timeline', function (timeline) {
+$.get(root + '/timeline' + '/fccu', function (timeline) {
     //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
     nextTimeline = preprocessTimeline(timeline);
 
@@ -53,7 +53,7 @@ function render (element) {
     paused = true;
     setTimeout(function () {
       paused = false;
-      $.get(root + '/timeline', function (timeline) {
+      $.get(root + '/timeline' + '/fccu', function (timeline) {
         nextTimeline = preprocessTimeline(timeline);
         reset();
       });
