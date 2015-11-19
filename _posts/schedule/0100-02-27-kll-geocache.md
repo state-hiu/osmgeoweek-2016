@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Kathmandu Living Labs OSM Geo-Chaching - Kathmandu, Nepal
+title: Kathmandu Living Labs OSM Geocaching - Kathmandu, Nepal
 day: Friday
 time: "9:00am - 1:00pm"
 speaker: 
