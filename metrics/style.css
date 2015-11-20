@@ -318,6 +318,18 @@ body {
   height: 25%;
 }
 
+#logroll-teamA{
+  font-size: 0.8em;
+  color: #999;
+  height: 25%;
+}
+
+#logroll-teamB{
+  font-size: 0.8em;
+  color: #999;
+  height: 25%;
+}
+
 #progress-bar-container {
   width: 100%; 
   height: 8px; 
@@ -328,6 +340,18 @@ body {
 }
 
 #progress-bar {
+  height: 8px;
+  background-color: #00cc99;
+  width: 50%;
+}
+
+#progress-bar-teamA {
+  height: 8px;
+  background-color: #00cc99;
+  width: 50%;
+}
+
+#progress-bar-teamB {
   height: 8px;
   background-color: #00cc99;
   width: 50%;

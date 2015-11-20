@@ -11,8 +11,8 @@ var teams = {
     teamB:"hmsgw"
 };
 
-console.log("what is team A?")
-console.log(teams["teamA"])
+//console.log("what is team A?")
+//console.log(teams["teamA"])
 
 //initiate map and set initial extent
 var map = L.map('map', { zoomControl: false })
@@ -20,11 +20,7 @@ var map = L.map('map', { zoomControl: false })
     .setView([18.025966, -5], 2)
     .setMaxBounds([ [89, -180], [-89, 180] ]);
 
-
 var geojsonLayer = L.geoJson().addTo(map);
-
-
-
 
 var nextTimelineA = [];
 var nextTimelineB = [];
@@ -35,13 +31,8 @@ var currentProgress = 0;
 
 //clears out sidebar
 function reset () {
-  //$('#logroll').empty();
-  $('#logroll-' + 'teamA').empty();
-  $('#logroll-' + 'teamB').empty();
-  //$('#progress-bar').css('width', '0%');
-  $('#progress-bar-' + 'teamA').css('width', '0%');
-  $('#progress-bar-' + 'teamB').css('width', '0%');
-
+  $('#logroll').empty();
+  $('#progress-bar').css('width', '0%');
   //currentTimeline = nextTimeline;
 
   currentTimelineA = nextTimelineA;
@@ -60,8 +51,8 @@ function reset () {
 //how do you get two timelines?
 //http://stackoverflow.com/questions/9898813/jquery-wait-till-multiple-get-requests-are-successully-processed
 
-var nextTimelineA;
-var nextTimelineB;
+//var nextTimelineA;
+//var nextTimelineB;
 
 var timelineA = $.get(root + '/timeline' + '/' + teams["teamA"], function (timeline) {
     //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
@@ -76,13 +67,13 @@ var timelineB = $.get(root + '/timeline' + '/' + teams["teamB"], function (timel
 
 $.when(timelineA, timelineB).done(function() {
 
-    console.log('ok, we finished both get requests')
+    //console.log('ok, we finished both get requests')
 
     //fills the Leaderboard with top 10 mappers by changes created
     fillLeaderboard('changes',teams.teamA,'teamA');
     fillLeaderboard('changes',teams.teamB,'teamB');
 
-    console.log('leaderboards filled')
+    //console.log('leaderboards filled')
 
     reset();
 
@@ -167,8 +158,6 @@ function render (element,hashtag,team) {
         }
       });
     }
-
-    
 
     map.fitBounds(geojsonLayer.getBounds(), {maxZoom: 16});
     $('#editor_name').empty();
