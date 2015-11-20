@@ -1,4 +1,4 @@
-var root = 'http://184.169.128.35:8080';
+var root = 'http://184.169.128.35';
 //var root = 'http://localhost:8080';
 var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/devseed.07f51987/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q', {
     minZoom: 2
