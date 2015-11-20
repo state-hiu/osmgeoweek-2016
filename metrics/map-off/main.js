@@ -12,7 +12,7 @@ var teams = {
 };
 
 console.log("what is team A?")
-console.log(teams[teamA])
+console.log(teams["teamA"])
 
 //initiate map and set initial extent
 var map = L.map('map', { zoomControl: false })
@@ -20,7 +20,11 @@ var map = L.map('map', { zoomControl: false })
     .setView([18.025966, -5], 2)
     .setMaxBounds([ [89, -180], [-89, 180] ]);
 
+
 var geojsonLayer = L.geoJson().addTo(map);
+
+
+
 
 var nextTimelineA = [];
 var nextTimelineB = [];
@@ -31,8 +35,12 @@ var currentProgress = 0;
 
 //clears out sidebar
 function reset () {
-  $('#logroll').empty();
-  $('#progress-bar').css('width', '0%');
+  //$('#logroll').empty();
+  $('#logroll-' + 'teamA').empty();
+  $('#logroll-' + 'teamB').empty();
+  //$('#progress-bar').css('width', '0%');
+  $('#progress-bar-' + 'teamA').css('width', '0%');
+  $('#progress-bar-' + 'teamB').css('width', '0%');
 
   //currentTimeline = nextTimeline;
 
@@ -55,12 +63,12 @@ function reset () {
 var nextTimelineA;
 var nextTimelineB;
 
-var timelineA = $.get(root + '/timeline' + '/' + teams.teamA, function (timeline) {
+var timelineA = $.get(root + '/timeline' + '/' + teams["teamA"], function (timeline) {
     //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
     nextTimelineA = preprocessTimeline(timeline);
 });
 
-var timelineB = $.get(root + '/timeline' + '/' + teams.teamB, function (timeline) {
+var timelineB = $.get(root + '/timeline' + '/' + teams["teamB"], function (timeline) {
     //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
     nextTimelineB = preprocessTimeline(timeline);
 });
@@ -71,8 +79,8 @@ $.when(timelineA, timelineB).done(function() {
     console.log('ok, we finished both get requests')
 
     //fills the Leaderboard with top 10 mappers by changes created
-    fillLeaderboard('changes',teams.teamA);
-    fillLeaderboard('changes',teams.teamB);
+    fillLeaderboard('changes',teams.teamA,'teamA');
+    fillLeaderboard('changes',teams.teamB,'teamB');
 
     console.log('leaderboards filled')
 
@@ -87,25 +95,25 @@ $.when(timelineA, timelineB).done(function() {
       count += 1;
       if(count % 2 !== 0) {
         if (!paused) {
-          render(currentTimelineA.pop(),teams[teamA]);
+          render(currentTimelineA.pop(),teams["teamA"],'teamA');
         }
       } else { 
         if (!paused) {
-          render(currentTimelineB.pop(),teams[teamB]);
+          render(currentTimelineB.pop(),teams["teamB"],'teamB');
         }
       }
     }, 3000);
 });
 
 
-function render (element,team) {
+function render (element,hashtag,team) {
     //when you get to the last entry in the timeline, pause for 3 sec and get the next timeline
     if (element === 'LAST') {
       paused = true;
       setTimeout(function () {
         paused = false;
-        $.get(root + '/timeline' + '/' + team, function (timeline) {
-          if (team == 'gmu') {
+        $.get(root + '/timeline' + '/' + hashtag, function (timeline) {
+          if (team == 'teamA') {
             nextTimelineA = preprocessTimeline(timeline);
           } else {
             nextTimelineB = preprocessTimeline(timeline);
@@ -117,7 +125,7 @@ function render (element,team) {
     }
 
 
-    var logroll = $('#logroll'+ team);
+    var logroll = $('#logroll-'+ team);
 
     var timecode = new Date(Date.parse(element.properties.created_at));
     var minutefix = timecode.getMinutes();
@@ -131,7 +139,18 @@ function render (element,team) {
     console.log(element);
 
     if (element.features.length) {
+      element.properties.color = '#ff7800';
+      console.log('printing element: ');
+      console.log(element);
+
       geojsonLayer.addData(element);
+
+      if (team == 'teamA') {
+        geojsonLayer.setStyle({color: '#005E2E'});
+      }else {
+        geojsonLayer.setStyle({color: '#09567F'});
+      }
+      
     } else {
       var meta = element.properties;
       geojsonLayer.addData({
@@ -149,12 +168,17 @@ function render (element,team) {
       });
     }
 
+    
+
     map.fitBounds(geojsonLayer.getBounds(), {maxZoom: 16});
     $('#editor_name').empty();
     $('#editor_name').append('Contributions from <h1>' + element.properties.user + '</h1>');
 
     currentProgress += 1;
-    $('#progress-bar').css('width', (100 * currentProgress / progressBarWidth) + '%');
+    $('#progress-bar' + team).css('width', (100 * currentProgress / progressBarWidth) + '%');
+
+    console.log('what is logroll?')
+    console.log(logroll)
 
     logroll.prepend('<div class="logroll-item"><i>' +
                     date + '</i> - ' +
@@ -167,35 +191,38 @@ function render (element,team) {
 
 //after 5 minutes updates leaderboard with changes, this is a global variable
 var fillEvery5 = setInterval(function () {
-  fillLeaderboard('changes',teamA);
+  fillLeaderboard('changes',teams["teamA"],teamA);
 }, 5 * 60 * 1000);
 
 //after 5 minutes updates leaderboard with changes, this is a global variable
 var fillEvery5 = setInterval(function () {
-  fillLeaderboard('changes',teamB);
+  fillLeaderboard('changes',teams["teamB"],teamB);
 }, 5 * 60 * 1000);
 
 //needs a second argument
-function fillLeaderboard (hash,schoolhash) {
+function fillLeaderboard (hash,schoolhash,team) {
   
+  console.log('what is schoohash');
+  console.log(schoolhash);
+
 //update this
-  $('#leaderboard-teamA').empty();
-  $('#leaderboard-teamB').empty();
-  $('#Total').empty();
+  $('#leaderboard-'+ team).empty();
+ // $('#leaderboard-teamB').empty();
+  $('#Total-'+ team).empty();
 
   $.get(root + '/' + hash + '/' + schoolhash, function (data) {
-    for (var i = 2; i < data.length; i += 2) {
-      var rank = (i / 2);
+      for (var i = 2; i < data.length; i += 2) {
+          var rank = (i / 2);
 
-      var username = data[i];
-      if (data[i].length > 20) {
-        username = username.substring(0, 17) + '...';
-      }
+          var username = data[i];
+          if (data[i].length > 20) {
+            username = username.substring(0, 17) + '...';
+          }
 
-      $('#leaderboard-teamA').append(
-        '<li>' + rank + '.  ' + username + ' <i>' + numberFormat(data[i + 1],",") + '</i></li>'
-      );
-    }
+          $('#leaderboard-' + team).append(
+            '<li>' + rank + '.  ' + username + ' <i>' + numberFormat(data[i + 1],",") + '</i></li>'
+          );
+        }
 
     var total = 0;
     if (data.length) {
@@ -203,9 +230,10 @@ function fillLeaderboard (hash,schoolhash) {
       total = numberFormat(total,",")
     }
 
-    $('#Total').append(
+    $('#Total-' + team).append(
       '<li>Total Contributions:<i> ' + total + '</i></li>'
     );
+
   });
 
   //stops the timer
@@ -214,31 +242,31 @@ function fillLeaderboard (hash,schoolhash) {
   //after 5 minutes updates leaderboard with changes
   //will clicking the buttons for other types reset the 5 min timer for changes?
   fillEvery5 = setInterval(function () {
-    fillLeaderboard(hash);
+    fillLeaderboard(hash,schoolhash,team);
   }, 5 * 60 * 1000);
 }
 
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All-teamA').click(function () {
-  fillLeaderboard('changes',teams.teamA);
+  fillLeaderboard('changes',teams["teamA"],'teamA');
   return $('#leadertitletext').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building-teamA').click(function () {
-  fillLeaderboard('buildings',teams.teamA);
+  fillLeaderboard('buildings',teams["teamA"],'teamA');
   return $('#leadertitletext').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads-teamA').click(function () {
-  fillLeaderboard('highways',teams.teamA);
+  fillLeaderboard('highways',teams["teamA"],'teamA');
   return $('#leadertitletext').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers-teamA').click(function () {
-  fillLeaderboard('waterways',teams.teamA);
+  fillLeaderboard('waterways',teams["teamA"],'teamA');
   return $('#leadertitletext').text('RIVERS');
 });
 
@@ -246,25 +274,25 @@ $('#Leaderboard-Rivers-teamA').click(function () {
 
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All-teamB').click(function () {
-  fillLeaderboard('changes',teams.teamB);
+  fillLeaderboard('changes',teams["teamB"],'teamB');
   return $('#leadertitletext').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building-teamB').click(function () {
-  fillLeaderboard('buildings',teams.teamB);
+  fillLeaderboard('buildings',teams["teamB"],'teamB');
   return $('#leadertitletext').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads-teamB').click(function () {
-  fillLeaderboard('highways',teams.teamB);
+  fillLeaderboard('highways',teams["teamB"],'teamB');
   return $('#leadertitletext').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers-teamB').click(function () {
-  fillLeaderboard('waterways',teams.teamB);
+  fillLeaderboard('waterways',teams["teamB"],'teamB');
   return $('#leadertitletext').text('RIVERS');
 });
 

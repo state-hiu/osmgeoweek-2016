@@ -213,6 +213,30 @@ body {
   text-align: center;
 }
 
+#leadertitle-teamA{
+  padding-top: 6;
+  padding-bottom: 10;
+  margin-bottom: 6px;
+  background-image:
+    linear-gradient(
+      to right, 
+      #005E2E, #F1AA00
+    );
+  text-align: center;
+}
+
+#leadertitle-teamB{
+  padding-top: 6;
+  padding-bottom: 10;
+  margin-bottom: 6px;
+  background-image:
+    linear-gradient(
+      to right, 
+      #09567F, #C7B18D
+    );
+  text-align: center;
+}
+
 #leadertitle p{
   margin: 0;
 }
@@ -375,6 +399,11 @@ ul#leaderboard li {
 
 /* SPINNER */
 #spinner {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+#spinner2 {
   text-align: center;
   position: relative;
   top: 80px;
