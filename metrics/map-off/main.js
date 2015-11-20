@@ -1,11 +1,18 @@
 var root = 'http://184.169.128.35';
-//var root = 'http://localhost:8080';
 var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/devseed.07f51987/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV2c2VlZCIsImEiOiJnUi1mbkVvIn0.018aLhX0Mb0tdtaT2QNe2Q', {
     minZoom: 2
 });
 
-var teamA = 'gmu';
-var teamB = 'hmsgw';
+//var teamA = 'gmu';
+//var teamB = 'hmsgw';
+
+var teams = {
+    teamA:"gmu",
+    teamB:"hmsgw"
+};
+
+console.log("what is team A?")
+console.log(teams[teamA])
 
 //initiate map and set initial extent
 var map = L.map('map', { zoomControl: false })
@@ -48,12 +55,12 @@ function reset () {
 var nextTimelineA;
 var nextTimelineB;
 
-var timelineA = $.get(root + '/timeline' + '/gmu', function (timeline) {
+var timelineA = $.get(root + '/timeline' + '/' + teams.teamA, function (timeline) {
     //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
     nextTimelineA = preprocessTimeline(timeline);
 });
 
-var timelineB = $.get(root + '/timeline' + '/hmsgw', function (timeline) {
+var timelineB = $.get(root + '/timeline' + '/' + teams.teamB, function (timeline) {
     //The preprocessTimeline function is in a seperate file and pre-processes the timeline json
     nextTimelineB = preprocessTimeline(timeline);
 });
@@ -64,8 +71,8 @@ $.when(timelineA, timelineB).done(function() {
     console.log('ok, we finished both get requests')
 
     //fills the Leaderboard with top 10 mappers by changes created
-    fillLeaderboard('changes',teamA);
-    fillLeaderboard('changes',teamB);
+    fillLeaderboard('changes',teams.teamA);
+    fillLeaderboard('changes',teams.teamB);
 
     console.log('leaderboards filled')
 
@@ -80,11 +87,11 @@ $.when(timelineA, timelineB).done(function() {
       count += 1;
       if(count % 2 !== 0) {
         if (!paused) {
-          render(currentTimelineA.pop(),teamA);
+          render(currentTimelineA.pop(),teams[teamA]);
         }
       } else { 
         if (!paused) {
-          render(currentTimelineB.pop(),teamB);
+          render(currentTimelineB.pop(),teams[teamB]);
         }
       }
     }, 3000);
@@ -110,7 +117,7 @@ function render (element,team) {
     }
 
 
-    var logroll = $('#logroll'+team);
+    var logroll = $('#logroll'+ team);
 
     var timecode = new Date(Date.parse(element.properties.created_at));
     var minutefix = timecode.getMinutes();
@@ -213,25 +220,25 @@ function fillLeaderboard (hash,schoolhash) {
 
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All-teamA').click(function () {
-  fillLeaderboard('changes',teamA);
+  fillLeaderboard('changes',teams.teamA);
   return $('#leadertitletext').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building-teamA').click(function () {
-  fillLeaderboard('buildings',teamA);
+  fillLeaderboard('buildings',teams.teamA);
   return $('#leadertitletext').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads-teamA').click(function () {
-  fillLeaderboard('highways',teamA);
+  fillLeaderboard('highways',teams.teamA);
   return $('#leadertitletext').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers-teamA').click(function () {
-  fillLeaderboard('waterways',teamA);
+  fillLeaderboard('waterways',teams.teamA);
   return $('#leadertitletext').text('RIVERS');
 });
 
@@ -239,25 +246,25 @@ $('#Leaderboard-Rivers-teamA').click(function () {
 
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All-teamB').click(function () {
-  fillLeaderboard('changes',teamB);
+  fillLeaderboard('changes',teams.teamB);
   return $('#leadertitletext').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building-teamB').click(function () {
-  fillLeaderboard('buildings',teamB);
+  fillLeaderboard('buildings',teams.teamB);
   return $('#leadertitletext').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads-teamB').click(function () {
-  fillLeaderboard('highways',teamB);
+  fillLeaderboard('highways',teams.teamB);
   return $('#leadertitletext').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers-teamB').click(function () {
-  fillLeaderboard('waterways',teamB);
+  fillLeaderboard('waterways',teams.teamB);
   return $('#leadertitletext').text('RIVERS');
 });
 
