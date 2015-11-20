@@ -230,9 +230,23 @@ function fillLeaderboard (hash,schoolhash,team) {
       total = numberFormat(total,",")
     }
 
-    $('#Total-' + team).append(
-      '<li>Total Contributions:<i> ' + total + '</i></li>'
-    );
+    if (hash == "changes") {
+        $('#Total-' + team).append(
+          '<li>Total Contributions (nodes):<i> ' + total + '</i></li>'
+        );
+    } else if (hash == "buildings"){
+        $('#Total-' + team).append(
+          '<li>Total Buildings:<i> ' + total + '</i></li>'
+        );
+    } else if (hash == "highways"){
+        $('#Total-' + team).append(
+          '<li>Total Highways:<i> ' + total + '</i></li>'
+        );
+    } else {
+        $('#Total-' + team).append(
+          '<li>Total Waterways:<i> ' + total + '</i></li>'
+        );
+    }
 
   });
 
@@ -249,25 +263,25 @@ function fillLeaderboard (hash,schoolhash,team) {
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All-teamA').click(function () {
   fillLeaderboard('changes',teams["teamA"],'teamA');
-  return $('#leadertitletext').text('LEADERBOARDS');
+  return $('#leadertitletext-teamA').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building-teamA').click(function () {
   fillLeaderboard('buildings',teams["teamA"],'teamA');
-  return $('#leadertitletext').text('BUILDINGS');
+  return $('#leadertitletext-teamA').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads-teamA').click(function () {
   fillLeaderboard('highways',teams["teamA"],'teamA');
-  return $('#leadertitletext').text('ROADS');
+  return $('#leadertitletext-teamA').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers-teamA').click(function () {
   fillLeaderboard('waterways',teams["teamA"],'teamA');
-  return $('#leadertitletext').text('RIVERS');
+  return $('#leadertitletext-teamA').text('RIVERS');
 });
 
 
@@ -275,25 +289,25 @@ $('#Leaderboard-Rivers-teamA').click(function () {
 //fills the Leaderboard with top 10 mappers by changes created when they click on the Leaderboard-All button
 $('#Leaderboard-All-teamB').click(function () {
   fillLeaderboard('changes',teams["teamB"],'teamB');
-  return $('#leadertitletext').text('LEADERBOARDS');
+  return $('#leadertitletext-teamB').text('LEADERBOARDS');
 });
 
 //fills the Leaderboard with top 10 mappers by buildings created when they click on the Leaderboard-Building button
 $('#Leaderboard-Building-teamB').click(function () {
   fillLeaderboard('buildings',teams["teamB"],'teamB');
-  return $('#leadertitletext').text('BUILDINGS');
+  return $('#leadertitletext-teamB').text('BUILDINGS');
 });
 
 //fills the Leaderboard with top 10 mappers by highways created when they click on the Leaderboard-Roads button
 $('#Leaderboard-Roads-teamB').click(function () {
   fillLeaderboard('highways',teams["teamB"],'teamB');
-  return $('#leadertitletext').text('ROADS');
+  return $('#leadertitletext-teamB').text('ROADS');
 });
 
 //fills the Leaderboard with top 10 mappers by waterways created when they click on the Leaderboard-Rivers button
 $('#Leaderboard-Rivers-teamB').click(function () {
   fillLeaderboard('waterways',teams["teamB"],'teamB');
-  return $('#leadertitletext').text('RIVERS');
+  return $('#leadertitletext-teamB').text('RIVERS');
 });
 
 
