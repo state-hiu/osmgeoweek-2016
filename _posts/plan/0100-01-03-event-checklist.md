@@ -2,7 +2,7 @@
 layout: page
 category: plan
 title: Event Checklist
-permalink: 'http://mapgive.state.gov/box/en/resources/event-checklist/'
+permalink: 'event-checklist/'
 tags:
   - planner
 ---
