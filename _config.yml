@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: http://osmgeoweek.org/
 exclude: [src, CNAME, "2012", "2013"]
 markdown: kramdown
 
