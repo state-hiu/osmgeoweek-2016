@@ -1,5 +1,4 @@
 baseurl: ""
-url: http://state-hiu.github.io/osmgeoweek-2016
 exclude: [src, CNAME, "2012", "2013"]
 markdown: kramdown
 
