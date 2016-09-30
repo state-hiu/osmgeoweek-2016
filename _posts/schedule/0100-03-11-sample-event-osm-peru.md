@@ -1,14 +1,14 @@
 ---
 layout: event
-title: OSM Peru Mapathon - Callao, Lima, Peru
-day: Sunday
-time: "4:00pm"
+title: sample - OSM Peru Mapathon - Callao, Lima, Peru
+day: Saturday, November 14
+time: "1:00pm"
 speaker:  
 twitter: "#MappingRaymi"
 organization: OpenStreetMap Peru
-permalink: event/lima-peru/
+permalink: event/osm-peru/
 tags: 
-  - sunday
+  - presaturday
 category: event
 published: true
 lat: -12.0010651
@@ -23,6 +23,3 @@ El taller está dirigido a todas las personas a partir de 12 años que cuenten c
 La participación es totalmente libre y gratuita [previa inscripción](http://goo.gl/forms/g8o98EGdM2). Las inscripciones son importantes para conocer el número de personas que asistirán y poder prever la logística adecuada. Participa e invita a tus amigas y amigos!
 
 [evento en facebook](https://www.facebook.com/events/1516717678646677/)
-
-
- 

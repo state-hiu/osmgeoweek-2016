@@ -6,6 +6,7 @@
 .fill-dark { background-color:#202020; }
 .fill-brown { background-color:#d7a64a; }
 .fill-green { background-color:#8cc250; }
+.fill-red-orange { background-color:#ef4815; }
 
 .button.fill-green:hover {
   background-color: #8cc250;
@@ -15,18 +16,26 @@
 .text-dark { color:#202020; }
 .text-brown { color:#d7a64a; }
 .text-green { color:#8cc250; }
+.text-red-orange { color:#ef4815; }
 .text-white { color:#fff;}
 
 .fill-darken2 {
     background: rgba(0,0,0,0.8);
 }
 
+
 a {
+  /*
   color: #8cc250;
+  */
+  color: #ef4815;
 }
 
 a:hover {
+  /*
   color: #AAE06D;
+  */
+  color:#e8704c;
 }
 body {
   font-family: 'Asap', serif;

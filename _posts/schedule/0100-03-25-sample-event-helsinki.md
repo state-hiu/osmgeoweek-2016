@@ -1,6 +1,6 @@
 ---
 layout: event
-title: OSM Mapathon Helsinki - Helsinki, Finland
+title: sample - OSM Mapathon Helsinki - Helsinki, Finland
 day: Saturday
 time: "10:30am - 2:30pm"
 speaker: 

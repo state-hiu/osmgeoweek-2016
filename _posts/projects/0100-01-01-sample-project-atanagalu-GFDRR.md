@@ -1,5 +1,5 @@
 ---
-title: Open Data for Resilience
+title: Sample Project - Open Data for Resilience
 subtitle: Flood Reduction Measures in the Atanagalu Oya river basin 
 category: project
 layout: project
