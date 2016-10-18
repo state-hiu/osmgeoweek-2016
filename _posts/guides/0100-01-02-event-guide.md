@@ -1,6 +1,6 @@
 ---
 layout: page
-category: plan
+category: guide
 title: Event Guide
 permalink: 'event-planning/'
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: page
-category: plan
+category: guide
 title: Event Checklist
 permalink: 'event-checklist/'
 tags:
@@ -57,7 +57,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Food/Drink
 * Cups, Plates, Utensils, Napkins
 
-#Pre event Outreach
+# Pre-event Outreach
 
 * Coordinate with potential partners
 * MeetUp
@@ -74,7 +74,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 
 # During the event
 
-* Show the ”Why Map?” video
+* Show the [”Why Map?” video](http://mapgive.state.gov/why-map/)
 * Gauge the room’s experience
 * Everyone mapping has an OSM account 
 * Live editing tutorial (ID editor)

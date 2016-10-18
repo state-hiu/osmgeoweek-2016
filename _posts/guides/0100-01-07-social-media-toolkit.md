@@ -1,7 +1,7 @@
 ---
 layout: page
 category: plan
-permalink: plan/social-media-toolkit
+permalink: guides/social-media-toolkit
 title: Social Media Toolkit
 tags:
   - planner
