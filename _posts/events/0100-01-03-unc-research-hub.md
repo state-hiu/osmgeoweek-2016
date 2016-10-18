@@ -1,7 +1,8 @@
 ---
 layout: event
 title: UNC Research Hub
-day: Tuesday
+date: 2016-11-13
+pre-event: false
 time: "5:00pm - 7:00pm"
 speaker: 
 twitter: ""

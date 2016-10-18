@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Front Range Community College
-day: Tuesday
+date: 2016-11-15
+pre-event: false
 time: "5:00pm - 7:00pm Mountain time"
 speaker: 
 twitter: "#frcc"

@@ -5,7 +5,7 @@ category: schedule
 
 <div class='fr fill-light round pad2 space-bottom2 margin0'>
   <div>
-    Day: <strong>{{page.day}}</strong>
+    Day: <strong>{{ page.date | date: "%A" }}</strong>
   </div>
   <div>
     Time: <strong>{{page.time}}</strong>
