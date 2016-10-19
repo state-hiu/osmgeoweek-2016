@@ -121,7 +121,7 @@ The <a href="{{site.baseurl}}/plan/">Guides</a> are a collection of resources fo
         <p>We have guides that can help you to get started mapping and plan your own event!</p>
         </div>
         <div class='col6 fill-light round pad2'>
-        {% for post in site.categories.plan limit:4 %}
+        {% for post in site.categories.guide limit:4 %}
 
           {% assign display = null %}
           {% assign ready = null %}
@@ -136,7 +136,7 @@ The <a href="{{site.baseurl}}/plan/">Guides</a> are a collection of resources fo
 
 
             <h3><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h3>
-            <p class='small'>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <p class='small'>{{ post.excerpt | markdownify | strip_html | remove: '<p>' | remove: '</p>' }}</p>
           {% endif %}
 
         {% endfor %}
