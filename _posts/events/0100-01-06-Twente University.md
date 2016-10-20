@@ -3,7 +3,7 @@ layout: event
 title: Mapping Party - Missing Maps Malawi
 date: 2016-11-14
 pre-event: false
-time: "3pm - 8:00pm"
+time: "3:00pm - 8:00pm"
 speaker: 
 twitter: 
 organization: Twente University
