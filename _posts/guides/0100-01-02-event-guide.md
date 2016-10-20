@@ -11,7 +11,7 @@ Here are helpful tips for organizing an event, from recruiting participants, log
 
 Also, there are even more good ideas for event planning on the <a href="http://wiki.openstreetmap.org/wiki/Mapping_Weekend_Howto">OSM Mapping Weekend HOWTO</a> wiki page.
 
-For educators, we are launching <a href="http://teachosm.org/">TeachOSM</a>, guidance for bringing OpenStreetMap into the classroom.
+Teachers & instructors working in a classroom setting should see <a href="http://teachosm.org/">TeachOSM</a> for guidance on bringing OSMGeoweek projects into their classroom.
 
 ## Recruitment
 
@@ -44,11 +44,9 @@ Nearly all of the strategies produce results by either connecting to unique grou
 ## Registration and Agenda
  
 ### Registration
-It is often helpful to “require” registration.  Although there is no fee for participation, having participants register beforehand gives a very good sense of how many people will show up, and additional event details can be provided on the registration page.  Plus, this provides a way to track who attended and acts as a failsafe in case something comes up that requires a change in venue, rescheduling, or cancellation.
+It is often helpful to require registration, even for no-cost events.  Although there is no fee for participation, having participants register beforehand gives a very good sense of how many people will show up, and additional event details can be provided on the registration page.  Plus, this provides a way to track who attended and acts as a failsafe in case something comes up that requires a change in venue, rescheduling, or cancellation.
  
-<a href="https://www.eventbrite.com/">Eventbrite</a> is good.  This is free, if the event is free, and it has some nice features that allow management of the tickets/event.  Sometimes, events like this charge a nominal fee to encourage people to actually show up if the register.
- 
-It's not necessary to turn anybody away for the event who show up, but who did not register. Again, registration is mainly a tool to help with logistics.
+<a href="https://www.eventbrite.com/">Eventbrite</a> has worked well for us, and is free of charge if the event is also. Eventbrite has some nice features that allow management of the tickets/event.  Sometimes, events like this charge a nominal fee to encourage people to actually show up if they register. On the other hand, it is seldom necessary to turn away an unregistered attendee.
  
 ### Agenda
 
