@@ -31,7 +31,7 @@ twitter-description: Sign up for an event near you or plan your own mapathon. Yo
 
         <div class='col7 margin1r'>
         {% assign sorted_pages = (site.categories.guide | sort: 'date') %}
-        {% for post in sorted_pages %}
+        {% for post in sorted_pages reversed %}
           {% assign display = null %}
           {% assign ready = null %}
           {% for tag in post.tags %}

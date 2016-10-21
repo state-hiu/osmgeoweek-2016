@@ -80,7 +80,7 @@ The <a href="{{site.baseurl}}/plan/">Guides</a> are a collection of resources fo
         <p>Find an event near you. Or, let us know if you are planning an event, submit the details or get in touch!</p>
     </div>
     <div class='col6 fill-light round pad2 space-bottom4'>
-      {% for post in site.categories.event limit:3 %}
+      {% for post in site.categories.event reversed limit:3 %}
       <h3><a href="{{site.baseurl}}/{{post.permalink}}">{{ post.title }}</a></h3>
       <p class='small'>{{ post.day }} | {{ post.time }}</p>
       {% endfor %}
@@ -121,7 +121,7 @@ The <a href="{{site.baseurl}}/plan/">Guides</a> are a collection of resources fo
         <p>We have guides that can help you to get started mapping and plan your own event!</p>
         </div>
         <div class='col6 fill-light round pad2'>
-        {% for post in site.categories.guide limit:4 %}
+        {% for post in site.categories.guide limit:3 %}
 
           {% assign display = null %}
           {% assign ready = null %}
