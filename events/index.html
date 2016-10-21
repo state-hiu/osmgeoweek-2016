@@ -43,7 +43,7 @@ dates:
           </div>
           <div class='col12 pad1y'>
 
-            {% for item in site.categories.event order:ascending %}
+            {% for item in site.categories.event %}
 
                   {% capture my_variable %}{{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
 
