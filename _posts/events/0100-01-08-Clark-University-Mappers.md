@@ -7,7 +7,7 @@ pre-event: false
 time: "6:00pm - 7:10pm"
 speaker: 
 twitter: 
-organization: Clark University
+organization: "Clark University"
 permalink: event/mapoff/ClarkMappers
 tags: 
   - tuesday
