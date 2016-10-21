@@ -6,7 +6,7 @@ date: 2016-11-19
 pre-event: false
 time: "9:00am - 12:00pm"
 speaker: 
-twitter: 
+twitter: "@mapuganda"
 organization: OpenStreetMap Uganda
 permalink: event/mapoff/MapUganda 
 tags: 
