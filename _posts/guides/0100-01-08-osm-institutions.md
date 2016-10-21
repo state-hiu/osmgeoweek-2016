@@ -5,6 +5,7 @@ title: OSM Institutions
 permalink: 'osm-institutions/'
 tags:
   - planner
+  - notfeatured
 ---
 
 # OpenStreetMap(OSM) Institutions Primer
