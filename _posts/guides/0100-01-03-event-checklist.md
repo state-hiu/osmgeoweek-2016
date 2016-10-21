@@ -88,11 +88,13 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Send a progress report to all attendees
 * Consider sending personalized emails thanking people for their individual contributions
 * Metrics (how many people, how many edits?)
+  * [Result Maps](http://resultmaps.neis-one.org/)
 * After shots
   * OSM
   * ID editor
   * JOSM
-  * ITO areas
+  * [OSM Analytics](http://osm-analytics.org/) 
+  * [ITO areas](http://product.itoworld.com/map/)
 * Create graphics
 * Start planning the next one!
 
