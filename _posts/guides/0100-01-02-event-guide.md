@@ -17,7 +17,7 @@ Teachers & instructors working in a classroom setting should see <a href="http:/
 
 Students are a primary audience, but the event can also to professionals/citizens who likely to have GIS/OSM skills or interest. And reach out beyond geography and GIS; particularly for students studying international affairs or international students, there would be interest in international humanitarian efforts. Outside of school, there may be local meetups or OSM groups with whom to coordinate.
 
-Nearly all of the strategies produce results by either connecting to unique groups or reinforcing the message to the point that people committed to participating.  Put your marketing hat on. For each email, flyer, calendar posting customize it to what would be of interest to that group. For instance, to international students, emphasize that they would gain skills that would allow them to assist when humanitarian disasters strike their own countries; to the OSM enthusiasts promote it as a humanitarian OSM event, etc.  The <a href="http://mapgive.state.gov/why-map/">Map Give Why Map Video</a> is a great starting point for all.
+Nearly all of the strategies produce results by either connecting to unique groups or reinforcing the message to the point that people committed to participating.  Put your marketing hat on. For each email, flyer, calendar posting customize it to what would be of interest to that group. For instance, to international students, emphasize that they would gain skills that would allow them to assist when humanitarian disasters strike their own countries; to the OSM enthusiasts promote it as a humanitarian OSM event, etc.  The <a href="http://mapgive.state.gov/why-map/">MapGive Why Map Video</a> is a great starting point for all.
 
 ### Emails
 
