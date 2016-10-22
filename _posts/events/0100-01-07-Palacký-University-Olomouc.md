@@ -16,4 +16,5 @@ lat: 50.07624
 lon: 14.41880
 ---
 Faculty of Science
+
 [sign-up here](https://www.facebook.com/events/1669268096719058/)
