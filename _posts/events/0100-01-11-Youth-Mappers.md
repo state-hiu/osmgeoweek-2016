@@ -12,8 +12,8 @@ tags:
   - saturday
 category: event
 published: true
-lat: 1.0020
-lon: 34.2094
+lat: 1.08144
+lon: 34.17590
 ---
 
 A community of Open Street Mappers changing lives, let's do this together.
