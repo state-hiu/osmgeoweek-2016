@@ -1,4 +1,3 @@
-
 ---
 layout: event
 title: "Clark Mappers"
