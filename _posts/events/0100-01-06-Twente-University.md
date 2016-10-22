@@ -17,3 +17,5 @@ lon: 6.85668
 ---
 
 ITC, Faculty of Geo-Information
+
+[sign-up here](https://goo.gl/forms/A5Dy5soZ26IsE3q53)
