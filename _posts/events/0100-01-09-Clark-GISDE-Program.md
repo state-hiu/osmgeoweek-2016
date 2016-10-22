@@ -1,4 +1,3 @@
-
 ---
 layout: event
 title: "GIS Week Missing Map Map-a-thon"
