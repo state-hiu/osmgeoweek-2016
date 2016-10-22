@@ -18,4 +18,4 @@ lon: 34.17590
 A community of Open Street Mappers changing lives, let's do this together.
 Celebrating OSM Geo Week at Uganda Christian University Mbale
 
-[sign-up here]https://www.facebook.com/Team-Mappers-For-Life-280043492353209/?ref=bookmarks
+[sign-up here](https://www.facebook.com/Team-Mappers-For-Life-280043492353209/?ref=bookmarks)
