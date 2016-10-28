@@ -21,8 +21,8 @@ This task is also part of the [Missing Maps project](http://www.missingmaps.org/
 
 Contributors will focus the following projects on the HOT Tasking Manager:
 
-- [Lilongwe East](https://tasks.hotosm.org/project/1258)
-- [Lilongwe South](https://tasks.hotosm.org/project/1286)
-- [Lilongwe North](https://tasks.hotosm.org/project/1290)
+- [Lilongwe East](https://tasks.hotosm.org/project/2158)
+- [Lilongwe South](https://tasks.hotosm.org/project/2186)
+- [Lilongwe North](https://tasks.hotosm.org/project/2190)
 
 
