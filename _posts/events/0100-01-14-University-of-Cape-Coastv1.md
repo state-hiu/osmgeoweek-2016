@@ -1,6 +1,6 @@
 ---
 layout: event
-title: HUCC OSM GeoWeek
+title: UCC OSM GeoWeek
 date: 2016-11-19
 pre-event: false
 time: "8:00pm GMT"
