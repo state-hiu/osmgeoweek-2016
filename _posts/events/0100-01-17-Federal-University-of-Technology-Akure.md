@@ -7,7 +7,7 @@ time: "12:00pm - 3:00pm"
 speaker: 
 twitter: "@Baale_hon"
 organization: Federal University of Technology Akure 
-permalink: event/Mapping Berger
+permalink: event/MappingBerger
 tags: 
   - thursday
 category: event
