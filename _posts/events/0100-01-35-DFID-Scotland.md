@@ -1,6 +1,6 @@
 ---
 layout: event
-title: DFID Mapathon
+title: DFID Scotland Mapathon
 date: 2016-11-16
 pre-event: false
 time: ""
