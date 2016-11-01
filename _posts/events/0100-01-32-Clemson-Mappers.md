@@ -5,7 +5,7 @@ date: 2016-11-16
 pre-event: false
 time: "12:00pm - 1:00pm"
 speaker: 
-twitter: "#MapathonEGEABrussels"
+twitter: ""
 organization: Clemson Mappers
 permalink: event/mapoff/ClemsonMappers
 tags: 
