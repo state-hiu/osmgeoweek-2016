@@ -7,7 +7,7 @@ time: "6:40pm - 8:00pm"
 speaker: 
 twitter: ""
 organization: Texas Tech University YouthMappers Chapter
-permalink: event/mapoff/SUNYYouthMappersMapathon
+permalink: event/SUNYYouthMappersMapathon/
 tags: 
   - wednesday
 category: event
