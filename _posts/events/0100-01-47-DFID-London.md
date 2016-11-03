@@ -7,7 +7,7 @@ time: ""
 speaker: 
 twitter: "#dfidmapathon2 and #dfidmapathon3"
 organization: DFID
-permalink: event/mapoff/DFIDLondon
+permalink: event/DFIDLondon/
 tags: 
   - wednesday
 category: event
