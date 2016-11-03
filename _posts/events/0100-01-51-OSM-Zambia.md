@@ -1,7 +1,7 @@
 ---
 layout: event
 title: OSM Zambia Mapathon
-date: 2016-11-18
+date: 2016-11-15
 pre-event: false
 time: "8:00am - 5:00pm"
 speaker: 
