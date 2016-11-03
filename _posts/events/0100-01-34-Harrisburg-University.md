@@ -7,7 +7,7 @@ time: "3:00pm - 8:00pm"
 speaker: 
 twitter: ""
 organization: Harrisburg University
-permalink: event/mapoff/HarrisburgUniversity
+permalink: event/HarrisburgUniversity/
 tags: 
   - friday
 category: event
