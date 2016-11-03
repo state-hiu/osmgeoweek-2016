@@ -7,7 +7,7 @@ time: "6:00pm - 7:10pm"
 speaker: 
 twitter: 
 organization: Clark University GISDE Program
-permalink: event/mapoff/ClarkGISDE
+permalink: event/ClarkGISDE/
 tags: 
   - tuesday
 category: event
