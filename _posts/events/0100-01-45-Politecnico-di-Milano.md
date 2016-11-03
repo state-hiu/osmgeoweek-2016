@@ -7,7 +7,7 @@ time: ""
 speaker: 
 twitter: ""
 organization: Politecnico di Milano 
-permalink: event/mapoff/PolitecnicodiMilanoMapathon
+permalink: event/PolitecnicodiMilanoMapathon
 tags: 
   - wednesday
 category: event
