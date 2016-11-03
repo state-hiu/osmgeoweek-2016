@@ -7,7 +7,7 @@ time: "9:00am - 12:00pm"
 speaker: 
 twitter: "@mapuganda"
 organization: OpenStreetMap Uganda
-permalink: event/mapoff/MapUganda 
+permalink: event/MapUganda/
 tags: 
   - saturday
 category: event
