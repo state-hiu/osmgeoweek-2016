@@ -7,7 +7,7 @@ time: "6:00pm - 8:00pm"
 speaker: 
 twitter: ""
 organization: Monroe Community College
-permalink: event/mapoff/MonroeCommunityCollegeMapathon
+permalink: event/MonroeCommunityCollegeMapathon/
 tags: 
   - tuesday
 category: event
