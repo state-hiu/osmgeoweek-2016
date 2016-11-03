@@ -7,7 +7,7 @@ time: "3:00pm - 8:00pm"
 speaker: 
 twitter: 
 organization: Twente University
-permalink: event/mapoff/TwenteMappingParty
+permalink: event/TwenteMappingParty/
 tags: 
   - monday
 category: event
