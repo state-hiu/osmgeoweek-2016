@@ -7,7 +7,7 @@ time: "12:00pm - 1:00pm"
 speaker: 
 twitter: ""
 organization: Clemson Mappers
-permalink: event/mapoff/ClemsonMappers
+permalink: event/ClemsonMappers/
 tags: 
   - wednesday
 category: event
