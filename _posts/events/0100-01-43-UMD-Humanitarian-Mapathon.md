@@ -7,7 +7,7 @@ time: "9:00am - 3:00pm"
 speaker: 
 twitter: "@gisumd"
 organization: Center for Geospatial Information Science - University of Maryland, College Park
-permalink: event/mapoff/UMDHumanitarianMapathon
+permalink: event/UMDHumanitarianMapathon/
 tags: 
   - wednesday
 category: event
