@@ -7,7 +7,7 @@ time: "17:00 - 21:00 CET"
 speaker: 
 twitter: "#MapathonEGEABrussels"
 organization: EGEA Brussel
-permalink: event/mapoff/EGEABrussel
+permalink: event/EGEABrussel/
 tags: 
   - tuesday
 category: event
