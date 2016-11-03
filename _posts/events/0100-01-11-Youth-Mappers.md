@@ -7,7 +7,7 @@ time: "9:00am - 1:00pm"
 speaker: 
 twitter: "#TeamMappersForLife"
 organization: Youth Mappers(Team Mappers For Life)
-permalink: event/mapoff/UgandaChristianMappers
+permalink: event/UgandaChristianMappers/
 tags: 
   - saturday
 category: event
