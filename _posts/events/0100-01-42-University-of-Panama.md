@@ -7,7 +7,7 @@ time: ""
 speaker: 
 twitter: ""
 organization: University of Panama
-permalink: event/mapoff/UniversityofPanamaMapathon
+permalink: event/UniversityofPanamaMapathon/
 tags: 
   - thursday
 category: event
