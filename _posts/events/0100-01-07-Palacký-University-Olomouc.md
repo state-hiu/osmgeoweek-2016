@@ -7,7 +7,7 @@ time: "6:00pm - 9:00pm"
 speaker: 
 twitter: 
 organization: "Department of Development Studies, Palacký University Olomouc"
-permalink: event/mapoff/PalackýMissingMaps
+permalink: event/PalackýMissingMaps/
 tags: 
   - thursday
 category: event
