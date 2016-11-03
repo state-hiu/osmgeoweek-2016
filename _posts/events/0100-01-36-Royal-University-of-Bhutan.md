@@ -7,7 +7,7 @@ time: "8:30am"
 speaker: 
 twitter: ""
 organization: Sherubtse College, Royal University of Bhutan
-permalink: event/mapoff/RoyalUniversityofBhutanMapathon
+permalink: event/RoyalUniversityofBhutanMapathon/
 tags: 
   - friday
 category: event
