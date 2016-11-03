@@ -7,7 +7,7 @@ time: "11:30am - 2:00pm"
 speaker: 
 twitter: ""
 organization: American Red Cross
-permalink: event/mapoff/ARCLunch&Learn
+permalink: event/ARCLunch&Learn/
 tags: 
   - tuesday
 category: event
