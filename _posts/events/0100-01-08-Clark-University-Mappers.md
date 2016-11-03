@@ -7,7 +7,7 @@ time: "6:00pm - 7:10pm"
 speaker: 
 twitter: 
 organization: Clark University
-permalink: event/mapoff/ClarkMappers
+permalink: event/ClarkMappers/
 tags: 
   - tuesday
 category: event
