@@ -7,7 +7,7 @@ time: ""
 speaker: 
 twitter: ""
 organization: American Red Cross
-permalink: event/mapoff/AmericanRedCrossGuinee
+permalink: event/AmericanRedCrossGuinee/
 tags: 
   - thursday
 category: event
