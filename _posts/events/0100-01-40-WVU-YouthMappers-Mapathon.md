@@ -7,7 +7,7 @@ time: "3:00pm - 5:00pm"
 speaker: 
 twitter: ""
 organization: West Virginia University YouthMappers
-permalink: event/mapoff/WVUYouthMappersMapathon
+permalink: event/WVUYouthMappersMapathon/
 tags: 
   - friday
 category: event
