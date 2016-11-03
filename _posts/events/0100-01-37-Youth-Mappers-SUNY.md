@@ -7,7 +7,7 @@ time: "4:30pm - 6:00pm"
 speaker: 
 twitter: ""
 organization: Youth Mappers SUNY
-permalink: event/mapoff/SUNYYouthMappersMapathon
+permalink: event/SUNYYouthMappersMapathon/
 tags: 
   - wednesday
 category: event
