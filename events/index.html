@@ -43,12 +43,13 @@ dates:
           </div>
           <div class='col12 pad1y'>
 
-
             {% for item in site.categories.event %}
 
                   {% capture my_variable %}{{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
 
-                  {% if item.date < site.time %}
+                  {% if date.id  == 'pre-event' %}
+
+                      {% if item.pre-event  == true %}
 
                         <div class='col12 pad1y clearfix {% if item.highlight == true %}highlight{% endif %}'>
                         <div>
@@ -72,9 +73,12 @@ dates:
                         </div>
                       </div>
 
-                  {% endif %}
 
-                  {% if my_variable contains date.id %}
+                      {% endif %}
+
+
+
+                  {% elsif my_variable contains date.id %}
 
                       <div class='col12 pad1y clearfix {% if item.highlight == true %}highlight{% endif %}'>
                         <div>
