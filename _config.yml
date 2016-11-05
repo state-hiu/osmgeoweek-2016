@@ -8,3 +8,6 @@ future: true
 ga:
   enabled: true
   code: "UA-24614711-3"
+
+# start date of OSMGeoWeek
+date: 2016-11-13
