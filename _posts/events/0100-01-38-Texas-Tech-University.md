@@ -2,7 +2,7 @@
 layout: event
 title: MapOff with West Virginia
 date: 2016-11-02
-pre-event: false
+pre-event: true
 time: "6:40pm - 8:00pm"
 speaker: 
 twitter: ""

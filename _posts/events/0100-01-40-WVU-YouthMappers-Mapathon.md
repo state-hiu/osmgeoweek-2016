@@ -2,7 +2,7 @@
 layout: event
 title: West Virginia University YouthMappers Mapathon
 date: 2016-11-11
-pre-event: false
+pre-event: true
 time: "3:00pm - 5:00pm"
 speaker: 
 twitter: ""

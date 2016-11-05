@@ -1,13 +1,13 @@
 ---
 layout: event
-title:MapTime Buffalo
+title: MapTime Buffalo
 date: 2016-11-14
 pre-event: false
 time: "4:30pm - 7:00pm"
 speaker: 
 twitter: ""
 organization: SUNY at Buffalo
-permalink: event/SUNYBuffaloMapathon
+permalink: event/SUNYBuffaloMapathon/
 tags: 
   - monday
 category: event

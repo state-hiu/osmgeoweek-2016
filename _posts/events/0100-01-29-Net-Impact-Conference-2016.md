@@ -1,8 +1,8 @@
 ---
 layout: event
-title: #Net Impact Conference Service Activity
+title: "#Net Impact Conference Service Activity"
 date: 2016-11-03
-pre-event: false
+pre-event: true
 time: "7:00pm"
 speaker: 
 twitter: "#100mapathons"

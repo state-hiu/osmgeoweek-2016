@@ -2,7 +2,7 @@
 layout: event
 title: Zeta Theta Map-A-Thon
 date: 2016-11-02
-pre-event: false
+pre-event: true
 time: "6:13pm-8:30am"
 speaker: 
 twitter: "#100mapathons"

@@ -2,7 +2,7 @@
 layout: event
 title: "Olomoucký Mapathon s Lékaři bez hrani"
 date: 2016-11-10
-pre-event: false
+pre-event: true
 time: "6:00pm - 9:00pm"
 speaker: 
 twitter: 
