@@ -18,4 +18,4 @@ lon: -76.9372
 
 See the sign up link for more information.
 
-[sign-up here](ter.ps/mapathon2016)
+[sign-up here](http://umd.libcal.com/event/2955073)
