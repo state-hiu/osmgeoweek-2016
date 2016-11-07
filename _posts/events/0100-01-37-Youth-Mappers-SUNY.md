@@ -16,4 +16,6 @@ lat: 42.8010
 lon: -77.8085
 ---
 
+YouthMappers SUNY Mapathon
 
+Geneseo, New York
