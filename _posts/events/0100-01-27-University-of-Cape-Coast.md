@@ -16,6 +16,6 @@ lat: 5.1188
 lon: -1.2890
 ---
 
-[sign-up here](https://www.eventbrite.com/e/ucc-mapathron-day-tickets-28982891609)5.1094/-1.2439
+[sign-up here](https://www.eventbrite.com/e/ucc-mapathron-day-tickets-28982891609)
 
 As part of OSMGeoweek celebration, the University of Cape Coast Department of Geography and Regional Planning aims to bring together a group of trained students who would map out features from satellite images. The output is intended to offer readily available geospatial information to humanitarian organizations like the Red Cross and the USAID.
