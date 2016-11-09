@@ -16,4 +16,4 @@ lat: 48.1550
 lon: 11.5418
 ---
 
-[sign-up here]
+more details coming soon!

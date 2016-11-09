@@ -15,6 +15,9 @@ published: true
 lat: 1.5000
 lon: 33.9500
 ---
-Remote Mapping
 
-[sign-up here](http://link.websitebuilder.com/s-gxwztfijbhQB  // https://www.facebook.com/Kumi-University-Youth-Mappers-Ever-Last-964955310276213/)
+[Kumi University Facebook Page](https://www.facebook.com/Kumi-University-Youth-Mappers-Ever-Last-964955310276213/)
+
+
+
+

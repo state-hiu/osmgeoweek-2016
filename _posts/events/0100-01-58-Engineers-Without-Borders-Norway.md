@@ -15,7 +15,9 @@ published: true
 lat: 63.4310
 lon: 10.3952
 ---
+[sign-up here](https://www.facebook.com/events/1208190335905187/)
+
 Engnieers Without Borders Norway, Trondelag Division invites to a mapathon with Multiconsult to celebrate the GeoAwarenessWeek! 
 See facebook event for details. Hope to see you there!
 
-[sign-up here](https://www.facebook.com/events/1208190335905187/)
+

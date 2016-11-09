@@ -15,9 +15,13 @@ published: true
 lat: 38.8938
 lon: -77.0146
 ---
+[sign-up here](https://www.eventbrite.com/e/osm-geoweek-mapathon-hosted-by-development-seed-tickets-29088088255)
+
+<img src="{{site.baseurl}}/img/post-images/dev_seed_mapathon.png">
+
 Development Seed, along with other organizations contributing to OpenStreetMap, 
 will host a Mapathon to raise awareness for GeoWeek and to engage the local DC community. 
 There will be a brief introduction to mapping by the Red Cross, followed by presentations by 
 Development Seed and Mapgive on their current contributions to the OSM community, after which mapping will begin!
 
-[sign-up here](https://www.eventbrite.com/e/osm-geoweek-mapathon-hosted-by-development-seed-tickets-29088088255)
+

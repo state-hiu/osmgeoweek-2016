@@ -16,9 +16,11 @@ lat: 50.8468
 lon: 4.3517
 ---
 
+[sign-up here](https://www.facebook.com/events/1713502142310254/)
+
 EGEA Brussels together with the local Geography Student Union (BAK) organises a mapathon at the Free University of Brussels. 
 You are more then welcome to join us at the 15th of November for an evening of mapping and meeting a lot of Geographers from Belgium. 
 EGEA Brussel is part of the European Geography Association and is also competing in a competition organised by 
 EGEA for the Geography Awareness Week and GIS Day.
 
-[sign-up here](https://www.facebook.com/events/1713502142310254/)
+

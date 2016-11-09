@@ -15,6 +15,8 @@ published: true
 lat: -12.0424
 lon: -77.0904
 ---
+[sign-up here](osmpe.ourproject.org)
+
 Accesibility mapping raymi in Callao
 
-[sign-up here](osmpe.ourproject.org)
+

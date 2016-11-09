@@ -16,6 +16,8 @@ lat: 40.8455
 lon: -124.0532
 ---
 
+[sign-up here](https://www.facebook.com/events/1792127874362502/)
+
 HSU Mapathon for Ulaanbaatar
 
-[sign-up here](https://www.facebook.com/events/1792127874362502/)
+

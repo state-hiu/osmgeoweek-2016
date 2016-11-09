@@ -15,7 +15,8 @@ published: true
 lat: 53.3933
 lon: -2.9186
 ---
+[sign-up here](https://www.eventbrite.co.uk/e/missing-maps-in-liverpool-tickets-29078159558)
 
 See the sign up link for more information.
 
-[sign-up here](https://www.eventbrite.co.uk/e/missing-maps-in-liverpool-tickets-29078159558)
+

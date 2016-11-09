@@ -15,7 +15,8 @@ published: true
 lat: 38.9983
 lon: -76.9372
 ---
+[sign-up here](http://umd.libcal.com/event/2955073)
 
 See the sign up link for more information.
 
-[sign-up here](http://umd.libcal.com/event/2955073)
+

@@ -15,9 +15,10 @@ published: true
 lat: 39.7644
 lon: -104.8548
 ---
+[sign-up here](http://sites.msudenver.edu/geospatial/2016/11/01/openstreetmap-mapathon-november-14-5pm/)
 
 We’re working with the Ger Community Mapping Center from Mongolia to map areas in need in Ulanbaatar. 
 This work will assist local groups in Mongolia and enable communities to work for better resources and 
 to address environmental and social concerns. 
 
-[sign-up here](http://sites.msudenver.edu/geospatial/2016/11/01/openstreetmap-mapathon-november-14-5pm/)
+

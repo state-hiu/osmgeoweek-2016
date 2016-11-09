@@ -15,9 +15,10 @@ published: true
 lat: 51.9995
 lon: 4.3641
 ---
+[sign-up here](https://www.unesco-ihe.org/mapping-party-putting-malawi-map)
 
 On 14 November, UNESCO-IHE is joining a Mapping Party for Malawi hosted by the ITC faculty of the University of Twente. 
 During the event, André Kuipers, ESA astronaut and ambassador for the Red Cross Princess Margriet Fund, will deliver a 
 keynote speech at ITC, which will be live-streamed to the Mapathon participants in Delft.
 
-[sign-up here](https://www.unesco-ihe.org/mapping-party-putting-malawi-map)
+

@@ -16,7 +16,9 @@ lat: 41.3817
 lon: -83.6493
 ---
 
+[sign-up here](https://orgsync.com/10276/events/1687974/occurrences/3918798)
+
 Never heard of OpenStreetMap before? Come learn about how you can make a difference in your local community and in the world, 
 simply by mapping your local parks.
 
-[sign-up here](https://orgsync.com/10276/events/1687974/occurrences/3918798)
+

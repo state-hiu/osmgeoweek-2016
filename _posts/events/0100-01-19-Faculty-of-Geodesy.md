@@ -16,6 +16,8 @@ lat: 45.8427
 lon: 15.9633
 ---
 
+[sign-up here](https://www.eventbrite.com/e/osm-geo-awarenes-week-missing-map-mapathon-zagreb-tickets-28727959099?aff=ehomecard)
+
 OSM Geo Awareness Week - Missing Map Mapathon - Zagreb
 
-[sign-up here](https://www.eventbrite.com/e/osm-geo-awarenes-week-missing-map-mapathon-zagreb-tickets-28727959099?aff=ehomecard)
+

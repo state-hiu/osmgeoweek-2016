@@ -15,6 +15,9 @@ published: true
 lat: 1.47295
 lon: 33.86357
 ---
-OSM-GEO WEEK
 
-[sign-up here](https://www.facebook.com/Kumi-University-Youth-Mappers-Ever-Last-964955310276213/)
+[Kumi University website](http://link.websitebuilder.com/s-gxwztfijbhQB)
+
+
+
+

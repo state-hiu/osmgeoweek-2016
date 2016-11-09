@@ -18,4 +18,4 @@ lon: -77.6152
 
 Monroe Community College YouthMappers Mapathon with visiting (in person) chapter representatives 
 from SUNY Geneseo, Cornell University, SUNY Fredonia, and Texas Tech University. 
-Also additional activities/presentations/posters With on Wednesday, November 16
+Also additional activities/presentations/posters on Wednesday, November 16

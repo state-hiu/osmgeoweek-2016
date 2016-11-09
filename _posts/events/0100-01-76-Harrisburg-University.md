@@ -16,6 +16,8 @@ lat: 40.2822
 lon: -76.8804
 ---
 
+[sign-up here](www.HarrisburgU.edu/RSVP)
+
 Join us at Harrisburg University for this Humanitarian Mapping Event - Food and Training Provided
 
-[sign-up here](www.HarrisburgU.edu/RSVP)
+

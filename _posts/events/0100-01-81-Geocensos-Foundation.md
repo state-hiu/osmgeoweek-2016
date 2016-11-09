@@ -15,6 +15,8 @@ published: true
 lat: 4.80446
 lon: -74.09812
 ---
+[sign-up here](www.geocensos.com)
+
 Mapathon and Unconference 
 
-[sign-up here](www.geocensos.com)
+
