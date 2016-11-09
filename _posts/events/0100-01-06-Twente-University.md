@@ -16,6 +16,8 @@ lat: 52.23801
 lon: 6.85668
 ---
 
+[sign-up here](https://goo.gl/forms/A5Dy5soZ26IsE3q53)
+
 ITC, Faculty of Geo-Information
 
-[sign-up here](https://goo.gl/forms/A5Dy5soZ26IsE3q53)
+

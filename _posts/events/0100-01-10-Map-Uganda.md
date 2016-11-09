@@ -15,6 +15,8 @@ published: true
 lat: 0.34093
 lon: 32.59173
 ---
-OpenStreetMap Mapping Party
+
 [sign-up here](https://www.eventbrite.com/e/mapping-party-tickets-28785685761)
+
+OpenStreetMap Mapping Party
 

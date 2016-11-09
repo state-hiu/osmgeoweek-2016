@@ -6,7 +6,7 @@ date: 2016-11-11
 time: "1:00pm - 2:00pm"
 speaker: 
 twitter: "@masonmappers"
-organization: "University of California, Santa Barbara - Star lab, Ellison Hall, UCSB"
+organization: "Mason Mappers"
 permalink: event/MasonMappersWorkshop/
 tags: 
   - friday
@@ -15,4 +15,5 @@ published: true
 lat: 38.8320
 lon: -77.3259
 ---
+
 OpenStreetMap Workshop on Nov 11, 2016 in Exploratory Hall, room 2103. Contact masonmappers@gmail.com for more information
