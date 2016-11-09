@@ -1,6 +1,6 @@
 ---
-title: 'Northern Niger State, Nigeria - Missing Maps ' 
-subtitle: 'MSF teams working in northern Nigeria respond to a variety of different health needs'
+title: 'MSF - Northern Niger State, Nigeria' 
+subtitle: 'MSF teams working in northern Nigeria respond to a variety of different health needs - Missing Maps '
 category: project
 layout: project
 thumbnail: 

@@ -1,6 +1,6 @@
 ---
-title: Missing Maps - Measles & Rubella 
-subtitle: Mapping in support of eliminating Measles & Rubella 
+title: American Red Cross - Measles & Rubella 
+subtitle: Mapping in support of eliminating Measles & Rubella - Missing Maps
 category: project
 layout: project
 thumbnail: 'http://wiki.openstreetmap.org/w/images/thumb/a/a3/Missing-Maps-logo.jpg/400px-Missing-Maps-logo.jpg'
