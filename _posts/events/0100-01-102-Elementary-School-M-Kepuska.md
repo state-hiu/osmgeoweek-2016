@@ -1,13 +1,13 @@
 ---
 layout: event
-title: Elementary School "M. Kepuska" Workshop
+title: "Elementary School 'M. Kepuska' Workshop"
 date: 2016-11-11
 pre-event: true
 time: "1:30pm - 3:30pm"
 speaker: 
 twitter: ""
-organization: Elementary School "M. Kepuska"
-permalink: event/ElementarySchool"M.Kepuska"
+organization: "Elementary School 'M. Kepuska'"
+permalink: event/ElementarySchool-M-Kepuska
 tags: 
   - friday
 category: event
