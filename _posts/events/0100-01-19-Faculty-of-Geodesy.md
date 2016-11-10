@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Missing-Map-Mapathon
+title: Missing Maps Mapathon - Zagreb, Croatia
 date: 2016-11-17
 pre-event: false
 time: "5:30pm - 8:00pm"

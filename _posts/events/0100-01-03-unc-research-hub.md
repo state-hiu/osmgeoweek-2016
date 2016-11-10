@@ -1,6 +1,6 @@
 ---
 layout: event
-title: UNC Research Hub
+title: UNC Research Hub - North Carolina
 date: 2016-11-13
 pre-event: false
 time: "5:00pm - 7:00pm"

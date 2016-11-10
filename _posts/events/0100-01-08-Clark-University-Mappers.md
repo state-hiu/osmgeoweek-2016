@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Clark Mappers - GIS Week Missing Maps Map-a-thon"
+title: "Clark Mappers - GIS Week Missing Maps Map-a-thon - Worcester, Massachusetts"
 date: 2016-11-15
 pre-event: false
 time: "6:00pm - 7:10pm"

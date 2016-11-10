@@ -12,7 +12,9 @@ tags:
   - friday
 category: event
 published: true
-lat: 53.3501
-lon: -6.2603
+lat: 29.6
+lon: 28.3
 ---
 [sign-up here](https://ti.to/osm_ie/24hr-maplesotho-mapathon)
+
+[Map Lesotho Website](http://www.maplesotho.com)

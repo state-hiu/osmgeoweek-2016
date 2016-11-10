@@ -1,6 +1,6 @@
 ---
 layout: event
-title: University of Exeter's Forum Exploration Lab 1
+title: University of Exeter's Forum Exploration Lab 1 - Exeter, England
 date: 2016-11-16
 pre-event: false
 time: "6:00pm - 8:00pm"

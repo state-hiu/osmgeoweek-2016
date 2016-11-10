@@ -1,6 +1,6 @@
 ---
 layout: event
-title: MapOff - George Mason University
+title: MapOff - George Mason University – Fairfax, VA
 date: 2016-11-18
 pre-event: false
 time: "4:00pm - 8:00pm"

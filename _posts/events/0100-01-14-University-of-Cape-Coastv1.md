@@ -1,6 +1,6 @@
 ---
 layout: event
-title: UCC OSM GeoWeek
+title: University of Cape Coast OSM GeoWeek - Ghana
 date: 2016-11-19
 pre-event: false
 time: "8:00pm GMT"

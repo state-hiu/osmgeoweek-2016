@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Mapping Berger, Lagos State
+title: 'Mapping Berger, Lagos State - Akure, Nigeria'
 date: 2016-11-17
 pre-event: false
 time: "12:00pm - 3:00pm"

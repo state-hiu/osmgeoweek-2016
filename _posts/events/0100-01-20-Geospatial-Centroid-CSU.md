@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Geospatial Centroid Mapathon
+title: Geospatial Centroid Mapathon - Colorado State University
 date: 2016-11-17
 pre-event: false
 time: "5:00pm - 7:00pm"

@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Southern Methodist University
+title: Southern Methodist University - Dallas, Texas
 pre-event: true
 date: 2016-11-03
 time: "12:00pm - 5:00pm"
