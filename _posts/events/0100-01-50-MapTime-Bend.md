@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 100 Mapathons MapTime Bend
+title: 100 Mapathons MapTime Bend, Oregon
 date: 2016-11-15
 pre-event: false
 time: "6:00pm - 8:00pm"

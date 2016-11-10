@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Humanitarian OpenStreetMap Mapathon
+title: Humanitarian OpenStreetMap Mapathon - University of Maryland
 date: 2016-11-16
 pre-event: false
 time: "9:00am - 3:00pm"

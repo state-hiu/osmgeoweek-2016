@@ -1,6 +1,6 @@
 ---
 layout: event
-title: TTU Youth Mappers Mapathon
+title: Texas Tech University YouthMappers Mapathon
 date: 2016-11-02
 pre-event: false
 time: "6:00pm - 8:30pm"

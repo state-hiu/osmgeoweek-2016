@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Ivry-Dianguirdé Mapathon
+title: Ivry-Dianguirdé Mapathon - France
 date: 2016-11-12
 pre-event: false
 time: "2:00pm - 6:00pm"

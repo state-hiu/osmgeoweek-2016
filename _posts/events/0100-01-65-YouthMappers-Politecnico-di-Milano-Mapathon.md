@@ -1,6 +1,6 @@
 ---
 layout: event
-title: YouthMappers at Politecnico di Milano Mapathon
+title: YouthMappers at Politecnico di Milano Mapathon - Italy
 date: 2016-11-18
 pre-event: false
 time: "4:30pm - 8:00pm"

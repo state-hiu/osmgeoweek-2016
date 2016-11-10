@@ -1,6 +1,6 @@
 ---
 layout: event
-title: MapOff with West Virginia
+title: MapOff Texas Tech University with West Virginia
 date: 2016-11-02
 pre-event: true
 time: "6:40pm - 8:00pm"

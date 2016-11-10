@@ -1,6 +1,6 @@
 ---
 layout: event
-title: UCD Mapathon
+title: UC Davis Mapathon - California
 date: 2016-11-17
 pre-event: false
 time: "11:00am - 5:00pm"

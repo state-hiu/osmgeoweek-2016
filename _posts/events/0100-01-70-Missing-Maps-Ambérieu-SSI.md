@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Missing Maps Ambérieu SSI
+title: Missing Maps Ambérieu SSI - France
 date: 2016-11-16
 pre-event: false
 time: "6:00pm - 8:30pm"

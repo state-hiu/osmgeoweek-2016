@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Ayacucho Mapathon
+title: Ayacucho Mapathon - Peru
 date: 2016-11-18
 pre-event: false
 time: "2:00pm - 6:00pm"

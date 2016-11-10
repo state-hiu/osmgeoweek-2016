@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Youth Mappers Busitema Mapathon
+title: Youth Mappers Busitema Mapathon - Uganda
 date: 2016-11-19
 pre-event: false
 time: "9:30am - 12:00pm"

@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "YouthMappers Mbale College Mapathon"
+title: "YouthMappers Mbale College Mapathon - Uganda"
 pre-event: false
 date: 2016-11-19
 time: ""

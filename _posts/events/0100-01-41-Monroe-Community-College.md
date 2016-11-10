@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Monroe Community College YouthMappers Mapathon
+title: Monroe Community College YouthMappers Mapathon - Rochester, NY
 date: 2016-11-15
 pre-event: false
 time: "6:00pm - 8:00pm"

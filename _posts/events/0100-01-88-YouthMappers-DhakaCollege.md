@@ -1,6 +1,6 @@
 ---
 layout: event
-title: YouthMappers DhakaCollege Mapathon
+title: "YouthMappers Dhaka College Mapathon - Bangladesh"
 date: 2016-11-16
 pre-event: false
 time: "9:00am - 2:00pm"

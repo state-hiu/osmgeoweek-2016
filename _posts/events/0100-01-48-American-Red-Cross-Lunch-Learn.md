@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Lunch & Learn w/ OSM Institutions
+title: 'Lunch & Learn w/ OSM Institutions - Washington D.C.'
 date: 2016-11-15
 pre-event: false
 time: "11:30am - 2:00pm"

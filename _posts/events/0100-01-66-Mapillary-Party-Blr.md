@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Mapillary Party BLR
+title: Mapillary Party BLR - India
 date: 2016-11-17
 pre-event: false
 time: "5:00pm"

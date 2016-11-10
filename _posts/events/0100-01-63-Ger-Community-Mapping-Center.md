@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Ger Community Mapping Center Mapathon
+title: Ger Community Mapping Center Mapathon - Mongolia
 date: 2016-11-14
 pre-event: false
 time: "5:00pm - 7:00pm"

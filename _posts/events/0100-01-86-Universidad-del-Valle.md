@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Universidad del Valle Mapathon
+title: Universidad del Valle Mapathon - Colombia
 date: 2016-11-15
 pre-event: false
 time: ""

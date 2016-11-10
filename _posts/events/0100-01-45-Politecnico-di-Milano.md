@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Politecnico di Milano Mapathon
+title: Politecnico di Milano Mapathon - Italy
 date: 2016-11-16
 pre-event: false
 time: ""

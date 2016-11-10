@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Harrisburg University Mapathon"
+title: "Harrisburg University Mapathon - Pennslyvania"
 pre-event: false
 date: 2016-11-18
 time: "3:00pm - 8:00pm"

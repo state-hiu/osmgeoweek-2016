@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Metropolitan Sate University Mapathon
+title: Metropolitan Sate University Mapathon - Mongolia
 date: 2016-11-14
 pre-event: false
 time: "5:00pm - 7:00pm"

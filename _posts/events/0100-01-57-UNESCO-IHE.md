@@ -1,6 +1,6 @@
 ---
 layout: event
-title: UNESCO-IHE Mapping Party
+title: UNESCO-IHE Mapping Party - The Netherlands
 date: 2016-11-14
 pre-event: false
 time: "3:30pm - 8:00pm"

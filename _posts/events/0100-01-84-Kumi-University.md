@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Kumi University Mapathon
+title: Kumi University Mapathon - Uganda
 date: 2016-11-19
 pre-event: false
 time: "9:00am - 1:30pm"

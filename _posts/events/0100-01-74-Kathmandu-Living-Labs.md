@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Kathmandu Living Labs Mapathon
+title: Kathmandu Living Labs Mapathon - Nepal
 date: 2016-11-10
 pre-event: false
 time: "10:00am - 5:00pm"

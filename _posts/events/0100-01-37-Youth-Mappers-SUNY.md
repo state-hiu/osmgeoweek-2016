@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Youth Mappers SUNY Mapathon
+title: Youth Mappers SUNY Mapathon - New York
 date: 2016-11-02
 pre-event: true
 time: "4:30pm - 6:00pm"
