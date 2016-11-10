@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Missing Maps Party
+title: Missing Maps Party - Indonesia
 date: 2016-11-15
 pre-event: false
 time: "6:00pm - 9:00pm"

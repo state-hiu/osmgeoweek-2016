@@ -1,6 +1,6 @@
 ---
 layout: event
-title: University of Bologna Mapathon
+title: University of Bologna Mapathon - Italy
 date: 2016-11-15
 pre-event: false
 time: "11:00am - 2:00pm"

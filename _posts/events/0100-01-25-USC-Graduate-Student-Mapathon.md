@@ -1,6 +1,6 @@
 ---
 layout: event
-title: USC Graduate Student Mapathon
+title: USC Graduate Student Mapathon - South Carolina
 date: 2016-11-18
 pre-event: false
 time: "4:00pm - 9:00pm"
