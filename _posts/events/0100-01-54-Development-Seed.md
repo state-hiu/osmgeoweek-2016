@@ -12,8 +12,8 @@ tags:
   - monday
 category: event
 published: true
-lat: 38.8938
-lon: -77.0146
+lat: 38.90624
+lon: -77.02421
 ---
 [sign-up here](https://www.eventbrite.com/e/osm-geoweek-mapathon-hosted-by-development-seed-tickets-29088088255)
 

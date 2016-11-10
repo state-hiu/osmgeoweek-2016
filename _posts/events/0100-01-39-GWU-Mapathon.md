@@ -12,8 +12,8 @@ tags:
   - wednesday
 category: event
 published: true
-lat: 38.8938
-lon: -77.0146
+lat: 38.89919
+lon: -77.04832
 ---
 
 [sign-up here](https://www.eventbrite.com/e/gwu-humanitarian-mapping-society-missing-maps-november-mapathon-tickets-29060570950)

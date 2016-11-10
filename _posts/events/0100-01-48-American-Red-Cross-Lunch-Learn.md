@@ -12,8 +12,8 @@ tags:
   - tuesday
 category: event
 published: true
-lat: 38.8938
-lon: -77.0146
+lat: 38.89492
+lon: -77.04005
 ---
 
 [sign-up here](https://www.eventbrite.com/e/missing-maps-geoweek-lunch-and-learn-tickets-29280647204)
