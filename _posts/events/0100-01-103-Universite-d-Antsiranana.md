@@ -1,13 +1,13 @@
 ---
 layout: event
-title: CartONG: Université d'Antsiranana Mapathon
+title: "Université d'Antsiranana Mapathon - CartONG"
 date: 2016-11-18
 pre-event: false
 time: "10:00am - 2:00pm"
 speaker: 
 twitter: ""
-organization: CartONG: Université d'Antsiranana Campus Numérique Francophone Partenaire
-permalink: event/Universitéd'AntsirananaMapathon
+organization: "Université d'Antsiranana Campus Numérique Francophone Partenaire - CartONG"
+permalink: event/UniversitedAntsirananaMapathon
 tags: 
   - friday
 category: event
