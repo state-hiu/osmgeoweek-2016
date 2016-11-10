@@ -6,7 +6,7 @@ layout: project
 thumbnail: 'http://osmgeoweek.org/img/logos/uganda_pepfar_logo.jpg'
 tags:
   - remote
-  - ready
+  - notfeatured
 permalink: project/pepfar-uganda
 aoi:
   - north: 36.942695
