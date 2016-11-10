@@ -3,7 +3,7 @@ title: 'PEPFAR Uganda'
 subtitle: "U.S. President's Emergency Plan for AIDS Relief (PEPFAR) requests assistance to inventory buildings and roads for HIV/AIDS prevention and treatment programs in Uganda"
 category: project
 layout: project
-thumbnail: 
+thumbnail: 'http://osmgeoweek.org/img/logos/uganda_pepfar_logo.jpg'
 tags:
   - remote
   - ready
