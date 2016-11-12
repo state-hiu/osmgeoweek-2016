@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Kyambogo University Mapathon
+title: Kyambogo University Mapathon - Uganda
 date: 2016-11-14
 pre-event: false
 time: "10:00am - 2:00pm"

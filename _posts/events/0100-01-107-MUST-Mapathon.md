@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Mbarara University of Science and Technology Mapathon
+title: Mbarara University of Science and Technology Mapathon - Uganda
 date: 2016-11-17
 pre-event: false
 time: "9:00am - 1:00pm"
