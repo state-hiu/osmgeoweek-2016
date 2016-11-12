@@ -10,6 +10,7 @@ organization: Mason Mappers
 permalink: event/mapoff/
 tags: 
   - friday
+  - dc
 category: event
 published: true
 lat: 38.82966

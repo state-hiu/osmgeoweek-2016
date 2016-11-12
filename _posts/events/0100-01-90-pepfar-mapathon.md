@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Partnering for Humanitarian Good Mapathon - OpenStreetMap GeoWeek 2016 Main Event
+title: Partnering for Humanitarian Good Mapathon - OpenStreetMap GeoWeek 2016 Main Event - DC
 date: 2016-11-16
 pre-event: false
 time: "5:00pm - 9:00pm"
@@ -10,10 +10,11 @@ organization: OSM Community
 permalink: event/mainevent
 tags: 
   - wednesday
+  - dc
 category: event
 published: true
-lat: 37.2304
-lon: -80.4299
+lat: 38.90437
+lon: -77.03311
 ---
 
 [sign-up here](https://www.eventbrite.com/e/partnering-for-humanitarian-good-mapathon-openstreetmap-geoweek-2016-main-event-tickets-29304935852)

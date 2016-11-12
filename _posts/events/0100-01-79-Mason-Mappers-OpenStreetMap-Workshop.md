@@ -10,6 +10,7 @@ organization: "Mason Mappers"
 permalink: event/MasonMappersWorkshop/
 tags: 
   - friday
+  - dc
 category: event
 published: true
 lat: 38.8320

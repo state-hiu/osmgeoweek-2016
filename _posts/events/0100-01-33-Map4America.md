@@ -10,6 +10,7 @@ organization: US Census Bureau
 permalink: event/mapoff/Map4America
 tags: 
   - tuesday
+  - dc
 category: event
 published: true
 lat: 38.8487

@@ -10,6 +10,7 @@ organization: The George Washington University
 permalink: event/GWUMapathon
 tags: 
   - wednesday
+  - dc
 category: event
 published: true
 lat: 38.89919

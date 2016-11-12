@@ -10,6 +10,7 @@ organization: Development Seed Mapathon
 permalink: event/DevelopmentSeedMapathon
 tags: 
   - monday
+  - dc
 category: event
 published: true
 lat: 38.90624

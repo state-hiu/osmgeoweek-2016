@@ -10,6 +10,7 @@ organization: American Red Cross
 permalink: event/ARCLunchLearn/
 tags: 
   - tuesday
+  - dc
 category: event
 published: true
 lat: 38.89492

@@ -10,6 +10,7 @@ organization: University of Maryland
 permalink: event/UniversityofMarylandMapathon
 tags: 
   - wednesday
+  - dc
 category: event
 published: true
 lat: 38.9983
