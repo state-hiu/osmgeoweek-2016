@@ -2,7 +2,7 @@
 layout: event
 title: Open Humanitarians Mapping Competition
 date: 2016-11-17
-pre-event: flase
+pre-event: false
 time: "3:00pm - 5:30pm"
 speaker: 
 twitter: "@OHumanitarians"
