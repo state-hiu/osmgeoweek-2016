@@ -12,8 +12,8 @@ tags:
   - wednesday
 category: event
 published: true
-lat: 45.4820
-lon: 9.2334
+lat: 45.47723
+lon: 9.22783
 ---
 
 [sign-up here](https://www.eventbrite.it/e/biglietti-mapathonpolimi-29159430642)
