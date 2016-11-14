@@ -18,7 +18,6 @@ lon: -83.6493
 
 [sign-up here](https://orgsync.com/10276/events/1687974/occurrences/3918798)
 
-Never heard of OpenStreetMap before? Come learn about how you can make a difference in your local community and in the world, 
-simply by mapping your local parks.
+Never heard of OpenStreetMap before? Come join Anime in Northwest Ohio for their first Animapathon to learn about how you can make a difference in your local community and in the world, starting by sharing knowledge of your local parks. The event is going to be held in room 208 of the Bowen Thompson Student Union.
 
 
