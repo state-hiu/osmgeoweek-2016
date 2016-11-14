@@ -2,7 +2,7 @@
 layout: event
 title: CrisisMappers Japan Mapillary
 date: 2016-11-12
-pre-event: ture
+pre-event: true
 time: "10:00am - 5:00pm"
 speaker: 
 twitter: "#龍野城下町マッピングパーテ"
