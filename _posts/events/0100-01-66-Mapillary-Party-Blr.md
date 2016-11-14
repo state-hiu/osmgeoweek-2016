@@ -12,8 +12,8 @@ tags:
   - thursday
 category: event
 published: true
-lat: 45.4830
-lon: 9.2389
+lat: 12.98108
+lon: 77.63681
 ---
 
 Join us to learn about the Mapillary service for crowd sourcing street level imagery, 
