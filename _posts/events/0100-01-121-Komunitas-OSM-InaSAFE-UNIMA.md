@@ -15,5 +15,3 @@ published: true
 lat: 1.4901
 lon: 124.8409
 ---
-
-[sign-up here](http://openhumanitarians.org/event/mappping-competition-gis-day-fcc/)
