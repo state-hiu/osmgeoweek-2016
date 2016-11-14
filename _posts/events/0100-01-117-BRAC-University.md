@@ -2,7 +2,7 @@
 layout: event
 title: BRAC University Mapathon
 date: 2016-11-13
-pre-event: flase
+pre-event: false
 time: "6:00pm"
 speaker: 
 twitter: ""
