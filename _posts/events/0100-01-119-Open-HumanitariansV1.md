@@ -2,7 +2,7 @@
 layout: event
 title: Open Humanitarians Mapathon
 date: 2016-11-15
-pre-event: flase
+pre-event: false
 time: "2:30pm - 4:30pm"
 speaker: 
 twitter: "@OHumanitarians"
