@@ -3,7 +3,7 @@ layout: event
 title: Development Seed Mapathon - Washington D.C.
 date: 2016-11-14
 pre-event: false
-time: "6:30am - 9:00pm"
+time: "6:30pm - 9:00pm"
 speaker: 
 twitter: ""
 organization: Development Seed Mapathon
