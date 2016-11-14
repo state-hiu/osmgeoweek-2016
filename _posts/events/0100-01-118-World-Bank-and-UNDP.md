@@ -2,7 +2,7 @@
 layout: event
 title: World Bank and UNDP Mapathon
 date: 2016-11-15
-pre-event: flase
+pre-event: false
 time: "9:00am - 4:00pm"
 speaker: 
 twitter: ""
