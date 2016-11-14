@@ -2,7 +2,7 @@
 layout: event
 title: Komunitas OSM & InaSAFE UNIMA Mapathon
 date: 2016-11-15
-pre-event: flase
+pre-event: false
 time: ""
 speaker: 
 twitter: "#osmgeoweek"
