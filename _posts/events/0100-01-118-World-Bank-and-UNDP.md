@@ -16,6 +16,6 @@ lat: 7.7358
 lon: 81.6943
 ---
 
-Training for government people to use OSM and collect the data of point of interest,Land use and Road network details.
+The World Bank and UNDP are partnering with the district government of Batticaloa to create basic OSM information for administering the district. This event will create points of interest, landuses and the road network.
 
 [sign-up here](http://tasks.hotosm.org/project/2289)
