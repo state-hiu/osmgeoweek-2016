@@ -15,8 +15,9 @@ published: true
 lat: 34.8575
 lon: 134.5126
 ---
+[sign-up here](https://www.facebook.com/events/1075513685896594/)
 
 Tatsuno area has traditional Japanese houses and life. We can archive recent situation on the OpenStreetMap. 
 We have 2days. 1st day, we will walk to Tatsuno area with mapillary. 2nd day is mapathon.
 
-[sign-up here](https://www.facebook.com/events/1075513685896594/)
+

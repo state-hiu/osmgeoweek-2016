@@ -15,7 +15,8 @@ published: true
 lat: 25.7744
 lon: -80.1937
 ---
- 
+[sign-up here](https://www.meetup.com/Maptime-Miami/events/235514584/)
+
 Remember our great plan to import nearly 100k buildings in Miami-Dade County to OpenStreetMap? 
 It's coming together so all Maptime Miami needs is YOU!
 
@@ -28,4 +29,4 @@ import as well as illustrating all the steps that you need to become a mapper. W
 that we have put together in order to get you started in the OSM universe. We will have plenty of time for your 
 questions and for teaching you how to map.
  
-[sign-up here](https://www.meetup.com/Maptime-Miami/events/235514584/)
+

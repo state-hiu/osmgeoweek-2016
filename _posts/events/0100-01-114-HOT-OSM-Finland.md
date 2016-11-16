@@ -15,9 +15,10 @@ published: true
 lat: 60.1107
 lon: 25.0187
 ---
+[sign-up here](https://www.facebook.com/groups/hotosmfi/)
 
 HOT mapping event with the theme "kaljaa ja kartoitusta - darraa ja digitointia". 
 We meet at Bruuveri Pub in Kamppi (Helsinki) at 18.00 and continue until the last one of us leaves (or the pub closes).   
 Come, bring your laptop, a mouse and good spirits. The event is beginner-friendly; we introduce anyone new to HOT and Missing Maps!
 
-[sign-up here](https://www.facebook.com/groups/hotosmfi/)
+
