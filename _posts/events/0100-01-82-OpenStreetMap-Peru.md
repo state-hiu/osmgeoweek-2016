@@ -7,7 +7,7 @@ time: "10:00am - 4:00pm"
 speaker: 
 twitter: "@osmpe"
 organization: OpenStreetMap Perú
-permalink: event/geocensos
+permalink: event/callao
 tags: 
   - friday
 category: event
