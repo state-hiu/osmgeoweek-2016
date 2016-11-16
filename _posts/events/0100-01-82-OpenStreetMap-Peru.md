@@ -17,6 +17,8 @@ lon: -77.0904
 ---
 [sign-up here](http://osmpe.ourproject.org/)
 
+[location of event](http://www.openstreetmap.org/?mlat=-12.03931&mlon=-77.09059#map=17/-12.03930/-77.09060)
+
 Accesibility mapping raymi in Callao
 
 @osmpe @johnarupire #GeoWeekPerú 
